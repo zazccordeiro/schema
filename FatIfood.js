@@ -1,12 +1,12 @@
 cube(`FatIfood`, {
-  sql: `SELECT * FROM conecta.fat_ifood`,
+  sql: `SELECT * FROM delivery.fat_ifood`,
   preAggregations: {// Pre-Aggregations definitions go here
     // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
 
     main: {
-      measures: [FatIfood.ocurrencesAmount],
+      measures: [FatIfood.ocurrencesAmount,FatIfood.skDimStatus],
       dimensions: [DimCliente.nomeCliente],
-      timeDimension: FatIfood.dataPrevistaPagamento,
+      timeDimension: FatIfood.dataPedido,
       granularity: `day`
     }
   },
@@ -14,6 +14,10 @@ cube(`FatIfood`, {
     DimCliente: {
       relationship: `hasMany`,
       sql: `${FatIfood}.sk_dim_cliente = ${DimCliente.skDimCliente}`,
+    },
+    DimStatus: {
+      relationship: `hasMany`,
+      sql: `${FatIfood}.sk_dim_status = ${DimStatus.skDimStatus}`,
     },
     DimTipoOcorrencia: {
       relationship: `hasMany`,
@@ -27,6 +31,11 @@ cube(`FatIfood`, {
       relationship: `hasMany`,
       sql: `${FatIfood}.sk_dim_estabelecimento = ${DimEstabelecimento.skDimEstabelecimento}`,
     },
+    DimDataPedido: {
+      relationship: `hasMany`,
+      sql: `${FatIfood}.sk_dim_data_pedido = ${DimDataPedido.skDimDataPedido}`,
+    },
+    
   },
   measures: {
     count: {
@@ -73,6 +82,14 @@ cube(`FatIfood`, {
     },
     skDimPlataforma: {
       sql: `sk_dim_plataforma`,
+      type: `number`
+    },
+    skDimStatus: {
+      sql: `sk_dim_status`,
+      type: `number`
+    },
+    skDimDataPedido: {
+      sql: `sk_dim_data_pedido`,
       type: `number`
     },
     skFatIfood: {

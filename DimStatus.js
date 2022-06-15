@@ -1,5 +1,5 @@
-cube(`DimPlataforma`, {
-  sql: `SELECT * FROM delivery.dim_plataforma`,
+cube(`DimStatus`, {
+  sql: `SELECT * FROM delivery.dim_status`,
   
   preAggregations: {
     // Pre-Aggregations definitions go here
@@ -13,31 +13,31 @@ cube(`DimPlataforma`, {
   measures: {
     count: {
       type: `count`,
-      drillMembers: [dateTo, dateFrom]
+      drillMembers: [dateFrom, dateTo,status_ifood]
     }
   },
   
   dimensions: {
-    plataforma: {
-      sql: `plataforma`,
-      type: `string`
-    },
-    
-    dateTo: {
-      sql: `date_to`,
-      type: `time`
+    status_ifood: {
+      sql: `status`,
+      type: 'string'
     },
     
     dateFrom: {
       sql: `date_from`,
       type: `time`
     },
-    skDimPlataforma: {
-      sql: `sk_dim_plataforma`,
+    
+    dateTo: {
+      sql: `date_to`,
+      type: `time`
+    },
+    skDimStatus: {
+      sql: `sk_dim_status`,
       type: `number`,
       primaryKey: true
     }
-  }, 
+  },
   
   dataSource: `default`
 });

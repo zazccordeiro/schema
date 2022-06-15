@@ -46,13 +46,14 @@ cube(`DimCliente`, {
     dateTo: {
       sql: `date_to`,
       type: `time`
+    },
+    skDimCliente: {
+      sql: `sk_dim_cliente`,
+      type: `number`,
+      primaryKey: true
     }
   },
-  skDimCliente: {
-    sql: `sk_dim_cliente`,
-    type: `number`,
-    primaryKey: true
-  },
+ 
   
   dataSource: `default`
 });

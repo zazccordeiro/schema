@@ -61,11 +61,12 @@ cube(`DimEstabelecimento`, {
     calDataHoraInsercao: {
       sql: `cal_data_hora_insercao`,
       type: `time`
+    },
+    skDimEstabelecimento: {
+      sql: `sk_dim_estabelecimento`,
+      type: `number`,
+      primaryKey: true
     }
-  },skDimEstabelecimento: {
-    sql: `sk_dim_estabelecimento`,
-    type: `number`,
-    primaryKey: true
   },
   
   dataSource: `default`
