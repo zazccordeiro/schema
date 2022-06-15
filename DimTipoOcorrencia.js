@@ -31,11 +31,12 @@ cube(`DimTipoOcorrencia`, {
     dateTo: {
       sql: `date_to`,
       type: `time`
+    },
+    skDimTipoOcorrencia: {
+      sql: `sk_dim_tipo_ocorrencia`,
+      type: `number`,
+      primaryKey: true
     }
-  },skDimTipoOcorrencia: {
-    sql: `sk_dim_tipo_ocorrencia`,
-    type: `number`,
-    primaryKey: true
   },
   
   dataSource: `default`
