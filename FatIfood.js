@@ -4,7 +4,7 @@ cube(`FatIfood`, {
     // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
 
     main: {
-      measures: [FatIfood.ocurrencesAmount,FatIfood.skDimStatus],
+      measures: [FatIfood.ocurrencesAmount,FatIfood.skDimStatus,FatIfood.skFatIfood],
       dimensions: [DimCliente.nomeCliente],
       timeDimension: FatIfood.dataPedido,
       granularity: `day`
@@ -35,21 +35,70 @@ cube(`FatIfood`, {
       relationship: `hasMany`,
       sql: `${FatIfood}.sk_dim_data_pedido = ${DimDataPedido.skDimDataPedido}`,
     },
-    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
   },
   measures: {
     count: {
       type: `count`,
-      drillMembers: [dataPedido]
+      drillMembers: [skFatIfood]
     },
     ocurrencesAmount: {
-      sql: `ocurrences_amount`,
+      sql: `billing_gmv`,
       type: `sum`
     },
-    cancellationsAmount: {
-      sql: `cancellations_amount`,
+    billingTotalBag: {
+      sql: `billing_total_bag`,
       type: `sum`
-    }
+    },
+    billingDeliveryFee: {
+      sql: `billing_delivery_fee`,
+      type: `sum`
+    },
+    billingBenefitIfood: {
+      sql: `billing_benefit_ifood`,
+      type: `sum`
+    },
+    billingBenefitMerchant: {
+      sql: `billing_benefit_merchant`,
+      type: `sum`
+    },
+    billingCommission: {
+      sql: `billing_commission`,
+      type: `sum`
+    },
+    billingAcquirerFee: {
+      sql: `billing_acquirer_fee`,
+      type: `sum`
+    },
+    billingDeliveryCommission: {
+      sql: `billing_delivery_commission`,
+      type: `sum`
+    },
+    billingCommissionRate: {
+      sql: `billing_commission_rate`,
+      type: `sum`
+    },
+    billingAcquirerFeeRate: {
+      sql: `billing_acquirer_fee_rate`,
+      type: `sum`
+    },
+    billingTotalDebit: {
+      sql: `billing_total_debit`,
+      type: `sum`
+    },
+    billingTotalCredit: {
+      sql: `billing_total_credit`,
+      type: `sum`
+    },
+    billingAnticipationFee: {
+      sql: `billing_anticipation_fee`,
+      type: `sum`
+    },
+    billingAnticipationFeeRate: {
+      sql: `billing_anticipation_fee_rate`,
+      type: `sum`
+    },
+
   },
   dimensions: {
     dataPrevistaPagamento: {
