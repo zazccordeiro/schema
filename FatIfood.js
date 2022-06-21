@@ -1,10 +1,10 @@
 cube(`FatIfood`, {
   sql: `SELECT * FROM delivery.fat_ifood`,
-  preAggregations: {// Pre-Aggregations definitions go here
+  preAggregations: {
+    // Pre-Aggregations definitions go here
     // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
-
     main: {
-      measures: [FatIfood.skDimStatus,FatIfood.skFatIfood],
+      measures: [FatIfood.skDimStatus, FatIfood.skFatIfood],
       dimensions: [DimCliente.nomeCliente],
       timeDimension: DimDataPedido.diaData,
       granularity: `day`
@@ -13,32 +13,31 @@ cube(`FatIfood`, {
   joins: {
     DimCliente: {
       relationship: `hasMany`,
-      sql: `${FatIfood}.sk_dim_cliente = ${DimCliente.skDimCliente}`,
+      sql: `${FatIfood}.sk_dim_cliente = ${DimCliente.skDimCliente}`
     },
     DimStatus: {
       relationship: `hasMany`,
-      sql: `${FatIfood}.sk_dim_status = ${DimStatus.skDimStatus}`,
+      sql: `${FatIfood}.sk_dim_status = ${DimStatus.skDimStatus}`
     },
-    DimTipoOcorrencia: {
-      relationship: `hasMany`,
-      sql: `${FatIfood}.sk_dim_tipo_ocorrencia = ${DimTipoOcorrencia.skDimTipoOcorrencia}`,
-    },    
+    // DimTipoOcorrencia: {
+    //   relationship: `hasMany`,
+    //   sql: `${FatIfood}.sk_dim_tipo_ocorrencia = ${DimTipoOcorrencia.skDimTipoOcorrencia}`
+    // },
     DimPlataforma: {
       relationship: `hasMany`,
-      sql: `${FatIfood}.sk_dim_plataforma = ${DimPlataforma.skDimPlataforma}`,
+      sql: `${FatIfood}.sk_dim_plataforma = ${DimPlataforma.skDimPlataforma}`
     },
     DimEstabelecimento: {
       relationship: `hasMany`,
-      sql: `${FatIfood}.sk_dim_estabelecimento = ${DimEstabelecimento.skDimEstabelecimento}`,
+      sql: `${FatIfood}.sk_dim_estabelecimento = ${DimEstabelecimento.skDimEstabelecimento}`
     },
     DimDataPedido: {
       relationship: `hasMany`,
-      sql: `${FatIfood}.sk_dim_data_pedido = ${DimDataPedido.skDimDataPedido}`,
-    },
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+      sql: `${FatIfood}.sk_dim_data_pedido = ${DimDataPedido.skDimDataPedido}`
+    }
   },
   measures: {
-    totalPedido: {
+    count: {
       type: `count`,
       drillMembers: [skFatIfood]
     },
@@ -97,8 +96,7 @@ cube(`FatIfood`, {
     billingAnticipationFeeRate: {
       sql: `billing_anticipation_fee_rate`,
       type: `sum`
-    },
-
+    }
   },
   dimensions: {
     dataPrevistaPagamento: {
@@ -149,8 +147,8 @@ cube(`FatIfood`, {
   },
   segments: {
     sfUsers: {
-      sql: `${FatIfood}.sk_dim_status = 1`,
-    },
+      sql: `${FatIfood}.sk_dim_status = 1`
+    }
   },
   dataSource: `default`
 });
