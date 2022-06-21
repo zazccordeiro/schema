@@ -38,11 +38,11 @@ cube(`FatIfood`, {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
   },
   measures: {
-    totalPedido: {
+    count: {
       type: `count`,
       drillMembers: [skFatIfood]
     },
-    ocurrencesAmount: {
+    billingGmv: {
       sql: `billing_gmv`,
       type: `sum`
     },
