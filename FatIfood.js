@@ -149,7 +149,7 @@ cube(`FatIfood`, {
   },
   segments: {
     sfUsers: {
-      sql: `${FatIfood}.sk_dim_data_pedido = 1`,
+      sql: `${FatIfood}.sk_dim_status = 1`,
     },
   },
   dataSource: `default`
