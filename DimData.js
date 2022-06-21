@@ -79,5 +79,6 @@ cube(`DimDataPedido`, {
     }
   },
   
+  
   dataSource: `default`
 });
