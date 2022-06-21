@@ -4,7 +4,7 @@ cube(`FatIfood`, {
     // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
 
     main: {
-      measures: [FatIfood.ocurrencesAmount,FatIfood.skDimStatus,FatIfood.skFatIfood],
+      measures: [FatIfood.skDimStatus,FatIfood.skFatIfood],
       dimensions: [DimCliente.nomeCliente],
       timeDimension: DimDataPedido.diaData,
       granularity: `day`
