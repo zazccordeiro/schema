@@ -6,7 +6,7 @@ cube(`FatIfood`, {
     main: {
       measures: [FatIfood.ocurrencesAmount,FatIfood.skDimStatus,FatIfood.skFatIfood],
       dimensions: [DimCliente.nomeCliente],
-      timeDimension: FatIfood.dataPedido,
+      timeDimension: DimDataPedido.diaData,
       granularity: `day`
     }
   },
@@ -38,7 +38,7 @@ cube(`FatIfood`, {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
   },
   measures: {
-    count: {
+    totalPedido: {
       type: `count`,
       drillMembers: [skFatIfood]
     },
