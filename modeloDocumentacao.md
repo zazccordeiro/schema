@@ -165,7 +165,7 @@ The ID of an object
 <thead>
 <tr>
 <th align="left">Campo</th>
-<th align="center">Tipo</th>
+<th align="left">Tipo</th>
 <th align="rigth">Descrição</th>
 </tr>
 </thead>
@@ -175,7 +175,7 @@ The ID of an object
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
-(total_bag + delivery_fee)
+Este campo se refere à total_bag + delivery_fee
 
 </td>
 </tr>
@@ -308,45 +308,48 @@ Percentual da taxa de antecipação cobrado referente a ao pedido.
 </tbody>
 </table>
 
-### Area
+### Informações gerais
 
 [Areas](https://musicbrainz.org/doc/Area) are geographic regions
 or settlements (countries, cities, or the like).
 
+
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th align="left">Campo</th>
+<th align="left">Tipo</th>
+<th align="rigth">Descrição</th>
+</tr>
+</thead>
+<tbody>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="2" valign="top"><strong>id</strong></td>
-<td valign="top"><a href="#id">ID</a>!</td>
+<td colspan="2" valign="top"><strong>dataCancelamento</strong></td>
+<td valign="top"><a href="#string">string</a>!</td>
 <td>
 
-The ID of an object
+Data do cancelamento no formato YYYY-MM-DD.
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>mbid</strong></td>
-<td valign="top"><a href="#mbid">MBID</a>!</td>
+<td colspan="2" valign="top"><strong>dataPedido</strong></td>
+<td valign="top"><a href="#string">string</a>!</td>
 <td>
 
-The MBID of the entity.
+Data de criação do pedido no formato YYYY-MM-DD.
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>name</strong></td>
+<td colspan="2" valign="top"><strong>dataOcorrencia</strong></td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
-The official name of the entity.
+Data e hora em que foi realizada a transação, ou seja, que houve a ocorrência.
 
 </td>
 </tr>
