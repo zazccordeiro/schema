@@ -165,14 +165,14 @@ The ID of an object
 <thead>
 <tr>
 <th align="left">Campo</th>
-<th align="right">Tipo</th>
-<th align="left">Descrição</th>
+<th align="center">Tipo</th>
+<th align="rigth">Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>billing.gmv</strong></td>
-<td valign="top"><a href="#string">Double</a></td>
+<td valign="top"><a href="#Double">Double</a></td>
 <td>
 
 (total_bag + delivery_fee)
@@ -180,53 +180,128 @@ The ID of an object
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>sortName</strong></td>
-<td valign="top"><a href="#string">String</a></td>
+<td colspan="2" valign="top"><strong>billing.totalBag	</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
 <td>
 
-The string to use for the purpose of ordering by name (for
-example, by moving articles like ‘the’ to the end or a person’s last name to
-the front).
+Soma dos itens contidos no pedido.
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>locale</strong></td>
-<td valign="top"><a href="#locale">Locale</a></td>
+<td colspan="2" valign="top"><strong>billing.deliveryFee</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
 <td>
 
-The locale (language and/or country) in which the alias is
-used.
+Valor da taxa de entrega
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>primary</strong></td>
-<td valign="top"><a href="#boolean">Boolean</a></td>
+<td colspan="2" valign="top"><strong>billing.benefitIfood</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
 <td>
 
-Whether this is the main alias for the entity in the
-specified locale (this could mean the most recent or the most common).
+Valor do subsídio financeiro do iFood no pedido.
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>type</strong></td>
-<td valign="top"><a href="#string">String</a></td>
+<td colspan="2" valign="top"><strong>billing.benefitMerchant</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
 <td>
 
-The type or purpose of the alias – whether it is a variant,
-search hint, etc.
+Valor do subsídio financeiro do parceiro no pedido.
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>typeID</strong></td>
-<td valign="top"><a href="#mbid">MBID</a></td>
+<td colspan="2" valign="top"><strong>billing.commission</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
 <td>
 
-The MBID associated with the value of the `type`
-field.
+Total do valor da comissão.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.acquirerFee</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Valor da taxa cobrada pelo adquirente referente ao pedido.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>vbilling.deliveryCommission</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Comissão cobrada quando o modelo de negócio é ON_DEMAND, HYBRID ou HYBRID_REGION
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.commissionRate</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Percentual de comissão cobrado para o pedido.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.commissionRate</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Percentual de comissão cobrado para o pedido.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.acquirerFeeRate</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Percentual de taxa cobrada pelo adquirente referente ao pedido.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.totalDebit</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Valor pago para o ifood referente às taxas.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.totalCredit</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Valor pago ao merchant (subtraído o total debit).
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.anticipationFee</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Valor da taxa de antecipação cobrado referente a ao pedido.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top"><strong>billing.anticipationFeeRate</strong></td>
+<td valign="top"><a href="#Double">Double</a></td>
+<td>
+
+Percentual da taxa de antecipação cobrado referente a ao pedido.
 
 </td>
 </tr>
