@@ -169,7 +169,7 @@ The ID of an object
 <th align="right">Descrição</th>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.gmv</strong></td>
+<td valign="top"><strong>billing.gmv</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -178,7 +178,7 @@ Este campo se refere à total_bag + delivery_fee
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.totalBag	</strong></td>
+<td valign="top"><strong>billing.totalBag	</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -187,7 +187,7 @@ Soma dos itens contidos no pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.deliveryFee</strong></td>
+<td valign="top"><strong>billing.deliveryFee</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -196,7 +196,7 @@ Valor da taxa de entrega
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.benefitIfood</strong></td>
+<td valign="top"><strong>billing.benefitIfood</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -205,7 +205,7 @@ Valor do subsídio financeiro do iFood no pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.benefitMerchant</strong></td>
+<td valign="top"><strong>billing.benefitMerchant</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -214,7 +214,7 @@ Valor do subsídio financeiro do parceiro no pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.commission</strong></td>
+<td valign="top"><strong>billing.commission</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -223,7 +223,7 @@ Total do valor da comissão.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.acquirerFee</strong></td>
+<td valign="top"><strong>billing.acquirerFee</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -232,7 +232,7 @@ Valor da taxa cobrada pelo adquirente referente ao pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>vbilling.deliveryCommission</strong></td>
+<td valign="top"><strong>vbilling.deliveryCommission</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -241,7 +241,7 @@ Comissão cobrada quando o modelo de negócio é ON_DEMAND, HYBRID ou HYBRID_REG
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.commissionRate</strong></td>
+<td valign="top"><strong>billing.commissionRate</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -250,7 +250,7 @@ Percentual de comissão cobrado para o pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.commissionRate</strong></td>
+<td valign="top"><strong>billing.commissionRate</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -259,7 +259,7 @@ Percentual de comissão cobrado para o pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.acquirerFeeRate</strong></td>
+<td valign="top"><strong>billing.acquirerFeeRate</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -268,7 +268,7 @@ Percentual de taxa cobrada pelo adquirente referente ao pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.totalDebit</strong></td>
+<td valign="top"><strong>billing.totalDebit</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -277,7 +277,7 @@ Valor pago para o ifood referente às taxas.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.totalCredit</strong></td>
+<td valign="top"><strong>billing.totalCredit</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -286,7 +286,7 @@ Valor pago ao merchant (subtraído o total debit).
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.anticipationFee</strong></td>
+<td valign="top"><strong>billing.anticipationFee</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
@@ -295,7 +295,7 @@ Valor da taxa de antecipação cobrado referente a ao pedido.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>billing.anticipationFeeRate</strong></td>
+<td valign="top"><strong>billing.anticipationFeeRate</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
 <td>
 
