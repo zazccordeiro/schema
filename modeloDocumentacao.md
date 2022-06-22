@@ -162,14 +162,12 @@ The ID of an object
 ### Detalhes de valores de cobrança
 
 <table>
-<thead>
-<tr>
-<th align="left">Campo</th>
-<th align="left">Tipo</th>
-<th align="rigth">Descrição</th>
-</tr>
-</thead>
 <tbody>
+<tr>
+<td align="left">Campo</td>
+<td align="left">Tipo</td>
+<td align="right">Descrição</td>
+</tr>
 <tr>
 <td colspan="2" valign="top"><strong>billing.gmv</strong></td>
 <td valign="top"><a href="#Double">Double</a></td>
