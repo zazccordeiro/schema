@@ -164,9 +164,9 @@ The ID of an object
 <table>
 <tbody>
 <tr>
-<td align="left">Campo</td>
-<td align="left">Tipo</td>
-<td align="right">Descrição</td>
+<th align="left">Campo</th>
+<th align="left">Tipo</th>
+<th align="right">Descrição</th>
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>billing.gmv</strong></td>
