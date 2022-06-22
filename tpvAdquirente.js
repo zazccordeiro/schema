@@ -4,15 +4,19 @@ cube(`tpvAdquirente`, {
   preAggregations: {
     // Pre-Aggregations definitions go here
     // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
+    main: {
+      timeDimension: mesTpv.data,
+      granularity: 'day',
+    },
   },
   
   joins: {
     adquirente: {
-      relationship: `hasMany`,
+      relationship: `belongsTo`,
       sql: `${tpvAdquirente}.sk_administradora_id = ${adquirente.skAdministradoraId}`,
     },
     mesTpv: {
-      relationship: `hasMany`,
+      relationship: `belongsTo`,
       sql: `${tpvAdquirente}.sk_dim_data_transacao = ${mesTpv.skDimDataId}`,
     },
   },
@@ -46,11 +50,11 @@ cube(`tpvAdquirente`, {
       type: `number`
     },
   },
-  segments: {
-    segentoAdquirente: {
-      sql: `${tpvAdquirente}.sk_administradora_id in (1, 2, 3, 4)`,
-    },
-  },
+  // segments: {
+  //   segentoAdquirente: {
+  //     sql: `${tpvAdquirente}.sk_administradora_id in (1, 2, 3, 4)`,
+  //   },
+  //},
   
   dataSource: `default`
 });

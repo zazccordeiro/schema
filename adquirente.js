@@ -25,8 +25,7 @@ cube(`adquirente`, {
     nomeAdquirente: {
       sql: `nome`,
       type: `string`
-    }
-
+    },
   },
   
   dataSource: `default`
