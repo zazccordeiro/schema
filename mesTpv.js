@@ -32,6 +32,10 @@ cube(`mesTpv`, {
       sql: `numero_ano`,
       type: `number`
     },
+    data: {
+      sql: `dia_data`,
+      type: `time`
+    },
   },
   
   dataSource: `default`
