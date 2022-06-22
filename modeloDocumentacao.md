@@ -157,30 +157,25 @@ The ID of an object
 </tbody>
 </table>
 
-## Objects
+## Measures
 
-### Alias
-
-[Aliases](https://musicbrainz.org/doc/Aliases) are variant names
-that are mostly used as search help: if a search matches an entity’s alias, the
-entity will be given as a result – even if the actual name wouldn’t be.
+### Detalhes de valores de cobrança
 
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th align="left">Campo</th>
+<th align="right">Tipo</th>
+<th align="left">Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="2" valign="top"><strong>name</strong></td>
-<td valign="top"><a href="#string">String</a></td>
+<td colspan="2" valign="top"><strong>billing.gmv</strong></td>
+<td valign="top"><a href="#string">Double</a></td>
 <td>
 
-The aliased name of the entity.
+(total_bag + delivery_fee)
 
 </td>
 </tr>
