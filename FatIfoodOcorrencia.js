@@ -36,6 +36,10 @@ cube(`FatIfoodOcurrences`, {
         relationship: `hasMany`,
         sql: `${FatIfoodOcurrences}.sk_dim_data_prevista_pagamento = ${DimDataPrevistaPagamento.skDimDataPrevistaPagamento}`,
       },
+      DimTipoPagamento: {
+        relationship: `hasMany`,
+        sql: `${FatIfoodOcurrences}.sk_dim_tipo_pagamento = ${DimTipoPagamento.skDimTipoPagamento}`
+    }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     },
     measures: {
@@ -69,6 +73,10 @@ cube(`FatIfoodOcurrences`, {
       dataUltimaDataProcessamento: {
         sql: `data_ultima_data_processamento`,
         type: `time`
+      },
+      skDimTipoPagamento: {
+        sql: `sk_dim_tipo_pagamento`,
+        type: `number`
       },
       skDimCliente: {
         sql: `sk_dim_cliente`,
