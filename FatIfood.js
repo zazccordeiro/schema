@@ -19,10 +19,6 @@ cube(`FatIfood`, {
       relationship: `hasMany`,
       sql: `${FatIfood}.sk_dim_status = ${DimStatus.skDimStatus}`
     },
-    // DimTipoOcorrencia: {
-    //   relationship: `hasMany`,
-    //   sql: `${FatIfood}.sk_dim_tipo_ocorrencia = ${DimTipoOcorrencia.skDimTipoOcorrencia}`
-    // },
     DimPlataforma: {
       relationship: `hasMany`,
       sql: `${FatIfood}.sk_dim_plataforma = ${DimPlataforma.skDimPlataforma}`

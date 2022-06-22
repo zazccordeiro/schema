@@ -306,44 +306,11 @@ Percentual da taxa de antecipação cobrado referente a ao pedido.
 </tbody>
 </table>
 
-### Informações gerais
-
-Abaixo seguem descrições gerais.
-
-
-<table>
-<thead>
-<tr>
-<th valign="center">Campo</th>
-<th valign="center">Tipo</th>
-<th valign="rigth">Descrição</th>
-</tr>
-</thead>
-<tbody>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td  valign="center"><strong>dataCancelamento</strong></td>
-<td valign="center"><a href="#string">string</a></td>
-<td>
-
-Data do cancelamento no formato YYYY-MM-DD.
-
-</td>
-</tr>
-<tr>
-<td  valign="center"><strong>dataPedido</strong></td>
-<td valign="center"><a href="#string">string</a></td>
-<td>
-
-Data de criação do pedido no formato YYYY-MM-DD.
-
 </td>
 </tr>
 <tr>
 <td  valign="center"><strong>dataOcorrencia</strong></td>
-<td valign="center"><a href="#string">String</a></td>
+<td valign="center"><a href="#String">String</a></td>
 <td>
 
 Data e hora em que foi realizada a transação, ou seja, que houve a ocorrência.
@@ -356,6 +323,62 @@ Data e hora em que foi realizada a transação, ou seja, que houve a ocorrência
 <td>
 
 Referente a data/hora do último processamento do pedido.
+
+## Dimensões
+
+### Dimensão cliente 
+
+<table>
+<tbody>
+<tr>
+<th valign="center">Campo</th>
+<th valign="center">Tipo</th>
+<th valign="center">Descrição</th>
+</tr>
+<tr>
+<td valign="center"><strong>clienteId</strong></td>
+<td valign="center"><a href="#uuid">uuid</a></td>
+<td>
+
+Código de identificação único do cliente.
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>numeroDocumentoCliente</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td>
+
+Número do documento do cliente (cpf) que deve ser utilizado somente para emissão de documento fiscal quando o cliente solicitar,
+pois o campo é opcional.
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>nomeCliente</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td>
+
+Nome cliente.
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>numeroTelefoneCliente</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td>
+
+Número de telefone do cliente ou do 0800 fornecido pelo iFood.
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>dateFrom</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td>
+
+Número de telefone do cliente ou do 0800 fornecido pelo iFood.
+
 
 
 <!-- END graphql-markdown -->
