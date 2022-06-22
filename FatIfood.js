@@ -37,7 +37,7 @@ cube(`FatIfood`, {
     }
   },
   measures: {
-    count: {
+    totalPedido: {
       type: `count`,
       drillMembers: [skFatIfood]
     },
