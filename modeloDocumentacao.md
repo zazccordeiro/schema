@@ -102,10 +102,10 @@ requests can be made.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -146,7 +146,7 @@ Fetches an object given its ID
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">id</td>
+<td  valign="center" valign="top">id</td>
 <td valign="top"><a href="#id">ID</a>!</td>
 <td>
 
@@ -164,9 +164,9 @@ The ID of an object
 <table>
 <tbody>
 <tr>
-<th align="left">Campo</th>
-<th align="left">Tipo</th>
-<th align="right">Descrição</th>
+<th valign="center">Campo</th>
+<th valign="center">Tipo</th>
+<th valign="center">Descrição</th>
 </tr>
 <tr>
 <td valign="top"><strong>billing.gmv</strong></td>
@@ -314,9 +314,9 @@ Abaixo seguem descrições gerais.
 <table>
 <thead>
 <tr>
-<th align="left">Campo</th>
-<th align="left">Tipo</th>
-<th align="rigth">Descrição</th>
+<th valign="center">Campo</th>
+<th valign="center">Tipo</th>
+<th valign="rigth">Descrição</th>
 </tr>
 </thead>
 <tbody>
@@ -361,12 +361,12 @@ Referente a data/hora do último processamento do pedido.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -380,12 +380,12 @@ A list of events linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -399,12 +399,12 @@ A list of labels linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -418,12 +418,12 @@ A list of places linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -437,7 +437,7 @@ A list of releases linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -446,7 +446,7 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">status</td>
+<td  valign="center" valign="top">status</td>
 <td valign="top">[<a href="#releasestatus">ReleaseStatus</a>]</td>
 <td>
 
@@ -455,12 +455,12 @@ Filter by one or more release statuses.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -483,12 +483,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -502,12 +502,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -521,10 +521,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -576,10 +576,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -625,10 +625,10 @@ even a fictional character.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -808,12 +808,12 @@ A list of recordings linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -827,7 +827,7 @@ A list of releases linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -836,7 +836,7 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">status</td>
+<td  valign="center" valign="top">status</td>
 <td valign="top">[<a href="#releasestatus">ReleaseStatus</a>]</td>
 <td>
 
@@ -845,12 +845,12 @@ Filter by one or more release statuses.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -864,7 +864,7 @@ A list of release groups linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -873,12 +873,12 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -892,12 +892,12 @@ A list of works linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -920,12 +920,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -948,12 +948,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -967,10 +967,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1026,10 +1026,10 @@ track, etc., and join phrases between them.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1073,10 +1073,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1119,10 +1119,10 @@ entity.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1136,7 +1136,7 @@ Browse area entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1145,12 +1145,12 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1164,7 +1164,7 @@ Browse artist entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">area</td>
+<td  valign="center" valign="top">area</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1173,7 +1173,7 @@ The MBID of an area to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1182,7 +1182,7 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">recording</td>
+<td  valign="center" valign="top">recording</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1191,7 +1191,7 @@ The MBID of a recording to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">release</td>
+<td  valign="center" valign="top">release</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1200,7 +1200,7 @@ The MBID of a release to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">releaseGroup</td>
+<td  valign="center" valign="top">releaseGroup</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1209,7 +1209,7 @@ The MBID of a release group to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">work</td>
+<td  valign="center" valign="top">work</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1218,12 +1218,12 @@ The MBID of a work to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1237,7 +1237,7 @@ Browse collection entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">area</td>
+<td  valign="center" valign="top">area</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1246,7 +1246,7 @@ The MBID of an area to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">artist</td>
+<td  valign="center" valign="top">artist</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1255,7 +1255,7 @@ The MBID of an artist to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">editor</td>
+<td  valign="center" valign="top">editor</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -1264,7 +1264,7 @@ The username of the editor who created the collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">event</td>
+<td  valign="center" valign="top">event</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1273,7 +1273,7 @@ The MBID of an event to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">label</td>
+<td  valign="center" valign="top">label</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1282,7 +1282,7 @@ The MBID of a label to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">place</td>
+<td  valign="center" valign="top">place</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1291,7 +1291,7 @@ The MBID of a place to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">recording</td>
+<td  valign="center" valign="top">recording</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1300,7 +1300,7 @@ The MBID of a recording to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">release</td>
+<td  valign="center" valign="top">release</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1309,7 +1309,7 @@ The MBID of a release to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">releaseGroup</td>
+<td  valign="center" valign="top">releaseGroup</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1318,7 +1318,7 @@ The MBID of a release group to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">work</td>
+<td  valign="center" valign="top">work</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1327,12 +1327,12 @@ The MBID of a work to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1346,7 +1346,7 @@ Browse event entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">area</td>
+<td  valign="center" valign="top">area</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1355,7 +1355,7 @@ The MBID of an area to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">artist</td>
+<td  valign="center" valign="top">artist</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1364,7 +1364,7 @@ The MBID of an artist to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1373,7 +1373,7 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">place</td>
+<td  valign="center" valign="top">place</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1382,12 +1382,12 @@ The MBID of a place to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1401,7 +1401,7 @@ Browse label entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">area</td>
+<td  valign="center" valign="top">area</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1410,7 +1410,7 @@ The MBID of an area to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1419,7 +1419,7 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">release</td>
+<td  valign="center" valign="top">release</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1428,12 +1428,12 @@ The MBID of a release to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1447,7 +1447,7 @@ Browse place entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">area</td>
+<td  valign="center" valign="top">area</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1456,7 +1456,7 @@ The MBID of an area to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1465,12 +1465,12 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1484,7 +1484,7 @@ Browse recording entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">artist</td>
+<td  valign="center" valign="top">artist</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1493,7 +1493,7 @@ The MBID of an artist to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1502,7 +1502,7 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">isrc</td>
+<td  valign="center" valign="top">isrc</td>
 <td valign="top"><a href="#isrc">ISRC</a></td>
 <td>
 
@@ -1512,7 +1512,7 @@ The [International Standard Recording Code](https://musicbrainz.org/doc/ISRC)
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">release</td>
+<td  valign="center" valign="top">release</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1521,12 +1521,12 @@ The MBID of a release to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1540,7 +1540,7 @@ Browse release entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">area</td>
+<td  valign="center" valign="top">area</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1549,7 +1549,7 @@ The MBID of an area to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">artist</td>
+<td  valign="center" valign="top">artist</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1558,7 +1558,7 @@ The MBID of an artist to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1567,7 +1567,7 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">discID</td>
+<td  valign="center" valign="top">discID</td>
 <td valign="top"><a href="#discid">DiscID</a></td>
 <td>
 
@@ -1577,7 +1577,7 @@ associated with the release.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">label</td>
+<td  valign="center" valign="top">label</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1586,7 +1586,7 @@ The MBID of a label to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">recording</td>
+<td  valign="center" valign="top">recording</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1595,7 +1595,7 @@ The MBID of a recording to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">releaseGroup</td>
+<td  valign="center" valign="top">releaseGroup</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1604,7 +1604,7 @@ The MBID of a release group to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">track</td>
+<td  valign="center" valign="top">track</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1613,7 +1613,7 @@ The MBID of a track that is included in the release.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">trackArtist</td>
+<td  valign="center" valign="top">trackArtist</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1623,7 +1623,7 @@ release, but is not included in the credits for the release itself.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -1632,7 +1632,7 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">status</td>
+<td  valign="center" valign="top">status</td>
 <td valign="top">[<a href="#releasestatus">ReleaseStatus</a>]</td>
 <td>
 
@@ -1641,12 +1641,12 @@ Filter by one or more release statuses.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1660,7 +1660,7 @@ Browse release group entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">artist</td>
+<td  valign="center" valign="top">artist</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1669,7 +1669,7 @@ The MBID of an artist to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1678,7 +1678,7 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">release</td>
+<td  valign="center" valign="top">release</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1687,7 +1687,7 @@ The MBID of a release to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -1696,12 +1696,12 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1715,7 +1715,7 @@ Browse work entities linked to the given arguments.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">artist</td>
+<td  valign="center" valign="top">artist</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1724,7 +1724,7 @@ The MBID of an artist to which the entity is linked.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">collection</td>
+<td  valign="center" valign="top">collection</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -1733,7 +1733,7 @@ The MBID of a collection in which the entity is found.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">iswc</td>
+<td  valign="center" valign="top">iswc</td>
 <td valign="top"><a href="#iswc">ISWC</a></td>
 <td>
 
@@ -1743,12 +1743,12 @@ The [International Standard Musical Work Code](https://musicbrainz.org/doc/ISWC)
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1763,10 +1763,10 @@ lists of entities that users can create.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1844,12 +1844,12 @@ The list of areas found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1863,12 +1863,12 @@ The list of artists found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1882,12 +1882,12 @@ The list of events found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1901,12 +1901,12 @@ The list of instruments found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1920,12 +1920,12 @@ The list of labels found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1939,12 +1939,12 @@ The list of places found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1958,12 +1958,12 @@ The list of recordings found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -1977,7 +1977,7 @@ The list of releases found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -1986,7 +1986,7 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">status</td>
+<td  valign="center" valign="top">status</td>
 <td valign="top">[<a href="#releasestatus">ReleaseStatus</a>]</td>
 <td>
 
@@ -1995,12 +1995,12 @@ Filter by one or more release statuses.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2014,7 +2014,7 @@ The list of release groups found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -2023,12 +2023,12 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2042,12 +2042,12 @@ The list of series found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2061,12 +2061,12 @@ The list of works found in this collection.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2080,10 +2080,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2135,10 +2135,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2180,10 +2180,10 @@ Geographic coordinates described with latitude and longitude.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2216,10 +2216,10 @@ particular [disc ID](https://musicbrainz.org/doc/Disc_ID).
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2278,12 +2278,12 @@ The list of releases linked to this disc ID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2299,10 +2299,10 @@ Generally this means live performances, like concerts and festivals.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2429,12 +2429,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2457,12 +2457,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2476,10 +2476,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2531,10 +2531,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2578,10 +2578,10 @@ used in relationships between two other entities.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2681,12 +2681,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2700,12 +2700,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -2719,10 +2719,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2774,10 +2774,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2821,10 +2821,10 @@ represent a record company.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -2939,7 +2939,7 @@ codes for the label.
 <td>
 
 A type describing the main activity of the label, e.g.
-imprint, production, distributor, rights society, etc.
+imprint, production, distributor, centers society, etc.
 
 </td>
 </tr>
@@ -2963,7 +2963,7 @@ A list of releases linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -2972,7 +2972,7 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">status</td>
+<td  valign="center" valign="top">status</td>
 <td valign="top">[<a href="#releasestatus">ReleaseStatus</a>]</td>
 <td>
 
@@ -2981,12 +2981,12 @@ Filter by one or more release statuses.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -3009,12 +3009,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -3037,12 +3037,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -3056,10 +3056,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3111,10 +3111,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3157,10 +3157,10 @@ lifetime, including whether it has ended (even if the date is unknown).
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3201,10 +3201,10 @@ A lookup of an individual MusicBrainz entity by its MBID.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3218,7 +3218,7 @@ Look up a specific area by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3236,7 +3236,7 @@ Look up a specific artist by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3254,7 +3254,7 @@ Look up a specific collection by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3272,7 +3272,7 @@ Look up a specific physical disc by its disc ID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">discID</td>
+<td  valign="center" valign="top">discID</td>
 <td valign="top"><a href="#discid">DiscID</a>!</td>
 <td>
 
@@ -3291,7 +3291,7 @@ Look up a specific event by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3309,7 +3309,7 @@ Look up a specific instrument by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3327,7 +3327,7 @@ Look up a specific label by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3345,7 +3345,7 @@ Look up a specific place by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3363,7 +3363,7 @@ Look up a specific recording by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3381,7 +3381,7 @@ Look up a specific release by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3399,7 +3399,7 @@ Look up a specific release group by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3417,7 +3417,7 @@ Look up a specific series by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3435,7 +3435,7 @@ Look up a specific URL by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -3444,7 +3444,7 @@ The MBID of the entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">resource</td>
+<td  valign="center" valign="top">resource</td>
 <td valign="top"><a href="#urlstring">URLString</a></td>
 <td>
 
@@ -3462,7 +3462,7 @@ Look up a specific work by its MBID.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">mbid</td>
+<td  valign="center" valign="top">mbid</td>
 <td valign="top"><a href="#mbid">MBID</a>!</td>
 <td>
 
@@ -3484,10 +3484,10 @@ cassette) and can optionally also have a title.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3567,10 +3567,10 @@ Information about pagination in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3621,10 +3621,10 @@ or other place where music is performed, recorded, engineered, etc.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3743,12 +3743,12 @@ A list of events linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -3771,12 +3771,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -3790,12 +3790,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -3809,10 +3809,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3864,10 +3864,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3912,10 +3912,10 @@ for the entity.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -3958,10 +3958,10 @@ or mixing.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -4078,12 +4078,12 @@ A list of artists linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4097,7 +4097,7 @@ A list of releases linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -4106,7 +4106,7 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">status</td>
+<td  valign="center" valign="top">status</td>
 <td valign="top">[<a href="#releasestatus">ReleaseStatus</a>]</td>
 <td>
 
@@ -4115,12 +4115,12 @@ Filter by one or more release statuses.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4143,12 +4143,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4171,12 +4171,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4190,10 +4190,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -4245,10 +4245,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -4292,10 +4292,10 @@ other and to URLs outside MusicBrainz.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -4414,10 +4414,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -4469,10 +4469,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -4514,10 +4514,10 @@ Lists of entity relationships for each entity type.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -4531,7 +4531,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4540,7 +4540,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4549,7 +4549,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4559,22 +4559,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4588,7 +4588,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4597,7 +4597,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4606,7 +4606,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4616,22 +4616,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4645,7 +4645,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4654,7 +4654,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4663,7 +4663,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4673,22 +4673,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4702,7 +4702,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4711,7 +4711,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4720,7 +4720,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4730,22 +4730,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4759,7 +4759,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4768,7 +4768,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4777,7 +4777,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4787,22 +4787,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4816,7 +4816,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4825,7 +4825,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4834,7 +4834,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4844,22 +4844,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4873,7 +4873,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4882,7 +4882,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4891,7 +4891,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4901,22 +4901,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4930,7 +4930,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4939,7 +4939,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4948,7 +4948,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -4958,22 +4958,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -4987,7 +4987,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -4996,7 +4996,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -5005,7 +5005,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -5015,22 +5015,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5044,7 +5044,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -5053,7 +5053,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -5062,7 +5062,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -5072,22 +5072,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5101,7 +5101,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -5110,7 +5110,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -5119,7 +5119,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -5129,22 +5129,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5158,7 +5158,7 @@ A list of relationships between these two entity types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">direction</td>
+<td  valign="center" valign="top">direction</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -5167,7 +5167,7 @@ Filter by the relationship direction.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top"><a href="#string">String</a></td>
 <td>
 
@@ -5176,7 +5176,7 @@ Filter by the relationship type.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">typeID</td>
+<td  valign="center" valign="top">typeID</td>
 <td valign="top"><a href="#mbid">MBID</a></td>
 <td>
 
@@ -5186,22 +5186,22 @@ field.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">before</td>
+<td  valign="center" valign="top">before</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">last</td>
+<td  valign="center" valign="top">last</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5219,10 +5219,10 @@ MusicBrainz as one release.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -5421,12 +5421,12 @@ A list of artists linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5440,12 +5440,12 @@ A list of labels linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5459,12 +5459,12 @@ A list of recordings linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5478,7 +5478,7 @@ A list of release groups linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -5487,12 +5487,12 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5515,12 +5515,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5534,12 +5534,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5553,10 +5553,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -5608,10 +5608,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -5654,10 +5654,10 @@ a particular label, catalog number, barcode, and format.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -5688,10 +5688,10 @@ album – it doesn’t matter how many CDs or editions/versions it had.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -5830,12 +5830,12 @@ A list of artists linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5849,7 +5849,7 @@ A list of releases linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">type</td>
+<td  valign="center" valign="top">type</td>
 <td valign="top">[<a href="#releasegrouptype">ReleaseGroupType</a>]</td>
 <td>
 
@@ -5858,7 +5858,7 @@ Filter by one or more release group types.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">status</td>
+<td  valign="center" valign="top">status</td>
 <td valign="top">[<a href="#releasestatus">ReleaseStatus</a>]</td>
 <td>
 
@@ -5867,12 +5867,12 @@ Filter by one or more release statuses.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5895,12 +5895,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5923,12 +5923,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -5942,10 +5942,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -5997,10 +5997,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6042,10 +6042,10 @@ A search for MusicBrainz entities using Lucene query syntax.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6059,7 +6059,7 @@ Search for area entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6069,12 +6069,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6088,7 +6088,7 @@ Search for artist entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6098,12 +6098,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6117,7 +6117,7 @@ Search for event entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6127,12 +6127,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6146,7 +6146,7 @@ Search for instrument entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6156,12 +6156,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6175,7 +6175,7 @@ Search for label entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6185,12 +6185,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6204,7 +6204,7 @@ Search for place entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6214,12 +6214,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6233,7 +6233,7 @@ Search for recording entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6243,12 +6243,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6262,7 +6262,7 @@ Search for release entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6272,12 +6272,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6291,7 +6291,7 @@ Search for release group entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6301,12 +6301,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6320,7 +6320,7 @@ Search for series entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6330,12 +6330,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6349,7 +6349,7 @@ Search for work entities matching the given query.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">query</td>
+<td  valign="center" valign="top">query</td>
 <td valign="top"><a href="#string">String</a>!</td>
 <td>
 
@@ -6359,12 +6359,12 @@ and search fields](https://musicbrainz.org/doc/Development/XML_Web_Service/Versi
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6380,10 +6380,10 @@ theme.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6462,12 +6462,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6481,12 +6481,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6500,10 +6500,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6555,10 +6555,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6602,10 +6602,10 @@ release, or recording.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6637,10 +6637,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6692,10 +6692,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6739,10 +6739,10 @@ A track is the way a recording is represented on a particular
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6814,10 +6814,10 @@ acquired, an entry in another database, etc.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6869,10 +6869,10 @@ more audio recordings.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -6928,7 +6928,7 @@ alternate names or misspellings.
 <td>
 
 A list of [ISWCs](https://musicbrainz.org/doc/ISWC) assigned
-to the work by copyright collecting agencies.
+to the work by copycenter collecting agencies.
 
 </td>
 </tr>
@@ -6970,12 +6970,12 @@ A list of artists linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -6998,12 +6998,12 @@ A list of collections containing this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -7026,12 +7026,12 @@ A list of tags linked to this entity.
 </td>
 </tr>
 <tr>
-<td  align="right" valign="top">after</td>
+<td  valign="center" valign="top">after</td>
 <td valign="top"><a href="#string">String</a></td>
 <td></td>
 </tr>
 <tr>
-<td  align="right" valign="top">first</td>
+<td  valign="center" valign="top">first</td>
 <td valign="top"><a href="#int">Int</a></td>
 <td></td>
 </tr>
@@ -7045,10 +7045,10 @@ A connection to a list of items.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -7100,10 +7100,10 @@ An edge in a connection.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -7147,8 +7147,8 @@ etc.
 
 <table>
 <thead>
-<th align="left">Value</th>
-<th align="left">Description</th>
+<th valign="center">Value</th>
+<th valign="center">Description</th>
 </thead>
 <tbody>
 <tr>
@@ -7320,8 +7320,8 @@ bootleg, etc.
 
 <table>
 <thead>
-<th align="left">Value</th>
-<th align="left">Description</th>
+<th valign="center">Value</th>
+<th valign="center">Description</th>
 </thead>
 <tbody>
 <tr>
@@ -7416,7 +7416,7 @@ The `ID` scalar type represents a unique identifier, often used to refetch an ob
 
 An [Interested Parties Information](https://musicbrainz.org/doc/IPI)
 (IPI) code is an identifying number assigned by the CISAC database for musical
-rights management.
+centers management.
 
 ### ISNI
 
@@ -7479,10 +7479,10 @@ An entity in the MusicBrainz schema.
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
@@ -7505,10 +7505,10 @@ An object with an ID
 <table>
 <thead>
 <tr>
-<th align="left">Field</th>
-<th align="right">Argument</th>
-<th align="left">Type</th>
-<th align="left">Description</th>
+<th valign="center">Field</th>
+<th valign="center">Argument</th>
+<th valign="center">Type</th>
+<th valign="center">Description</th>
 </tr>
 </thead>
 <tbody>
