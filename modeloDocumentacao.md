@@ -310,8 +310,7 @@ Percentual da taxa de antecipação cobrado referente a ao pedido.
 
 ### Informações gerais
 
-[Areas](https://musicbrainz.org/doc/Area) are geographic regions
-or settlements (countries, cities, or the like).
+Abaixo seguem descrições gerais.
 
 
 <table>
@@ -328,7 +327,7 @@ or settlements (countries, cities, or the like).
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>dataCancelamento</strong></td>
-<td valign="top"><a href="#string">string</a>!</td>
+<td valign="top"><a href="#string">string</a></td>
 <td>
 
 Data do cancelamento no formato YYYY-MM-DD.
@@ -337,7 +336,7 @@ Data do cancelamento no formato YYYY-MM-DD.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>dataPedido</strong></td>
-<td valign="top"><a href="#string">string</a>!</td>
+<td valign="top"><a href="#string">string</a></td>
 <td>
 
 Data de criação do pedido no formato YYYY-MM-DD.
@@ -354,81 +353,12 @@ Data e hora em que foi realizada a transação, ou seja, que houve a ocorrência
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>sortName</strong></td>
-<td valign="top"><a href="#string">String</a></td>
+<td colspan="2" valign="top"><strong>dataUltimaDataProcessamento</strong></td>
+<td valign="top"><a href="Datetime">Datetime</a></td>
 <td>
 
-The string to use for the purpose of ordering by name (for
-example, by moving articles like ‘the’ to the end or a person’s last name to
-the front).
+Referente a data/hora do último processamento do pedido.
 
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top"><strong>disambiguation</strong></td>
-<td valign="top"><a href="#string">String</a></td>
-<td>
-
-A comment used to help distinguish identically named entitites.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top"><strong>aliases</strong></td>
-<td valign="top">[<a href="#alias">Alias</a>]</td>
-<td>
-
-[Aliases](https://musicbrainz.org/doc/Aliases) are used to store
-alternate names or misspellings.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top"><strong>isoCodes</strong></td>
-<td valign="top">[<a href="#string">String</a>]</td>
-<td>
-
-[ISO 3166 codes](https://en.wikipedia.org/wiki/ISO_3166) are
-the codes assigned by ISO to countries and subdivisions.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="right" valign="top">standard</td>
-<td valign="top"><a href="#string">String</a></td>
-<td>
-
-Specify the particular ISO standard codes to retrieve.
-Available ISO standards are 3166-1, 3166-2, and 3166-3.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top"><strong>type</strong></td>
-<td valign="top"><a href="#string">String</a></td>
-<td>
-
-The type of area (country, city, etc. – see the [possible
-values](https://musicbrainz.org/doc/Area)).
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top"><strong>typeID</strong></td>
-<td valign="top"><a href="#mbid">MBID</a></td>
-<td>
-
-The MBID associated with the value of the `type`
-field.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top"><strong>artists</strong></td>
-<td valign="top"><a href="#artistconnection">ArtistConnection</a></td>
-<td>
-
-A list of artists linked to this entity.
 
 </td>
 </tr>
