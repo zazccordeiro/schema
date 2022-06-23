@@ -13,7 +13,7 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Período](#Período)
   * [Dimensões](#Dimensões)
     * [Dimensão cliente](#Dimensão_cliente)
-    *[Dimensão cliente](#Dimensão_cliente)
+
 
 </details>
 
