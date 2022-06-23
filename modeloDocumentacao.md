@@ -38,7 +38,7 @@ Detalhes de valores de cobrança do cliente.
 <tr>
 <td valign="center"><strong>quantidadeTotalPedido</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
-<td valign= "center"><a href= >Essa informação é referente a quantidade total de pedidos, no caso uma *contagem* que não se refere à valores monetários.</a>
+<td valign= "center"> Essa informação é referente a quantidade total de pedidos, no caso uma *contagem* que não se refere à valores monetários.
 
 <tr>
 <td valign="center"><strong>valorTotalPedido.gmv</strong></td>
@@ -131,7 +131,7 @@ Percentual de taxa cobrada pelo adquirente referente ao pedido.
 </td>
 </tr>
 <tr>
-<td valign="center"><strong>billing.totalDebit</strong></td>
+<td valign="center"><strong>valorPagoIfood</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
 <td>
 
@@ -140,25 +140,25 @@ Valor pago para o ifood referente às taxas.
 </td>
 </tr>
 <tr>
-<td valign="center"><strong>billing.totalCredit</strong></td>
+<td valign="center"><strong>valorPagoMerchant</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
 <td>
 
-Valor pago ao merchant (subtraído o total debit).
+Valor pago ao merchant (subtraído o valor total pago ao Ifood).
 
 </td>
 </tr>
 <tr>
-<td valign="center"><strong>billing.anticipationFee</strong></td>
+<td valign="center"><strong>valorTaxaAntecipacao</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
 <td>
 
-Valor da taxa de antecipação cobrado referente a ao pedido.
+Valor da taxa de antecipação cobrado referente ao pedido.
 
 </td>
 </tr>
 <tr>
-<td valign="center"><strong>billing.anticipationFeeRate</strong></td>
+<td valign="center"><strong>valorTaxaAntecipacaoPercentual</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
 <td>
 
