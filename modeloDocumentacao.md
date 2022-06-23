@@ -38,12 +38,12 @@ Detalhes de valores de cobrança do cliente.
 <tr>
 <td valign="center"><strong>quantidadeTotalPedido</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
-<td valign= "center"> Essa informação é referente a quantidade total de pedidos, no caso uma *contagem* que não se refere à valores monetários.
+<td valign= "center"> Essa informação é referente a quantidade total de pedidos, no caso uma contagem que não se refere à valores monetários.
 
 <tr>
 <td valign="center"><strong>valorTotalPedido.gmv</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
-<td>
+<td valign= "center">
 
 Esse dado se refere ao valor total dos itens pedidos + valor da taxa de entrega.
 
