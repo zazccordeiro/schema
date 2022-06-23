@@ -1,4 +1,4 @@
-cube(`adquirente`, {
+cube(`Adquirente`, {
   sql: `SELECT * FROM public.dim_adquirente`,
   
   preAggregations: {
@@ -7,12 +7,12 @@ cube(`adquirente`, {
   },
   
   joins: {
-    
   },
   
   measures: {
-    contador: {
-      type: `count`
+    count: {
+      type: `count`,
+      drillMembers: []
     }
   },
   
@@ -22,10 +22,21 @@ cube(`adquirente`, {
       type: `number`,
       primaryKey: true
     },
+    
     nomeAdquirente: {
       sql: `nome`,
       type: `string`
     },
+    
+    dateFrom: {
+      sql: `date_from`,
+      type: `time`
+    },
+    
+    dateTo: {
+      sql: `date_to`,
+      type: `time`
+    }
   },
   
   dataSource: `default`
