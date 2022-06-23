@@ -7,12 +7,12 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 <details>
   <summary><strong>Campos e Requisições</strong></summary>
 
-  * [Informações de medidas](#Informações_de_medidas)
-  * [Medidas de valores](#Medidas_de_valores)
-    * [Cobrança](#Cobrança)
-    * [Período](#Período)
-  * [Dimensões](#Dimensões)
-    * [Dimensão cliente](#Dimensão_cliente)
+  * [Informações de medidas](Informaçõesdemedidas)
+  * [Medidas de valores](Medidasdevalores)
+    * [Cobrança](Cobrança)
+    * [Período](Período)
+  * [Dimensões](Dimensões)
+    * [Dimensão cliente](Dimensãocliente)
 
 
 </details>
@@ -256,9 +256,9 @@ Situação e período da informação.
 <td valign="center"><strong>statusIfood</strong></td>
 <td valign="center"><a href="#uuid">uuid</a></td>
 <td valign="center"> Código que se refere a situação da informação.
-1 = Vendas
-2 = Ocorrências
-3 = Cancelamentos
+<td valign="center"> 1 = Vendas
+<td valign="center"> 2 = Ocorrências
+<td valign="center"> 3 = Cancelamentos
 
 </td>
 </tr>
