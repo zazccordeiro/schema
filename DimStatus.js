@@ -11,10 +11,7 @@ cube(`DimStatus`, {
   },
   
   measures: {
-    count: {
-      type: `count`,
-      drillMembers: [dateFrom, dateTo,status_ifood]
-    }
+ 
   },
   
   dimensions: {
@@ -22,16 +19,7 @@ cube(`DimStatus`, {
       sql: `status`,
       type: 'string'
     },
-    
-    dataInicio: {
-      sql: `date_from`,
-      type: `time`
-    },
-    
-    dataFim: {
-      sql: `date_to`,
-      type: `time`
-    },
+   
     skDimStatus: {
       sql: `sk_dim_status`,
       type: `number`,
