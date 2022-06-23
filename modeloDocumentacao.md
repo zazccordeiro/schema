@@ -255,10 +255,12 @@ Situação e período da informação.
 <tr>
 <td valign="center"><strong>statusIfood</strong></td>
 <td valign="center"><a href="#uuid">uuid</a></td>
-<td valign="center"> Código que se refere a situação da informação.
-<td> 1 = Vendas
-<td> 2 = Ocorrências
-<td > 3 = Cancelamentos
+<td>
+Código que se refere a situação da informação.
+1 = Vendas
+2 = Ocorrências
+3 = Cancelamentos
+</td>
 
 </td>
 </tr>
