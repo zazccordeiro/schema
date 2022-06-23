@@ -205,7 +205,7 @@ Nesta dimensão é possível fazer a leitura de informações para endereçament
 </tr>
 <tr>
 <td valign="center"><strong>clienteId</strong></td>
-<td valign="center"><a href="#uuid">uuid</a></td>
+<td valign="center"><a href="#String">String</a></td>
 <td valign="center"> Código de identificação único do cliente.
 
 </td>
@@ -283,7 +283,7 @@ Informação de qual plataforma utilizada.
 
 ## Dimensão Estabelecimento
 
-Esta dimensão contém informações refere .
+Esta dimensão contém informações refere.
 
 <table>
 <tbody>
@@ -293,17 +293,30 @@ Esta dimensão contém informações refere .
 <th valign="center">Descrição</th>
 </tr>
 <tr>
-<td valign="center"><strong>merchantId</strong></td>
+<td valign="center"><strong>clienteId</strong></td>
 <td valign="center"><a href="#String">String</a></td>
-<td> Código que se refere a plataforma de delivery.
+<td> Código de identificação único do cliente. 
 
 </td>
 </tr>
 <tr>
-<td valign="center"><strong>numeroDocumentoCliente</strong></td>
+<td valign="center"><strong>codigoEstabelecimento</strong></td>
 <td valign="center"><a href="#String">String</a></td>
-<td valign="center"> Número do documento do cliente (cpf) que deve ser utilizado somente para emissão de documento fiscal quando o cliente solicitar,
-pois o campo é opcional.
+<td valign="center"> Este campo se refere ao código do estabelecimento na plataforma.
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>razaoSocialEstabelecimento</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td valign="center"> Este campo informa a razão social do estabelecimento.
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>nomeEstabelecimento</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td valign="center"> Este campo informa a razão social do estabelecimento.
 
 
 </td>
