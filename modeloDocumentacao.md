@@ -179,6 +179,9 @@ Informações referente a data das ocorrencias ligadas a pedidos e pagamentos.
 <td valign="center"><strong>ultimaDataProcessamento</strong></td>
 <td valign="center"><a href="Datetime">Datetime</a></td>
 <td valign="center"> Referente a data/hora do último processamento do pedido.
+</td>
+</tr>
+
 
 # Dimensões
 
@@ -228,6 +231,8 @@ pois o campo é opcional.
 <td valign="center"><strong>dateFrom</strong></td>
 <td valign="center"><a href="#String">String</a></td>
 <td valign="center"> Número de telefone do cliente ou do 0800 fornecido pelo iFood.
+</td>
+</tr>
 
 
 
