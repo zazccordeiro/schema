@@ -42,59 +42,59 @@ cube(`FatIfood`, {
       type: `count`,
       drillMembers: [skFatIfood]
     },
-    billingGmv: {
+    valorTotalPedido: {
       sql: `billing_gmv`,
       type: `sum`
     },
-    billingTotalBag: {
+    valorTotalItens: {
       sql: `billing_total_bag`,
       type: `sum`
     },
-    billingDeliveryFee: {
+    valorTaxaEntrega: {
       sql: `billing_delivery_fee`,
       type: `sum`
     },
-    billingBenefitIfood: {
+    valorBeneficioIfood: {
       sql: `billing_benefit_ifood`,
       type: `sum`
     },
-    billingBenefitMerchant: {
+    valorBeneficioMerchant: {
       sql: `billing_benefit_merchant`,
       type: `sum`
     },
-    billingCommission: {
+    valorComissao: {
       sql: `billing_commission`,
       type: `sum`
     },
-    billingAcquirerFee: {
+    valorTaxaAdquirente: {
       sql: `billing_acquirer_fee`,
       type: `sum`
     },
-    billingDeliveryCommission: {
+    valorComissaoCobrada: {
       sql: `billing_delivery_commission`,
       type: `sum`
     },
-    billingCommissionRate: {
+    valorComissaoPedido: {
       sql: `billing_commission_rate`,
       type: `sum`
     },
-    billingAcquirerFeeRate: {
+    taxaPercentualAdquirente: {
       sql: `billing_acquirer_fee_rate`,
       type: `sum`
     },
-    billingTotalDebit: {
+    valorPagoIfood: {
       sql: `billing_total_debit`,
       type: `sum`
     },
-    billingTotalCredit: {
+    valorPagoMerchant: {
       sql: `billing_total_credit`,
       type: `sum`
     },
-    billingAnticipationFee: {
+    valorTaxaAntecipacao: {
       sql: `billing_anticipation_fee`,
       type: `sum`
     },
-    billingAnticipationFeeRate: {
+    valorTaxaAntecipacaoPercentual: {
       sql: `billing_anticipation_fee_rate`,
       type: `sum`
     }
@@ -116,7 +116,7 @@ cube(`FatIfood`, {
       sql: `data_ocorrencia`,
       type: `time`
     },
-    dataUltimaDataProcessamento: {
+    ultimaDataProcessamento: {
       sql: `data_ultima_data_processamento`,
       type: `time`
     },

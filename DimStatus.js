@@ -18,17 +18,17 @@ cube(`DimStatus`, {
   },
   
   dimensions: {
-    status_ifood: {
+    statusIfood: {
       sql: `status`,
       type: 'string'
     },
     
-    dateFrom: {
+    dataInicio: {
       sql: `date_from`,
       type: `time`
     },
     
-    dateTo: {
+    dataFim: {
       sql: `date_to`,
       type: `time`
     },

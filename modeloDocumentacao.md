@@ -172,7 +172,7 @@ Informações referente a data das ocorrencias ligadas a pedidos e pagamentos.
 </td>
 </tr>
 <tr>
-<td valign="center"><strong>dataOcorrencia </strong></td>
+<td valign="center"><strong>dataOcorrencia</strong></td>
 <td valign="center"><a href="Datetime">Datetime</a></td>
 <td valign="center"> Data e hora em que foi realizada a transação, ou seja, que houve a ocorrência.
 
@@ -229,13 +229,6 @@ pois o campo é opcional.
 <td valign="center"><strong>numeroTelefoneCliente</strong></td>
 <td valign="center"><a href="#String">String</a></td>
 <td valign="center"> Número de telefone do cliente ou do 0800 fornecido pelo iFood.
-
-</td>
-</tr>
-<tr>
-<td valign="center"><strong>dateFrom</strong></td>
-<td valign="center"><a href="#String">String</a></td>
-<td valign="center"> Número de telefone do cliente ou do 0800 fornecido pelo iFood.
 </td>
 </tr>
 </tbody>
@@ -254,7 +247,7 @@ Situação e período da informação.
 </tr>
 <tr>
 <td valign="center"><strong>statusIfood</strong></td>
-<td valign="center"><a href="#uuid">uuid</a></td>
+<td valign="center"><a href="#String">String</a></td>
 <td> 
 <p> Código que se refere a situação da informação.</p>
 <p> 1 = Vendas  </p>
@@ -262,21 +255,61 @@ Situação e período da informação.
 <p> 3 = Cancelamentos </p>
 </td>
 </tr>
-<tr>
-<td valign="center"><strong>dataInicio</strong></td>
-<td valign="center"><a href="#String">String</a></td>
-<td valign="center"> Data início do período informado.
+</tbody>
+</table>
 
-<tr>
-<td valign="center"><strong>dataFim</strong></td>
-<td valign="center"><a href="#String">String</a></td>
-<td valign="center"> Data fim do período informado.
+## Dimensão Plataforma
 
+Informação de qual plataforma utilizada.
+
+<table>
+<tbody>
+<tr>
+<th valign="center">Campo</th>
+<th valign="center">Tipo</th>
+<th valign="center">Descrição</th>
+</tr>
+<tr>
+<td valign="center"><strong>plataforma</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td> 
+<p> Código que se refere a plataforma de delivery.</p>
+<p> 0 = NULL  </p>
+<p> 1 = Ifood </p>
 </td>
 </tr>
 </tbody>
 </table>
 
+## Dimensão Estabelecimento
+
+Esta dimensão contém informações refere .
+
+<table>
+<tbody>
+<tr>
+<th valign="center">Campo</th>
+<th valign="center">Tipo</th>
+<th valign="center">Descrição</th>
+</tr>
+<tr>
+<td valign="center"><strong>merchantId</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td> Código que se refere a plataforma de delivery.
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>numeroDocumentoCliente</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td valign="center"> Número do documento do cliente (cpf) que deve ser utilizado somente para emissão de documento fiscal quando o cliente solicitar,
+pois o campo é opcional.
+
+
+</td>
+</tr>
+</tbody>
+</table>
 
 
 <!-- END graphql-markdown -->
