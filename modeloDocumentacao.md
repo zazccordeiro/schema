@@ -265,7 +265,12 @@ Situação e período da informação.
 <tr>
 <td valign="center"><strong>dataInicio</strong></td>
 <td valign="center"><a href="#String">String</a></td>
-<td valign="center"> Para estabelecer o inicio de um período
+<td valign="center"> Data início do período informado.
+
+<tr>
+<td valign="center"><strong>dataFim</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td valign="center"> Data fim do período informado.
 
 </td>
 </tr>
