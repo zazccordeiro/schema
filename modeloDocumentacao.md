@@ -257,9 +257,9 @@ Situação e período da informação.
 <td valign="center"><a href="#uuid">uuid</a></td>
 <td>
 Código que se refere a situação da informação.
-1 = Vendas
-2 = Ocorrências
-3 = Cancelamentos
+</n> 1 = Vendas
+</n> 2 = Ocorrências
+</n> 3 = Cancelamentos
 </td>
 
 </td>
