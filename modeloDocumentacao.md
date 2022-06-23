@@ -241,6 +241,37 @@ pois o campo é opcional.
 </tbody>
 </table>
 
+## Dimensão Status
+
+Situação e período da informação.
+
+<table>
+<tbody>
+<tr>
+<th valign="center">Campo</th>
+<th valign="center">Tipo</th>
+<th valign="center">Descrição</th>
+</tr>
+<tr>
+<td valign="center"><strong>statusIfood</strong></td>
+<td valign="center"><a href="#uuid">uuid</a></td>
+<td valign="center"> Código que se refere a situação da informação.
+1 = Vendas
+2 = Ocorrências
+3 = Cancelamentos
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>dataInicio</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td valign="center"> Para estabelecer o inicio de um período
+
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 <!-- END graphql-markdown -->
