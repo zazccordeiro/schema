@@ -19,6 +19,10 @@ cube(`FatIfood`, {
       relationship: `hasMany`,
       sql: `${FatIfood}.sk_dim_status = ${DimStatus.skDimStatus}`
     },
+    // DimTipoOcorrencia: {
+    //   relationship: `hasMany`,
+    //   sql: `${FatIfood}.sk_dim_tipo_ocorrencia = ${DimTipoOcorrencia.skDimTipoOcorrencia}`
+    // },
     DimPlataforma: {
       relationship: `hasMany`,
       sql: `${FatIfood}.sk_dim_plataforma = ${DimPlataforma.skDimPlataforma}`
@@ -28,12 +32,13 @@ cube(`FatIfood`, {
       sql: `${FatIfood}.sk_dim_estabelecimento = ${DimEstabelecimento.skDimEstabelecimento}`
     },
     DimDataPedido: {
-      relationship: `hasMany`,
+      relationship: `belongsTo`,
       sql: `${FatIfood}.sk_dim_data_pedido = ${DimDataPedido.skDimDataPedido}`
     }
+    
   },
   measures: {
-    totalPedido: {
+    count: {
       type: `count`,
       drillMembers: [skFatIfood]
     },
