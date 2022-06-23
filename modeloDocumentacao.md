@@ -135,6 +135,10 @@ Detalhes de valores de cobrança do cliente.
 <td valign="center"><strong>valorTaxaAntecipacaoPercentual</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
 <td valign="center"> Percentual da taxa de antecipação cobrado referente a ao pedido.
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Período
 
@@ -181,6 +185,8 @@ Informações referente a data das ocorrencias ligadas a pedidos e pagamentos.
 <td valign="center"> Referente a data/hora do último processamento do pedido.
 </td>
 </tr>
+</tbody>
+</table>
 
 
 # Dimensões
@@ -233,6 +239,8 @@ pois o campo é opcional.
 <td valign="center"> Número de telefone do cliente ou do 0800 fornecido pelo iFood.
 </td>
 </tr>
+</tbody>
+</table>
 
 
 
