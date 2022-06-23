@@ -7,14 +7,12 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 <details>
   <summary><strong>Campos e Requisições</strong></summary>
 
-  * [Query](#query)
-  * [Objects](#objects)
-    * [Alias](#alias)
-  * [Scalars](#scalars)
-    * [ASIN](#asin)
-  * [Interfaces](#interfaces)
-    * [Entity](#entity)
-    * [Node](#node)
+  * [Informações de medidas](#Informações_de_medidas)
+  * [Medidas de valores](#Medidas_de_valores)
+    * [Cobrança](#Cobrança)
+    * [Período](#Período)
+  * [Dimensões](#Dimensões)
+    *[Dimensão cliente](#Dimensão_cliente)
 
 </details>
 
