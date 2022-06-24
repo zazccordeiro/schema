@@ -13,8 +13,9 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Período](#Período)
   * [Dimensões](#Dimensões)
     * [Dimensão cliente](#Dimensãocliente)
-
-
+    * [Dimensão Plataforma](#DimensãoPlataforma)  
+    * [Dimensão Estabelecimento](#DimensãoEstabelecimento)   
+    * [Dimensão x](#Dimensãox)   
 </details>
 
 ## Informações de medidas
@@ -318,11 +319,33 @@ Esta dimensão contém informações refere.
 <td valign="center"><a href="#String">String</a></td>
 <td valign="center"> Este campo informa a razão social do estabelecimento.
 
-
 </td>
 </tr>
 </tbody>
 </table>
+
+## Dimensão Estabelecimento
+
+Esta dimensão contém informações refere.
+
+<table>
+<tbody>
+<tr>
+<th valign="center">Campo</th>
+<th valign="center">Tipo</th>
+<th valign="center">Descrição</th>
+</tr>
+<tr>
+<td valign="center"><strong>clienteId</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td> Código de identificação único do cliente. 
+
+</td>
+</tr>
+<tr>
+<td valign="center"><strong>codigoEstabelecimento</strong></td>
+<td valign="center"><a href="#String">String</a></td>
+<td valign="center"> Este campo se refere ao código do estabelecimento na plataforma.
 
 
 <!-- END graphql-markdown -->
