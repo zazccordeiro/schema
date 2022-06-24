@@ -1,62 +1,63 @@
 cube(`TpvAdquirente`, {
   sql: `SELECT * FROM public.fat_adquirente`,
-  preAggregations: {
-    // Pre-Aggregations definitions go here
+  preAggregations: {// Pre-Aggregations definitions go here
     // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
+
     main: {
-      measures: [
-        TpvAdquirente.valorTpv
-      ],
-      dimensions: [
-        Adquirente.nomeAdquirente,
-        ClienteCnpjCpf.cnpjcpf,
-        DataTpv.ano,
-        DataTpv.nomeMes
-      ]
+      measures: [TpvAdquirente.valorBruto],
+      dimensions: [Adquirente.nome, ClienteCnpjCpf.cnpjCpf, Data.numeroAno, Data.numeroMes]
     }
   },
   joins: {
     Adquirente: {
-      relationship: `belongsTo`,
-      sql: `${Adquirente}.sk_administradora_id = ${TpvAdquirente.skAdministradoraId}`
+      sql: `${Adquirente}.sk_administradora_id = ${TpvAdquirente}.sk_administradora_id`,
+      relationship: `hasMany`
     },
     ClienteCnpjCpf: {
-      relationship: `belongsTo`,
-      sql: `${ClienteCnpjCpf}.sk_dim_cliente_cnpjcpf = ${TpvAdquirente.skDimClienteCnpjCpf}`
+      sql: `${ClienteCnpjCpf}.sk_dim_cliente_cnpjcpf = ${TpvAdquirente}.sk_dim_cliente_cnpjcpf`,
+      relationship: `hasMany`
     },
-    DataTpv: {
-      relationship: `belongsTo`,
-      sql: `${DataTpv}.sk_dim_data_id = ${TpvAdquirente.skDimDataTransacao}`
+    Data: {
+      sql: `${Data}.sk_dim_data_id = ${TpvAdquirente}.sk_dim_data_transacao`,
+      relationship: `hasMany`
     }
   },
   measures: {
-    count: {
+    quantidadeRegistros: {
       type: `count`,
-      drillMembers: []
+      drillMembers: [skAdministradoraId, skDimDataTransacao, skDimClienteCnpjCpf]
     },
-    valorTpv: {
+    valorLiquido: {
+      sql: `valorliquido`,
+      type: `sum`,
+      drillMembers: [skAdministradoraId, skDimDataTransacao, skDimClienteCnpjCpf]
+    },
+    valorBruto: {
       sql: `valorbruto`,
       type: `sum`,
-      drillMembers: []
+      drillMembers: [skAdministradoraId, skDimDataTransacao, skDimClienteCnpjCpf]
     }
   },
   dimensions: {
-    sk_fat_adquirente_id: {
+    skFatAdquirenteId: {
       sql: `sk_fat_adquirente_id`,
       type: `number`,
       primaryKey: true
     },
     skAdministradoraId: {
       sql: `sk_administradora_id`,
-      type: `number`
-    },
-    skDimClienteCnpjCpf: {
-      sql: `sk_dim_cliente_cnpjcpf`,
-      type: `number`
+      type: `number`,
+      shown: false
     },
     skDimDataTransacao: {
       sql: `sk_dim_data_transacao`,
-      type: `number`
+      type: `number`,
+      shown: false
+    },
+    skDimClienteCnpjCpf: {
+      sql: `sk_dim_cliente_cnpjcpf`,
+      type: `number`,
+      shown: false
     }
   },
   dataSource: `default`
