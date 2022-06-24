@@ -1,5 +1,5 @@
-cube(`DimStatus`, {
-  sql: `SELECT * FROM delivery.dim_status`,
+cube(`ClienteCnpjCpf`, {
+  sql: `SELECT * FROM public.dim_cliente_cnpjcpf`,
   
   preAggregations: {
     // Pre-Aggregations definitions go here
@@ -7,24 +7,26 @@ cube(`DimStatus`, {
   },
   
   joins: {
-    
   },
   
   measures: {
- 
+    count: {
+      type: `count`,
+      drillMembers: []
+    }
   },
   
   dimensions: {
-    statusIfood: {
-      sql: `status`,
-      type: 'string'
-    },
-   
-    skDimStatus: {
-      sql: `sk_dim_status`,
+    skDimClienteCnpjCpf: {
+      sql: `sk_dim_cliente_cnpjcpf`,
       type: `number`,
       primaryKey: true
-    }
+    },
+
+    cnpjcpf: {
+      sql: `cnpjcpf`,
+      type: `string`
+    },
   },
   
   dataSource: `default`
