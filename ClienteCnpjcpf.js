@@ -1,5 +1,5 @@
-cube(`Adquirente`, {
-  sql: `SELECT * FROM public.dim_adquirente`,
+cube(`ClienteCnpjCpf`, {
+  sql: `SELECT * FROM public.dim_cliente_cnpjcpf`,
   
   preAggregations: {
     // Pre-Aggregations definitions go here
@@ -12,20 +12,20 @@ cube(`Adquirente`, {
   measures: {
     quantidadeRegistros: {
       type: `count`,
-      drillMembers: [nome],
+      drillMembers: [cnpjCpf],
       shown: true,
     }
   },
   
   dimensions: {
-    skAdministradoraId: {
-      sql: `sk_administradora_id`,
+    skDimClienteCnpjCpf: {
+      sql: `sk_dim_cliente_cnpjcpf`,
       type: `number`,
       primaryKey: true,
     },
 
-    nome: {
-      sql: `nome`,
+    cnpjCpf: {
+      sql: `cnpjcpf`,
       type: `string`,
       shown: true,
     },
