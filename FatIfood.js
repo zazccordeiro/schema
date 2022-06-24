@@ -12,11 +12,11 @@ cube(`FatIfood`, {
   },
   joins: {
     DimCliente: {
-      relationship: `hasMany`,
+      relationship: `belongsTo`,
       sql: `${FatIfood}.sk_dim_cliente = ${DimCliente.skDimCliente}`
     },
     DimStatus: {
-      relationship: `hasMany`,
+      relationship: `belongsTo`,
       sql: `${FatIfood}.sk_dim_status = ${DimStatus.skDimStatus}`
     },
     // DimTipoOcorrencia: {
@@ -24,11 +24,11 @@ cube(`FatIfood`, {
     //   sql: `${FatIfood}.sk_dim_tipo_ocorrencia = ${DimTipoOcorrencia.skDimTipoOcorrencia}`
     // },
     DimPlataforma: {
-      relationship: `hasMany`,
+      relationship: `belongsTo`,
       sql: `${FatIfood}.sk_dim_plataforma = ${DimPlataforma.skDimPlataforma}`
     },
     DimEstabelecimento: {
-      relationship: `hasMany`,
+      relationship: `belongsTo`,
       sql: `${FatIfood}.sk_dim_estabelecimento = ${DimEstabelecimento.skDimEstabelecimento}`
     },
     DimDataPedido: {
