@@ -1,36 +1,45 @@
-cube(`tpvAdquirente`, {
+cube(`TpvAdquirente`, {
   sql: `SELECT * FROM public.fat_adquirente`,
-  
   preAggregations: {
     // Pre-Aggregations definitions go here
     // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
     main: {
-      timeDimension: mesTpv.data,
-      granularity: 'day',
-    },
+      measures: [
+        TpvAdquirente.valorTpv
+      ],
+      dimensions: [
+        Adquirente.nomeAdquirente,
+        ClienteCnpjCpf.cnpjcpf,
+        DataTpv.ano,
+        DataTpv.nomeMes
+      ]
+    }
   },
-  
   joins: {
-    adquirente: {
+    Adquirente: {
       relationship: `belongsTo`,
-      sql: `${tpvAdquirente}.sk_administradora_id = ${adquirente.skAdministradoraId}`,
+      sql: `${Adquirente}.sk_administradora_id = ${TpvAdquirente.skAdministradoraId}`
     },
-    mesTpv: {
+    ClienteCnpjCpf: {
       relationship: `belongsTo`,
-      sql: `${tpvAdquirente}.sk_dim_data_transacao = ${mesTpv.skDimDataId}`,
+      sql: `${ClienteCnpjCpf}.sk_dim_cliente_cnpjcpf = ${TpvAdquirente.skDimClienteCnpjCpf}`
     },
+    DataTpv: {
+      relationship: `belongsTo`,
+      sql: `${DataTpv}.sk_dim_data_id = ${TpvAdquirente.skDimDataTransacao}`
+    }
   },
-  
   measures: {
-    contador: {
+    count: {
       type: `count`,
+      drillMembers: []
     },
     valorTpv: {
       sql: `valorbruto`,
       type: `sum`,
+      drillMembers: []
     }
   },
-  
   dimensions: {
     sk_fat_adquirente_id: {
       sql: `sk_fat_adquirente_id`,
@@ -48,13 +57,7 @@ cube(`tpvAdquirente`, {
     skDimDataTransacao: {
       sql: `sk_dim_data_transacao`,
       type: `number`
-    },
+    }
   },
-  // segments: {
-  //   segentoAdquirente: {
-  //     sql: `${tpvAdquirente}.sk_administradora_id in (1, 2, 3, 4)`,
-  //   },
-  //},
-  
   dataSource: `default`
 });
