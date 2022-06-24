@@ -1,3 +1,5 @@
+![ZAZ Conecta](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
+
 # Guia de schemas 
 
 Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
@@ -7,15 +9,14 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 <details>
   <summary><strong>Campos e Requisições</strong></summary>
 
-  * [Informações de medidas](#Informaçõesdemedidas)
-  * [Medidas de valores](#Medidasdevalores)
-    * [Cobrança](#Cobrança)
-    * [Período](#Período)
-  * [Dimensões](#Dimensões)
-    * [Dimensão cliente](#Dimensãocliente)
-    * [Dimensão Plataforma](#DimensãoPlataforma)  
-    * [Dimensão Estabelecimento](#DimensãoEstabelecimento)   
-    * [Dimensão x](#Dimensãox)   
+  * [Informações de medidas](#informações-de-medidas)
+  * [Medidas de valores](#medidas-de-valores)
+    * [Cobrança](#cobrança)
+    * [Período](#período)
+  * [Dimensões](#dimensões)
+    * [Dimensão cliente](#dimensão-cliente)
+    * [Dimensão Plataforma](#dimensão-plataforma)
+    * [Dimensão Estabelecimento](#dimensão-estabelecimento)
 </details>
 
 ## Informações de medidas
@@ -92,7 +93,7 @@ Detalhes de valores de cobrança do cliente.
 <tr>
 <td valign="center"><strong>valorComissaoCobrada</strong></td>
 <td valign="center"><a href="#Double">Double</a></td>
-<td valign="center"> Valor da comissão cobrada quando o modelo de negócio é ON_DEMAND, HYBRID ou HYBRID_REGION.
+<td valign="center"> Valor da comissão cobrada quando o modelo de negócio é <strong>ON_DEMAND</strong>, <strong>HYBRID</strong> ou <strong>HYBRID_REGION</strong>.
 
 </td>
 </tr>
@@ -153,7 +154,7 @@ Informações referente a data das ocorrencias ligadas a pedidos e pagamentos.
 </tr>
 <tr>
 <td valign="center"><strong>dataPrevistaPagamento</strong></td>
-<td valign="center"><a href="#String">String</a></td>
+<td valign="center"><a href="#Datetime">Datetime</a></td>
 <td valign="center"> Data esperada para o pagamento ao merchant.
 
 </td>
@@ -193,7 +194,7 @@ Informações referente a data das ocorrencias ligadas a pedidos e pagamentos.
 
 Abaixo segue o detalhamento das dimensões disponibilizadas e utilizadas.
 
-## Dimensão cliente 
+## Dimensão cliente
 
 Nesta dimensão é possível fazer a leitura de informações para endereçamento do cliente.
 
@@ -214,7 +215,7 @@ Nesta dimensão é possível fazer a leitura de informações para endereçament
 <tr>
 <td valign="center"><strong>numeroDocumentoCliente</strong></td>
 <td valign="center"><a href="#String">String</a></td>
-<td valign="center"> Número do documento do cliente (cpf) que deve ser utilizado somente para emissão de documento fiscal quando o cliente solicitar,
+<td valign="center"> Número do documento do cliente (CPF) que deve ser utilizado somente para emissão de documento fiscal quando o cliente solicitar,
 pois o campo é opcional.
 
 </td>
@@ -275,8 +276,8 @@ Informação de qual plataforma utilizada.
 <td valign="center"><a href="#String">String</a></td>
 <td> 
 <p> Código que se refere a plataforma de delivery.</p>
-<p> 0 = NULL  </p>
-<p> 1 = Ifood </p>
+<p> <strong>0</strong> = NULL  </p>
+<p> <strong>1</strong> = Ifood </p>
 </td>
 </tr>
 </tbody>
