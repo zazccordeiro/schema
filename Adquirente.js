@@ -10,10 +10,9 @@ cube(`Adquirente`, {
   },
   
   measures: {
-    quantidadeRegistros: {
+    count: {
       type: `count`,
-      drillMembers: [nome],
-      shown: true,
+      drillMembers: []
     }
   },
   
@@ -21,25 +20,22 @@ cube(`Adquirente`, {
     skAdministradoraId: {
       sql: `sk_administradora_id`,
       type: `number`,
-      primaryKey: true,
+      primaryKey: true
     },
-
-    nome: {
+    
+    nomeAdquirente: {
       sql: `nome`,
-      type: `string`,
-      shown: true,
+      type: `string`
     },
     
     dateFrom: {
       sql: `date_from`,
-      type: `time`,
-      shown: false,
+      type: `time`
     },
     
     dateTo: {
       sql: `date_to`,
-      type: `time`,
-      shown: false,
+      type: `time`
     }
   },
   

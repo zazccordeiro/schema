@@ -10,9 +10,10 @@ cube(`ClienteCnpjCpf`, {
   },
   
   measures: {
-    count: {
+    quantidadeRegistros: {
       type: `count`,
-      drillMembers: []
+      drillMembers: [cnpjCpf],
+      shown: true,
     }
   },
   
@@ -20,13 +21,26 @@ cube(`ClienteCnpjCpf`, {
     skDimClienteCnpjCpf: {
       sql: `sk_dim_cliente_cnpjcpf`,
       type: `number`,
-      primaryKey: true
+      primaryKey: true,
     },
 
-    cnpjcpf: {
+    cnpjCpf: {
       sql: `cnpjcpf`,
-      type: `string`
+      type: `string`,
+      shown: true,
     },
+    
+    dateFrom: {
+      sql: `date_from`,
+      type: `time`,
+      shown: false,
+    },
+    
+    dateTo: {
+      sql: `date_to`,
+      type: `time`,
+      shown: false,
+    }
   },
   
   dataSource: `default`
