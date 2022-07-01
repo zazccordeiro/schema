@@ -5,17 +5,17 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
   <summary><strong>Dimensões e fatos</strong></summary>
 
   * [Dimensões](#dimensões)
-    *[Adquirente](#adquirente)
-    *[Ajuste](#ajuste)
-    *[Arranjo](#arranjo)
-    *[Faixa parcelamento](#faixa-parcelamento)
-    *[Meio captura](#meio-captura)
-    *[Tempo](#tempo)
-    *[Tipo de ajuste](#tipo-de-ajuste)
-    *[Tipo de pagamento](#tipo-de-pagamento)
+    * [Adquirente](#adquirente)
+    * [Ajuste](#ajuste)
+    * [Arranjo](#arranjo)
+    * [Faixa parcelamento](#faixa-parcelamento)
+    * [Meio captura](#meio-captura)
+    * [Tempo](#tempo)
+    * [Tipo de ajuste](#tipo-de-ajuste)
+    * [Tipo de pagamento](#tipo-de-pagamento)
   * [Fato](#fato)
-    *[Adquirente arquivo processado](#adquirente-arquivo-processado)
-    *[Adquirente fluxo](#adquirente-fluxo)
+    * [Adquirente arquivo processado](#adquirente-arquivo-processado)
+    * [Adquirente fluxo](#adquirente-fluxo)
 </details>
 
 
