@@ -1,8 +1,8 @@
-# Guia de schemas de adquirentes
+# Guia de dimensões de fatos das adquirentes
 Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
 <details>
-  <summary><strong>Dimensões e fatos</strong></summary>
+  <summary><strong>Sumário</strong></summary>
 
   * [Dimensões](#dimensões)
     * [Adquirente](#adquirente)
