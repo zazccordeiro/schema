@@ -1,7 +1,7 @@
 # Guia de dimensões de fatos das adquirentes
 Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
-
+<details>
   <summary><strong>Sumário</strong></summary>
 
   * [Atributo](#atributo)
@@ -22,7 +22,7 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tabela de arranjos](#tabela-de-arranjos)
     * [Tabela de faixa de parcelamento](#tabela-de-faixa-de-parcelamento)
     * [Tabela de meios de captura](#tabela-de-meios-de-captura)
-
+</details>
 
 
 # Atributo
@@ -43,7 +43,7 @@ _Para facilitar em sua consulta utilize o guia de [adquirentes](#tabela-de-adqui
 
 ## Ajuste
 
-Neste atributo é possível identificar o tipo de ajuste realizado.
+Neste atributo é possível identificar o tipo de ajuste realizado de uma forma mais especifica do que o atributo ["Tipo de ajuste"](#tipo-de-ajuste), no qual ao decorrer desta documentação você poderá ver o mesmo de uma forma agrupada.
 
   Campo     | Descrição
 ----------- | ------------------
@@ -92,14 +92,25 @@ _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-
 
 ## Tipo de ajuste
 
-
+Neste atributo, é possível ver os ajustes apresentados de uma maneira agrupada, diferente do que foi visto no atributo _[ajuste](#ajuste)_ que nos mostra uma visão mais individual.
   Campo     | Descrição
 ----------- | ------------------
+codigoTipoAjuste | Código identificador do tipo de ajuste.
+nomeFaixaAjuste | Nome do tipo de ajuste realizado.
+
+_Para facilitar em sua consulta utilize o guia de [tipo de ajuste](#tabela-de-tipo-de-ajuste)._
+
 ## Tipo de pagamento
 
+Neste atributo é possível definir a forma em que o pagamento foi realizado.
 
   Campo     | Descrição
 ----------- | ------------------
+codigoPagamento | Código referente ao tipo de pagamento realizado
+nomePagamento | Nome do tipo de pagamento realizado.
+
+_Para facilitar em sua consulta utilize o guia de [tipo de pagamento](#tabela-tipo-de-pagamento)._
+
 # Métrica
 
 ## Adquirente arquivo processado
@@ -754,7 +765,7 @@ codigoParcelamento   | faixaParcelamento
 3 | 7 a 12
 4 | 13 a 18
 
-# Tabela de meios de captura
+## Tabela de meios de captura
 
 codigoCaptura   | nomeCaptura
 ----------- | ------------------ 
@@ -769,6 +780,26 @@ codigoCaptura   | nomeCaptura
 8 | Mobile
 9 | Moedeiro Eletrônico em Rede
 99 | Não identificado
+
+## Tabela de tipo de ajuste
+
+codigoTipoAjuste | nomeFaixaAjuste
+----------- | ------------------ 
+1 | Acerto
+2 | Acerto/Chargeback
+3 | Cancelamento
+4 | Bloqueio
+5 | Cobrança
+6 | Acerto/Cancelamento
+7 | Acerto/Cobrança
+
+## Tabela tipo de pagamento
+
+codigoPagamento | nomePagamento
+----------------| ------------------
+0 | DEBITO
+1 | CRÉDITO
+2 | PARCELAMENTO
 
 
 <!-- END graphql-markdown -->
