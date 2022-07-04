@@ -1,7 +1,7 @@
 # Guia de dimensões de fatos das adquirentes
 Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
-<details>
+
   <summary><strong>Sumário</strong></summary>
 
   * [Atributo](#atributo)
@@ -16,7 +16,13 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
   * [Métrica](#métrica)
     * [Adquirente arquivo processado](#adquirente-arquivo-processado)
     * [Adquirente fluxo](#adquirente-fluxo)
-</details>
+  * [Tabela auxiliar](#tabela-auxiliar)
+    * [Tabela de adquirentes](#tabela-de-adquirentes)
+    * [Tabela de ajustes](#tabela-de-ajustes)
+    * [Tabela de arranjos](#tabela-de-arranjos)
+    * [Tabela de faixa de parcelamento](#tabela-de-faixa-de-parcelamento)
+    * [Tabela de meios de captura](#tabela-de-meios-de-captura)
+
 
 
 # Atributo
@@ -33,7 +39,7 @@ codigoAdquirente | Codígo identificador da adquirente.
 nomeAdquirente | Nome da adquirente.
 
 
-_Para facilitar em sua consulta utilize o guia de [adquirentes](#adquirente-1)._
+_Para facilitar em sua consulta utilize o guia de [adquirentes](#tabela-de-adquirentes)._
 
 ## Ajuste
 
@@ -111,7 +117,7 @@ _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-
 
 # Tabela auxiliar 
 
-## Adquirente
+## Tabela de adquirentes
 
 codigoAdquirente   | nomeAdquirente
 ----------- | ------------------
@@ -130,7 +136,7 @@ codigoAdquirente   | nomeAdquirente
   13 | BIN
   14 | Sicred
 
-  ## Tabela de ajustes
+## Tabela de ajustes
 
 codigoAjuste   | nomeAjuste
 ----------- | ------------------
