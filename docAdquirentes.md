@@ -21,9 +21,19 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 
 # Dimensões
 
+Dimensão    | Descrição
+----------- | ------------------
+ Adquirente | Nesta dimensão será disponibilizada a informação de adquirente do usuário.
+----------- | --------------------------------------------------------------------------
+Teste       | teste 
+
 ## Adquirente
 
+Nesta dimensão será disponibilizada a informação de adquirente do usuário.
+
 ## Ajuste
+
+Nesta dimensão é possível identificar o tipo de ajuste realizado (caso não tenha ocorrido algum ajuste, o mesmo virá como nulo).
 
 ## Arranjo
 
