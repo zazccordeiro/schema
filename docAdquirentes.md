@@ -24,37 +24,89 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 
 ## Adquirente
 
-Nesta dimensão será disponibilizada a informação de adquirente do usuário.
-
+Neste atributo deverá ser informado a informação de adquirente do usuário.
   Campo     | Descrição
 ----------- | ------------------
- [Código](#código)     | Código do ajuste
------------ | --------------------------------------------------------------------------
-  Ajuste    | Nesta dimensão é possível identificar o tipo de ajuste realizado (caso não tenha ocorrido algum ajuste, o mesmo virá como nulo). 
+codigoAdquirente | 
+nomeAdquirente | 
+
+_Para facilitar em sua consulta utilize o guia de [atributos](#adquirente-1) possíveis._
 
 ## Ajuste
 
 Nesta dimensão é possível identificar o tipo de ajuste realizado (caso não tenha ocorrido algum ajuste, o mesmo virá como nulo).
 
+  Campo     | Descrição
+----------- | ------------------
+ [Código](#código)  | Código do ajuste realizado.
+  Ajuste    | Neste atributo é possível identificar o tipo de ajuste realizado . 
+
 ## Arranjo
 
+
+  Campo     | Descrição
+----------- | ------------------
 ## Faixa parcelamento
 
+
+  Campo     | Descrição
+----------- | ------------------
 ## Meio captura
 
+
+  Campo     | Descrição
+----------- | ------------------
 ## Tempo
 
+
+  Campo     | Descrição
+----------- | ------------------
 ## Tipo de ajuste
 
+
+  Campo     | Descrição
+----------- | ------------------
 ## Tipo de pagamento
 
+
+  Campo     | Descrição
+----------- | ------------------
 # Métrica
 
+  Campo     | Descrição
+----------- | ------------------
 ## Adquirente arquivo processado
 
+  Campo     | Descrição
+----------- | ------------------
 ## Adquirente fluxo
 
+  Campo     | Descrição
+----------- | ------------------
 ## Código
 
+  Campo     | Descrição
+----------- | ------------------
+
+# Tabela auxiliar 
+
+## Adquirente
+
+codigoAdquirente   | nomeAdquirente
+----------- | ------------------
+  1 | Cielo
+  2 | Rede
+  3 | Getnet
+  4 | Stone
+  5 | Amex
+  6 | Adiq
+  7 | Safra Pay
+  8 | PagSeguro
+  9 | MercadoPago
+  10 | Sumup
+  11 | iFood
+  12 | C6 Bank
+  13 | BIN
+  14 | Sicred
 
 <!-- END graphql-markdown -->
