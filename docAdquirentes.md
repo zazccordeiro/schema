@@ -4,7 +4,7 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 <details>
   <summary><strong>Sumário</strong></summary>
 
-  * [Dimensões](#dimensões)
+  * [Atributo](#atributo)
     * [Adquirente](#adquirente)
     * [Ajuste](#ajuste)
     * [Arranjo](#arranjo)
@@ -13,23 +13,24 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tempo](#tempo)
     * [Tipo de ajuste](#tipo-de-ajuste)
     * [Tipo de pagamento](#tipo-de-pagamento)
-  * [Fato](#fato)
+  * [Métrica](#métrica)
     * [Adquirente arquivo processado](#adquirente-arquivo-processado)
     * [Adquirente fluxo](#adquirente-fluxo)
 </details>
 
 
-# Dimensões
+# Atributo
 
-Dimensão    | Descrição
------------ | ------------------
- Adquirente | Nesta dimensão será disponibilizada a informação de adquirente do usuário.
------------ | --------------------------------------------------------------------------
-Teste       | teste 
 
 ## Adquirente
 
 Nesta dimensão será disponibilizada a informação de adquirente do usuário.
+
+  Campo     | Descrição
+----------- | ------------------
+ [Código](#código)     | Código do ajuste
+----------- | --------------------------------------------------------------------------
+  Ajuste    | Nesta dimensão é possível identificar o tipo de ajuste realizado (caso não tenha ocorrido algum ajuste, o mesmo virá como nulo). 
 
 ## Ajuste
 
@@ -47,11 +48,13 @@ Nesta dimensão é possível identificar o tipo de ajuste realizado (caso não t
 
 ## Tipo de pagamento
 
-# Fato
+# Métrica
 
 ## Adquirente arquivo processado
 
 ## Adquirente fluxo
+
+## Código
 
 
 <!-- END graphql-markdown -->
