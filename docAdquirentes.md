@@ -37,35 +37,53 @@ _Para facilitar em sua consulta utilize o guia de [adquirentes](#adquirente-1)._
 
 ## Ajuste
 
-Nesta dimensão é possível identificar o tipo de ajuste realizado.
+Neste atributo é possível identificar o tipo de ajuste realizado.
 
   Campo     | Descrição
 ----------- | ------------------
- codigoAjuste| Código do ajuste realizado.
+ codigoAjuste | Código do ajuste realizado.
   nomeAjuste    | Neste atributo é possível identificar o tipo de ajuste realizado . 
 
-_Para facilitar em sua consulta utilize o guia de [ajustes](#)._
+_Para facilitar em sua consulta utilize o guia de [ajustes](#tabela-de-ajustes)._
 
 ## Arranjo
 
+Neste atributo é possível identificar o tipo de ajuste realizado.
 
   Campo     | Descrição
 ----------- | ------------------
+ codigoAranjo | Código do arranjo realizado.
+  nomeArranjo   | Neste atributo é possível identificar o nome da bandeira.
+  tipoPagamento | Informação do tipo de pagamento (Débito ou Crédito)
+
+_Para facilitar em sua consulta utilize o guia de [arranjo](#tabela-de-arranjos)._
+
 ## Faixa parcelamento
 
+Neste atributo é possível identificar a faixa de parcelamento realizada (quando realizado operações de crédito à vista ou parcelado).
 
   Campo     | Descrição
 ----------- | ------------------
+codigoParcelamento | Código referente a faixa de parcelamento feito para os pagamentos com cartão de crédito.
+faixaParcelamento | Informação da faixa de parcelamento.
+
+_Para facilitar em sua consulta utilize o guia de [faixa de parcelamento](#tabela-de-faixa-de-parcelamento)._
+
 ## Meio captura
 
+Neste atributo é possível identificar por qual método foi realizado o recebimento do pagamento.
 
   Campo     | Descrição
 ----------- | ------------------
+codigoCaptura | Código que se refere ao método de captura.
+nomeCaptura | Nome do método de captura.
+
+_Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-meios-de-captura)._
+
 ## Tempo
 
+**PEGAR DO CUBEJS DEPOIS DE FINALIZADO**
 
-  Campo     | Descrição
------------ | ------------------
 ## Tipo de ajuste
 
 
@@ -78,8 +96,6 @@ _Para facilitar em sua consulta utilize o guia de [ajustes](#)._
 ----------- | ------------------
 # Métrica
 
-  Campo     | Descrição
------------ | ------------------
 ## Adquirente arquivo processado
 
   Campo     | Descrição
@@ -114,7 +130,7 @@ codigoAdquirente   | nomeAdquirente
   13 | BIN
   14 | Sicred
 
-  ## Ajuste
+  ## Tabela de ajustes
 
 codigoAjuste   | nomeAjuste
 ----------- | ------------------
@@ -571,6 +587,182 @@ W13	 | 	SAFRAPAY DIGITAL/CRD/CANCELAMENTO
 W21	 | 	SAFRAPAY DIGITAL/DEB/COMPRA
 W22	 | 	SAFRAPAY DIGITAL/DEB/REVERSAL
 W23	 | 	SAFRAPAY DIGITAL/DEB/CANCELAMENTO
+
+## Tabela de arranjos
+
+codigoAranjo   | nomeArranjo |  tipoPagamento
+----------- | ------------------ | -------------
+AGC	 | 	Agiplan	 | 	CREDITO
+BCC	 | 	Banescard Cartão de Crédito	 | 	CREDITO
+ECV	 | 	Esplanada crédito à vista	 | 	CREDITO
+CZC	 | 	CREDZ Crédito	 | 	CREDITO
+EPL	 | 	Esplanada parcelado loja	 | 	CREDITO
+CIC	 | 	Elo Crediário	 | 	CREDITO
+MCC	 | 	Mastercard Cartão de Crédito	 | 	CREDITO
+MCD	 | 	Mastercard Cartão de Débito	 | 	DEBITO
+CICD	 | 	Elo Construcard	 | 	DEBITO
+CIEA	 | 	Elo Agro Débito	 | 	DEBITO
+CIEAC	 | 	Elo Agro Custeio	 | 	DEBITO
+CIEAI	 | 	Elo Agro Investimento	 | 	DEBITO
+CIEACD	 | 	Elo Agro Custeio + Débito	 | 	DEBITO
+CIEAID	 | 	Elo Agro Investimento + Débito	 | 	DEBITO
+DBC	 | 	Discover	 | 	CREDITO
+DINCV	 | 	Diners crédito à vista	 | 	CREDITO
+DINPL	 | 	Diners parcelado loja	 | 	CREDITO
+VACD	 | 	Visa Agro Custeio + Débito	 | 	DEBITO
+VAID	 | 	Visa Agro Investimento + Débito	 | 	DEBITO
+FCI	 | 	FCO Investimento	 | 	DEBITO
+AGE	 | 	Agro Electron	 | 	DEBITO
+AGI	 | 	Agro Investimento	 | 	DEBITO
+VCG	 | 	Visa FCO Giro	 | 	CREDITO
+CIEVC	 | 	Visa crediário no crédito	 | 	CREDITO
+VCC	 | 	Visa Cartão de Crédito	 | 	CREDITO
+JCC	 | 	JCB Cartão de Crédito	 | 	CREDITO
+CIVCD	 | 	Visa Saque com cartão de Débito	 | 	DEBITO
+CIFCVV	 | 	Flex Car Visa Vale	 | 	DEBITO
+CICCV	 | 	Credsystem crédito à vista	 | 	CREDITO
+CICPL	 | 	Credsystem parcelado loja	 | 	CREDITO
+CIVED	 | 	Visa Electron Débito à vista	 | 	DEBITO
+CIVD	 | 	Visa Pedágio	 | 	DEBITO
+CIVEPD	 | 	Visa Electron Pré-Datado	 | 	DEBITO
+CIAR	 | 	Alelo Refeição	 | 	DEBITO
+CIAA	 | 	Alelo Alimentação	 | 	DEBITO
+CIEAM	 | 	Alelo Multibenefícios	 | 	DEBITO
+CIEAA	 | 	Alelo Auto	 | 	DEBITO
+SCD	 | 	Sorocred Cartão de Débito	 | 	DEBITO
+SCC	 | 	Sorocred Cartão de Crédito	 | 	CREDITO
+CIVC	 | 	Visa Crediário	 | 	CREDITO
+CIVCG	 | 	Visa Capital de Giro	 | 	DEBITO
+CIVCI	 | 	Visa Crédito Imobiliário	 | 	DEBITO
+CIAC	 | 	Alelo Cultura	 | 	DEBITO
+ECC	 | 	Elo Cartão de Crédito	 | 	CREDITO
+CIEDV	 | 	Elo débito à vista	 | 	DEBITO
+CIVCCE	 | 	Pagamento Carnê Visa Electron	 | 	CREDITO
+CIVCCM	 | 	Visa Crédito Conversor de Moeda	 | 	CREDITO
+CIMCE	 | 	Mastercard Crédito Especializado (*)	 | 	CREDITO
+ACC	 | 	Amex Cartão de Crédito	 | 	CREDITO
+CIECI	 | 	Elo Crédito Imobiliário	 | 	CREDITO
+CIECE	 | 	Elo Crédito Especializado (*)	 | 	CREDITO
+BCD	 | 	Banescard Cartão de Débito	 | 	DEBITO
+CBC	 | 	Cabal Crédito	 | 	CREDITO
+CBD	 | 	Cabal Débito	 | 	DEBITO
+HCC	 | 	Hipercard Cartão de Crédito	 | 	CREDITO
+HCD	 | 	Hiper Débito	 | 	DEBITO
+VDC	 | 	Verdecard Cartão de Crédito	 | 	CREDITO
+NUTA	 | 	Nutricash Alimentação	 | 	DEBITO
+NUTR	 | 	Nutricash Refeição	 | 	DEBITO
+NUTM	 | 	Nutricash Multibenefícios	 | 	DEBITO
+NUTC	 | 	Nutricash Combustível	 | 	DEBITO
+BENA	 | 	Ben Alimentação	 | 	DEBITO
+BENR	 | 	Ben Refeição	 | 	DEBITO
+OCD	 | 	Ourocard Cartão de Débito	 | 	DEBITO
+OAC	 | 	Ourocard Agro custeio	 | 	DEBITO
+OAI	 | 	Ourocard Agro investimento	 | 	DEBITO
+OACD	 | 	Ourocard Agro custeio + débito	 | 	DEBITO
+OAID	 | 	Ourocard Agro investimento + débito	 | 	DEBITO
+CICC	 | 	Elo crediário no crédito	 | 	CREDITO
+CIMP	 | 	Mastercard Pedágio	 | 	DEBITO
+CIEC	 | 	Elo Carnê	 | 	CREDITO
+CIMC	 | 	Mastercard Carnê	 | 	CREDITO
+CIMCCM	 | 	Mastercard Crédito Conversor de Moeda	 | 	CREDITO
+GETT	 | 	Título	 | 	DEBITO
+GEC	 | 	Convênio	 | 	DEBITO
+GECD	 | 	Crédito Digital	 | 	DEBITO
+GECA	 | 	Crediário AMEX	 | 	CREDITO
+GEH	 | 	Crediário HIPER/ HIPERCARD	 | 	CREDITO
+GECM	 | 	Crediário Mastercard	 | 	CREDITO
+GECP	 | 	Cupom Papel	 | 	DEBITO
+GECE	 | 	Crediário Visa	 | 	CREDITO
+ECD	 | 	Elo Cartão de Débito	 | 	DEBITO
+GEPCDE	 | 	Pagamento Carnê – Débito ELO	 | 	DEBITO
+GEPCDM	 | 	Pagamento Carnê – Débito Maestro	 | 	DEBITO
+GEPR	 | 	Pagamento Recorrente	 | 	DEBITO
+GEPCDV	 | 	Pagamento Carnê – Débito Visa Electron	 | 	DEBITO
+VCD	 | 	Visa Cartão de Débito	 | 	DEBITO
+STMNT	 | 	Movimentos Não Transacionais	 | 	DEBITO
+STVA	 | 	Visa Antecipação	 | 	DEBITO
+STMA	 | 	Mastercard Antecipação	 | 	DEBITO
+STHA	 | 	Hiper Antecipação	 | 	DEBITO
+STEA	 | 	American Express Antecipação	 | 	DEBITO
+STBT	 | 	Boleto	 | 	DEBITO
+STCA	 | 	Cabal Antecipação	 | 	DEBITO
+STUD	 | 	UnionPay Débito	 | 	DEBITO
+STUC	 | 	UnionPay Crédito	 | 	CREDITO
+STUA	 | 	UnionPay Antecipação	 | 	DEBITO
+DINC	 | 	Dinners credito	 | 	CREDITO
+DIND	 | 	Dinners debito	 | 	DEBITO
+SIC	 | 	Sicredi	 | 	CREDITO
+SID	 | 	Sicred debito	 | 	DEBITO
+CUPC	 | 	Cup Crédito	 | 	CREDITO
+CCD	 | 	Calcard	 | 	CREDITO
+CCC	 | 	Calcard debito	 | 	DEBITO
+COC	 | 	Construcard credito	 | 	CREDITO
+COD	 | 	Construcard debito	 | 	DEBITO
+AVC	 | 	Avista	 | 	CREDITO
+AVD	 | 	Avista debito	 | 	DEBITO
+CREC	 | 	Credsystem credito	 | 	CREDITO
+CRED	 | 	Credsystem debito	 | 	DEBITO
+AMC	 | 	Amex Cartão de Crédito	 | 	CREDITO
+AMD	 | 	Amex debito	 | 	DEBITO
+ALC	 | 	Alelo credito	 | 	CREDITO
+ALD	 | 	Alelo debito	 | 	DEBITO
+JCD	 | 	Jcb debito	 | 	DEBITO
+CZD	 | 	Credz debito	 | 	DEBITO
+RDOT	 | 	Outros	 | 	DEBITO
+ACD	 | 	Amex debito	 | 	DEBITO
+SPDC	 | 	Safrapay Digital credito	 | 	CREDITO
+SPCD	 | 	Safrapay Digital debito	 | 	DEBITO
+SPPIX	 | 	Sist.Pag.Instant.	 | 	DEBITO
+DCC	 | 	Diners	 | 	CREDITO
+AUC	 | 	Aura	 | 	CREDITO
+PSCP	 | 	Cartão de crédito PLENOCard.	 | 	CREDITO
+PSCPC	 | 	Cartão de crédito PersonalCard.	 | 	CREDITO
+BRC	 | 	Brasil Card	 | 	CREDITO
+FRC	 | 	Fortbrasil	 | 	CREDITO
+PSCB	 | 	Cartão de crédito CARDBAN.	 | 	CREDITO
+PSCV	 | 	Cartão de crédito VALECARD.	 | 	CREDITO
+MAC	 | 	Mais!	 | 	CREDITO
+PSCG	 | 	Cartão de crédito GRANDCARD.	 | 	CREDITO
+PSCU	 | 	Cartão de crédito Up Policard.	 | 	CREDITO
+BNC	 | 	Banese Card	 | 	CREDITO
+PSBBC	 | 	Boleto	 | 	DEBITO
+PSST	 | 	Boleto	 | 	DEBITO
+PSDBC	 | 	Débito online Bradesco.	 | 	DEBITO
+PSDI	 | 	Débito online Itaú.	 | 	DEBITO
+PSDU	 | 	Débito online Unibanco.	 | 	DEBITO
+PSDBB	 | 	Débito online Banco do Brasil.	 | 	DEBITO
+PSDBR	 | 	Débito online Banco Real.	 | 	DEBITO
+PSDB	 | 	Débito online Banrisul.	 | 	DEBITO
+PSDH	 | 	Débito online HSBC.	 | 	DEBITO
+PSSP	 | 	Saldo PagSeguro.	 | 	DEBITO
+PSPX	 | 	PIX.	 | 	DEBITO
+PSOP	 | 	Oi Paggo.	 | 	DEBITO
+PSDCB	 | 	Depósito em conta - Banco do Brasil	 | 	DEBITO
+
+## Tabela de faixa de parcelamento
+
+codigoParcelamento   | faixaParcelamento
+----------- | ------------------
+1 | À vista
+2 | 2 a 6
+3 | 7 a 12
+4 | 13 a 18
+
+# Tabela de meios de captura
+
+codigoCaptura   | nomeCaptura
+----------- | ------------------ 
+0 | LIO 
+1 | POS (Point of Sale) | Máquina de recebível
+2 | PDV (Ponto de Venda) ou TEF (Transferência Eletrônica de Fundos) 
+3 | e-Commerce (Comércio Eletrônico) 
+4 | EDI (Troca Eletrônica de Dados) 
+5 | ADP/BSP (Empresa Capturadora) ou Reprocessamento
+6 | Manual
+7 | URA/CVA
+8 | Mobile
+9 | Moedeiro Eletrônico em Rede
+99 | Não identificado
 
 
 <!-- END graphql-markdown -->
