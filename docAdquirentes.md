@@ -1,7 +1,8 @@
-# Guia de dimensões de fatos das adquirentes
+# Guia de atributos e métricas
+
 Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
-<details>
+
   <summary><strong>Sumário</strong></summary>
 
   * [Atributo](#atributo)
@@ -22,7 +23,6 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tabela de arranjos](#tabela-de-arranjos)
     * [Tabela de faixa de parcelamento](#tabela-de-faixa-de-parcelamento)
     * [Tabela de meios de captura](#tabela-de-meios-de-captura)
-</details>
 
 
 # Atributo
