@@ -16,6 +16,7 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tempo](#tempo)
     * [Tipo de ajuste](#tipo-de-ajuste)
     * [Tipo de pagamento](#tipo-de-pagamento)
+    * [Atributo Fluxo](#atributo-fluxo)
   * [Métrica](#métrica)
     * [Adquirente arquivo processado](#adquirente-arquivo-processado)
     * [Adquirente fluxo](#adquirente-fluxo)
@@ -95,6 +96,7 @@ _**PEGAR DO CUBEJS DEPOIS DE FINALIZADO**_
 ## Tipo de ajuste
 
 Neste atributo, é possível ver os ajustes apresentados de uma maneira agrupada, diferente do que foi visto no atributo _[ajuste](#ajuste)_ que nos mostra uma visão mais individual.
+
   Campo     | Descrição
 ----------- | ------------------
 codigoTipoAjuste | Código identificador do tipo de ajuste.
@@ -113,14 +115,10 @@ nomePagamento | Nome do tipo de pagamento realizado.
 
 _Para facilitar em sua consulta utilize o guia de [tipo de pagamento](#tabela-tipo-de-pagamento)._
 
-# Métrica
-
-## Adquirente arquivo processado
-
-## Adquirente fluxo
+## Atributo Fluxo
 
 Campo     |    Descrição
---------- | -----------
+--------- | ---------------------------------------------
 identificador_registro | Código identificador do registro.
 identifica_pagamento | Código identificador do pagamento.
 identifica_pagamento_ajuste | Código identificador do ajuste de pagamento.
@@ -138,15 +136,6 @@ tipo_transacao | Código que identifica a transação.
 banco | Código do banco no qual os valores foram depositados.
 agencia | Código da agência na qual os valores foram depositados.
 conta | Conta na qual os valores foram depositados.
-valor_bruto | Somatória dos valores de venda.
-taxa_administrativa | Percentual de taxa administrativa aplicado no valor da transação.
-tarifa_administrativa | Tarifa cobrada por transação.
-taxa_receba_rapido | Percentual de taxa receba rápido aplicado no valor da transação.
-valor_taxa_administrativa | Valor da taxa administrativa descontada sobre as vendas.
-valor_rejeitado | Se houver rejeição, será preenchido com a somatória das transações rejeitadas.
-valor_liquido | Valor das vendas descontado o valor da taxa administrativa.
-valor_complementar | Valor do saque quando o produto for igual a “036” ou valor do Agro Electron para transações dos produtos “022”, “023”, “025”, também utulizado para produtos “009”, “013”,   “014”, “017”, “018”, “068” e “089” apresentados na Tabela IV.
-valor_bruto_antecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
 indicador_receba_rapido | “S” – Sim, possui Receba Rápido “N” – Não possui Receba Rápido.
 indicador_taxa_minima | “S” – Sim, possui CVs com Taxa Mínima aplicada “N” – Não possui CVs com Taxa Mínima aplicada.
 identificador_revenda_aceleracao | Identifica as ocorrências de manutenção em transaçõesparceladas na loja: “R” - Revenda “A” - Aceleração “ “ – Brancos (nenhuma ocorrência)
@@ -162,18 +151,37 @@ codigo_autorizacao | Código de autorização da transação. Este número não 
 nsu_doc | Número sequencial, também conhecido como DOC (número do documento), que identifica a transação no dia em que ela foi realizada. Este número não é único e pode se repetir. Caso a venda tenha sido reprocessada, o NSU pode ser alterado.
 tid | Identificação da transação realizada no comércio eletrônico.
 numero_nota_fiscal | Número da nota fiscal para estabelecimentos que capturam esta informação na máquina. Quando não disponível, será formatado com zeros.
-tipo_cartao |
-grupo_cartoes |
+tipo_cartao | -
+grupo_cartoes | -
 numero_logico_terminal | Número lógico do terminal onde foi efetuada a venda. Quando o meio de captura for igual a 06, desconsiderar o número lógico do terminal, pois este será um número interno da Cielo.
-identificador_taxa_embarque_valor_entrada 
-referencia_codigo_pedido 
+identificador_taxa_embarque_valor_entrada |
+referencia_codigo_pedido |
 hora_transacao | Hora da transação apresentada no formato HHMMSS. Essa informação será gerada somente nos registros de venda do arquivo de venda com CV original. Nos demais casos, o campo será formatado com zeros.
 motivo_rejeicao | Caso não possua rejeição o campo é formatado em branco. (Vide tabela de ajustes)
 modo_entrada_cartao | Identifica o modo de entrada do cartão.
-codigo_venda |
+codigo_venda | -
 indicador_saldo_aberto | “D” saldo débito / “R” saldo rotativo / “P” saldo parcelado. Este campo é preenchido somente nos arquivos CIELO09 – Saldo em Aberto e CIELO14 – Saldo em Aberto Alelo. “Brancos” para demais tipos de arquivos.
 indicador_cielo_promo | Identificador do Produto Cielo Promo = “S”. Identifica que a venda participou de campanha na Plataforma Promocional. Caso contrário, será formatado com brancos.
-fluxo
+fluxo | -
+
+# Métrica
+
+## Adquirente arquivo processado
+
+## Adquirente fluxo
+
+Campo     |    Descrição
+--------- | --------------------------------
+valor_bruto | Somatória dos valores de venda.
+taxa_administrativa | Percentual de taxa administrativa aplicado no valor da transação.
+tarifa_administrativa | Tarifa cobrada por transação.
+taxa_receba_rapido | Percentual de taxa receba rápido aplicado no valor da transação.
+valor_taxa_administrativa | Valor da taxa administrativa descontada sobre as vendas.
+valor_rejeitado | Se houver rejeição, será preenchido com a somatória das transações rejeitadas.
+valor_liquido | Valor das vendas descontado o valor da taxa administrativa.
+valor_complementar | Valor do saque quando o produto for igual a “036” ou valor do Agro Electron para transações dos produtos “022”, “023”, “025”, também utulizado para produtos “009”, “013”,   “014”, “017”, “018”, “068” e “089” apresentados na Tabela IV.
+valor_bruto_antecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
+
 ## Código
 
 # Tabela auxiliar 
