@@ -26,7 +26,6 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tabela de arranjos](#tabela-de-arranjos)
     * [Tabela de faixa de parcelamento](#tabela-de-faixa-de-parcelamento)
     * [Tabela de meios de captura](#tabela-de-meios-de-captura)
-    * [Tabela auxiliar I](#tabela-auxiliar-i)
 
 
 # Atributo
@@ -90,9 +89,9 @@ nomeCaptura | Nome do método de captura.
 
 _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-meios-de-captura)._
 
-## Tempo
+<!-- ## Tempo
 
-_**PEGAR DO CUBEJS DEPOIS DE FINALIZADO**_
+_**PEGAR DO CUBEJS DEPOIS DE FINALIZADO**_ -->
 
 ## Tipo de ajuste
 
@@ -117,6 +116,7 @@ nomePagamento | Nome do tipo de pagamento realizado.
 _Para facilitar em sua consulta utilize o guia de [tipo de pagamento](#tabela-tipo-de-pagamento)._
 
 ## Atributo Fluxo
+
 
 Campo     |    Descrição
 --------- | ---------------------------------------------
@@ -149,7 +149,7 @@ fluxo | -
 
 # Métrica
 
-## Adquirente arquivo processado
+<!-- ## Adquirente arquivo processado -->
 
 ## Adquirente fluxo
 
@@ -163,7 +163,7 @@ valor_taxa_administrativa | Valor da taxa administrativa descontada sobre as ven
 valor_liquido | Valor das vendas descontado o valor da taxa administrativa.
 valor_bruto_antecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
 
-## Código
+<!-- ## Código -->
 
 # Tabela auxiliar 
 
