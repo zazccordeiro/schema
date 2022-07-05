@@ -26,6 +26,7 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tabela de arranjos](#tabela-de-arranjos)
     * [Tabela de faixa de parcelamento](#tabela-de-faixa-de-parcelamento)
     * [Tabela de meios de captura](#tabela-de-meios-de-captura)
+    * [Tabela auxiliar I](#tabela-auxiliar-i)
 
 
 # Atributo
@@ -119,32 +120,31 @@ _Para facilitar em sua consulta utilize o guia de [tipo de pagamento](#tabela-ti
 
 Campo     |    Descrição
 --------- | ---------------------------------------------
-estabelecimento_matriz | Número do estabelecimento matriz de extrato eletrônico.
+estabelecimentoMatriz | Número do estabelecimento matriz de extrato eletrônico.
 estabelecimento | Número do estabelecimento.
-status_pagamento | Identifica a situação em que se encontram os créditos enviados ao banco – vide Tabela III. No reprocessamento, o status é atualizado de acordo com o envio e retorno de confirmação de pagamento por parte do banco.
-numero_resumo_operacao | Número do resumo de operação. Contêm informações referentes a um grupo de vendas realizadas em uma determinada data.
-numero_operacao_antecipacao | Identifica o número da operação de Antecipação apresentada no registro tipo 5 – campo 12 ao 20. Conterá zeros, caso o RO não tenha sido antecipado.
-identificador_antecipacao | “ “ – Não antecipado; “A” – Antecipado; “C” – Antecipado no banco – Cessão de Recebíveis.
+statusPagamento | Identifica a situação em que se encontram os créditos enviados ao banco. No reprocessamento, o status é atualizado de acordo com o envio e retorno de confirmação de pagamento por parte do banco.
+numeroResumoOperacao | Número do resumo de operação. Contêm informações referentes a um grupo de vendas realizadas em uma determinada data.
+numeroOperacaoAntecipacao | Identifica o número da operação de Antecipação apresentada no registro tipo 5 – campo 12 ao 20. Conterá zeros, caso o RO não tenha sido antecipado.
+identificadorAntecipacao | “ “ – Não antecipado; “A” – Antecipado; “C” – Antecipado no banco – Cessão de Recebíveis.
 plano | No caso de venda parcelada, será formatado com o maior número de parcelas encontradas naquele grupo de vendas. Se o RO tiver vendas em 03, 04 ou 06 parcelas, será preenchido com 06.Se for uma aceleração de parcelas, será formatado com a maior parcela acelerada. Exemplo: (posições 019 a 023) 02A02 – indica a aceleração da parcela 02 até a 02, ou seja, somente uma parcela. 03A08 – indica a aceleração da parcela 03 até a parcela 08 do plano da venda, ou seja, foram aceleradas 06 parcelas. No caso de venda à vista, será formatado com brancos.
 parcela | No caso de venda parcelada, será formatado com o número da parcela que está sendo liberada. No caso de venda à vista, será formatado com zeros.
 banco | Código do banco no qual os valores foram depositados.
 agencia | Código da agência na qual os valores foram depositados.
 conta | Conta na qual os valores foram depositados.
-indicador_receba_rapido | “S” – Sim, possui Receba Rápido “N” – Não possui Receba Rápido.
-indicador_taxa_minima | “S” – Sim, possui CVs com Taxa Mínima aplicada “N” – Não possui CVs com Taxa Mínima aplicada.
-identificador_revenda_aceleracao | Identifica as ocorrências de manutenção em transaçõesparceladas na loja: “R” - Revenda “A” - Aceleração “ “ – Brancos (nenhuma ocorrência)
-data_apresentacao | AAMMDD – Data em que o RO foi transmitido para a Cielo.
-data_vencimento_original | AAMMDD – Data de vencimento original.
-data_captura_transacao | AAMMDD - Data em que a transação foi capturada pela Cielo. Na recuperação, pode ser atualizada após o processamento da transação ou ajuste.
-numero_cartao_truncado | Número do cartão truncado: número do cartão que efetuou a compra com número truncado. Conterá zeros para compras via mobile payment ou comércio eletrônico, sendo para o  último opcional.
-numero_digitos_cartao | Número de dígitos do cartão.
-codigo_autorizacao | Código de autorização da transação. Este número não é único e pode se repetir. Para efeito de conciliação deverá ser combinado com outras chaves.
-nsu_doc | Número sequencial, também conhecido como DOC (número do documento), que identifica a transação no dia em que ela foi realizada. Este número não é único e pode se repetir. Caso a venda tenha sido reprocessada, o NSU pode ser alterado.
+indicadorRecebaRapido | “S” – Sim, possui Receba Rápido “N” – Não possui Receba Rápido.
+indicadorTaxaMinima | “S” – Sim, possui CVs com Taxa Mínima aplicada “N” – Não possui CVs com Taxa Mínima aplicada.
+dataApresentacao | AAMMDD – Data em que o RO foi transmitido para a adquirente.
+dataVencimentoOriginal | AAMMDD – Data de vencimento original.
+dataCapturaTransacao | AAMMDD - Data em que a transação foi capturada pela adquirente. Na recuperação, pode ser atualizada após o processamento da transação ou ajuste.
+numeroCartaoTruncado | Número do cartão truncado: número do cartão que efetuou a compra com número truncado. Conterá zeros para compras via mobile payment ou comércio eletrônico, sendo para o  último opcional.
+numeroDigitosCartao | Número de dígitos do cartão.
+codigoAutorizacao | Código de autorização da transação. Este número não é único e pode se repetir. Para efeito de conciliação deverá ser combinado com outras chaves.
+nsuDoc | Número sequencial, também conhecido como DOC (número do documento), que identifica a transação no dia em que ela foi realizada. Este número não é único e pode se repetir. Caso a venda tenha sido reprocessada, o NSU pode ser alterado.
 tid | Identificação da transação realizada no comércio eletrônico.
-numero_nota_fiscal | Número da nota fiscal para estabelecimentos que capturam esta informação na máquina. Quando não disponível, será formatado com zeros.
-numero_logico_terminal | Número lógico do terminal onde foi efetuada a venda. Quando o meio de captura for igual a 06, desconsiderar o número lógico do terminal, pois este será um número interno da Cielo.
-hora_transacao | Hora da transação apresentada no formato HHMMSS. Essa informação será gerada somente nos registros de venda do arquivo de venda com CV original. Nos demais casos, o campo será formatado com zeros.
-modo_entrada_cartao | Identifica o modo de entrada do cartão.
+numeroNotaFiscal | Número da nota fiscal para estabelecimentos que capturam esta informação na máquina. Quando não disponível, será formatado com zeros.
+numeroLogicoTerminal | Número lógico do terminal onde foi efetuada a venda.
+horaTransacao | Hora da transação apresentada no formato HHMMSS. Essa informação será gerada somente nos registros de venda do arquivo de venda com CV original. Nos demais casos, o campo será formatado com zeros.
+modoEntradaCartao | Identifica o modo de entrada do cartão.
 fluxo | -
 
 # Métrica
@@ -160,9 +160,7 @@ taxa_administrativa | Percentual de taxa administrativa aplicado no valor da tra
 tarifa_administrativa | Tarifa cobrada por transação.
 taxa_receba_rapido | Percentual de taxa receba rápido aplicado no valor da transação.
 valor_taxa_administrativa | Valor da taxa administrativa descontada sobre as vendas.
-valor_rejeitado | Se houver rejeição, será preenchido com a somatória das transações rejeitadas.
 valor_liquido | Valor das vendas descontado o valor da taxa administrativa.
-valor_complementar | Valor do saque quando o produto for igual a “036” ou valor do Agro Electron para transações dos produtos “022”, “023”, “025”, também utulizado para produtos “009”, “013”,   “014”, “017”, “018”, “068” e “089” apresentados na Tabela IV.
 valor_bruto_antecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
 
 ## Código
