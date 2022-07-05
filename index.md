@@ -119,20 +119,14 @@ _Para facilitar em sua consulta utilize o guia de [tipo de pagamento](#tabela-ti
 
 Campo     |    Descrição
 --------- | ---------------------------------------------
-identificador_registro | Código identificador do registro.
-identifica_pagamento | Código identificador do pagamento.
-identifica_pagamento_ajuste | Código identificador do ajuste de pagamento.
 estabelecimento_matriz | Número do estabelecimento matriz de extrato eletrônico.
 estabelecimento | Número do estabelecimento.
 status_pagamento | Identifica a situação em que se encontram os créditos enviados ao banco – vide Tabela III. No reprocessamento, o status é atualizado de acordo com o envio e retorno de confirmação de pagamento por parte do banco.
 numero_resumo_operacao | Número do resumo de operação. Contêm informações referentes a um grupo de vendas realizadas em uma determinada data.
-numero_unico_ro | Número do resumo de operação.
-numero_unico_transacao | Número Único que identifica cada transação.
 numero_operacao_antecipacao | Identifica o número da operação de Antecipação apresentada no registro tipo 5 – campo 12 ao 20. Conterá zeros, caso o RO não tenha sido antecipado.
-identificador_antecipacao | “ “ – Não antecipado; “A” – Antecipado Cielo ou Alelo; “C” – Antecipado no banco – Cessão de Recebíveis.
+identificador_antecipacao | “ “ – Não antecipado; “A” – Antecipado; “C” – Antecipado no banco – Cessão de Recebíveis.
 plano | No caso de venda parcelada, será formatado com o maior número de parcelas encontradas naquele grupo de vendas. Se o RO tiver vendas em 03, 04 ou 06 parcelas, será preenchido com 06.Se for uma aceleração de parcelas, será formatado com a maior parcela acelerada. Exemplo: (posições 019 a 023) 02A02 – indica a aceleração da parcela 02 até a 02, ou seja, somente uma parcela. 03A08 – indica a aceleração da parcela 03 até a parcela 08 do plano da venda, ou seja, foram aceleradas 06 parcelas. No caso de venda à vista, será formatado com brancos.
 parcela | No caso de venda parcelada, será formatado com o número da parcela que está sendo liberada. No caso de venda à vista, será formatado com zeros.
-tipo_transacao | Código que identifica a transação.
 banco | Código do banco no qual os valores foram depositados.
 agencia | Código da agência na qual os valores foram depositados.
 conta | Conta na qual os valores foram depositados.
@@ -142,26 +136,15 @@ identificador_revenda_aceleracao | Identifica as ocorrências de manutenção em
 data_apresentacao | AAMMDD – Data em que o RO foi transmitido para a Cielo.
 data_vencimento_original | AAMMDD – Data de vencimento original.
 data_captura_transacao | AAMMDD - Data em que a transação foi capturada pela Cielo. Na recuperação, pode ser atualizada após o processamento da transação ou ajuste.
-quantidades_cvs_aceito | Quantidades de vendas aceitas no resumo de operações.
-quantidade_cvs_rejeitados | Quantidades de vendas rejeitadas no resumo de operações.
-conceito_aplicado | Identifica o conceito aplicado no resumo apresentado: “ ” - Antigo “N” - Novo
 numero_cartao_truncado | Número do cartão truncado: número do cartão que efetuou a compra com número truncado. Conterá zeros para compras via mobile payment ou comércio eletrônico, sendo para o  último opcional.
 numero_digitos_cartao | Número de dígitos do cartão.
 codigo_autorizacao | Código de autorização da transação. Este número não é único e pode se repetir. Para efeito de conciliação deverá ser combinado com outras chaves.
 nsu_doc | Número sequencial, também conhecido como DOC (número do documento), que identifica a transação no dia em que ela foi realizada. Este número não é único e pode se repetir. Caso a venda tenha sido reprocessada, o NSU pode ser alterado.
 tid | Identificação da transação realizada no comércio eletrônico.
 numero_nota_fiscal | Número da nota fiscal para estabelecimentos que capturam esta informação na máquina. Quando não disponível, será formatado com zeros.
-tipo_cartao | -
-grupo_cartoes | -
 numero_logico_terminal | Número lógico do terminal onde foi efetuada a venda. Quando o meio de captura for igual a 06, desconsiderar o número lógico do terminal, pois este será um número interno da Cielo.
-identificador_taxa_embarque_valor_entrada |
-referencia_codigo_pedido |
 hora_transacao | Hora da transação apresentada no formato HHMMSS. Essa informação será gerada somente nos registros de venda do arquivo de venda com CV original. Nos demais casos, o campo será formatado com zeros.
-motivo_rejeicao | Caso não possua rejeição o campo é formatado em branco. (Vide tabela de ajustes)
 modo_entrada_cartao | Identifica o modo de entrada do cartão.
-codigo_venda | -
-indicador_saldo_aberto | “D” saldo débito / “R” saldo rotativo / “P” saldo parcelado. Este campo é preenchido somente nos arquivos CIELO09 – Saldo em Aberto e CIELO14 – Saldo em Aberto Alelo. “Brancos” para demais tipos de arquivos.
-indicador_cielo_promo | Identificador do Produto Cielo Promo = “S”. Identifica que a venda participou de campanha na Plataforma Promocional. Caso contrário, será formatado com brancos.
 fluxo | -
 
 # Métrica
