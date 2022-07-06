@@ -4,6 +4,7 @@
 
 Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
+**Métricas** e **atributos** são a base do Explore. Eles são categorias de informações usadas para medir e organizar seus dados.
 
   <summary><strong>Sumário</strong></summary>
 
@@ -32,6 +33,8 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 # Atributo
 
 O documento abaixo tem como propósito familiarizar o usuário com cada atributo com os termos, para isso cada atributo é disponíbilizado com sua descrição.
+
+Os atributos nos dizem "como" organizar os resultados. Adicione atributos para informar ao Explore como você deseja organizar e segmentar essas informações por qualidades específicas.
 
 ## Adquirente
 
@@ -174,6 +177,8 @@ modoEntradaCartao | Identifica o modo de entrada do cartão.
 fluxo | -
 
 # Métrica
+
+Você pode pensar nas métricas como o "quê" que compõe o relatório. Adicione uma métrica para escolher quais informações quantificáveis você deseja medir.
 
 ## Adquirente arquivo processado
 
