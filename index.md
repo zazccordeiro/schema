@@ -16,7 +16,7 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tempo](#tempo)
     * [Tipo de ajuste](#tipo-de-ajuste)
     * [Tipo de pagamento](#tipo-de-pagamento)
-    * [Adquirente arquivo processado](#)
+    * [Adquirente arquivo processado](#adquirentes-arquivo-processado)
     * [Adquirente Fluxo](#fluxo)
   * [Métrica](#métrica)
     * [Adquirente arquivo processado](#adquirente-arquivo-processado)
@@ -35,7 +35,7 @@ O documento abaixo tem como propósito familiarizar o usuário com cada atributo
 
 ## Adquirente
 
-Neste atributo deverá ser informado a informação de **adquirente** do usuário.
+Neste atributo deverá ser descrito a informação de **adquirente** do usuário.
 
   Campo     | Descrição
 ----------- | ------------------
@@ -123,24 +123,22 @@ Abaixo seguem os atributos e suas respectivas descrições para melhor leitura d
 
 Campo     |    Descrição
 --------- | ---------------------------------------------
-adquirenteArquivoProcessadoId | 
-nomeArquivoEdi | 
+nomeArquivoEdi | Nome identificador do arquivo.
 estabelecimentoMatriz |  Número do estabelecimento matriz de extrato eletrônico.
-dataProcessamento | 
-periodoInicial | 
-periodoFinal | 
-sequencia | 
-opcaoExtrato | 
-transmissao | 
-caixaPostal | 
-versaoLayout | 
-totalRegistro | 
-numeroTransacoesCanceladas | 
-numeroTransacoesPagas | 
-numeroCancelamentosDescontados | 
-numeroChargebacks | 
-numeroEstornosChargeback | 
-
+dataProcessamento | AAAAMMDD – data em que o arquivo foi gerado.
+periodoInicial | AAAAMMDD – período inicial.
+periodoFinal | AAAAMMDD – período final.
+sequencia | Número sequencial do arquivo. Nos casos de reprocessamento,este dado será enviado como 9999999.
+opcaoExtrato | Categoria do tipo de extrato.
+transmissao | Tipo de transmissão do arquivo (se refere a adquirente)
+caixaPostal | Caixa postal.
+versaoLayout | Constante “014”.
+totalRegistro | Total registro.
+numeroTransacoesCanceladas | Número de transações canceladas.
+numeroTransacoesPagas | Número de transações pagas.
+numeroCancelamentosDescontados | Número de cancelamentos descontados.
+numeroChargebacks | Número de contestações.
+numeroEstornosChargeback | Número de estornos de contestações.
 
 ## Fluxo
 
@@ -179,14 +177,16 @@ fluxo | -
 
 ## Adquirente arquivo processado
 
+Abaixo seguem os descritivos das métricas da tabela de arquivos processados.
+
 Campo     |    Descrição
 --------- | --------------------------------
-totalRegistro |
-valorLiquidoSomaTotalRos |
-quantidadeTotalCvs |
-valorBrutoSomaTotalRos |
-valorBrutoAntecipadoSomaTotalRos |
-somaValoresNegociados |
+totalRegistro | Valor total de registros.
+valorLiquidoSomaTotalRos | Valor total liquido dos resumos de operação.
+quantidadeTotalCvs | Quantidade total de comprovantes de venda.
+valorBrutoSomaTotalRos | Valor bruto total dos resumos de operação.
+valorBrutoAntecipadoSomaTotalRos | Valor bruto total antescipados dos resumos de operação.
+somaValoresNegociados | Soma dos valores negociados.
 
 ## Adquirente fluxo
 
