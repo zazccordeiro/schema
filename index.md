@@ -206,6 +206,8 @@ valorBrutoAntecipado | Valor bruto antecipado, fornecido quando o RO for antecip
 
 ## Tabela de adquirentes
 
+<details>
+
 codigoAdquirente   | nomeAdquirente
 ----------- | ------------------
   1 | Cielo
@@ -222,6 +224,8 @@ codigoAdquirente   | nomeAdquirente
   12 | C6 Bank
   13 | BIN
   14 | Sicred
+
+</details>
 
 ## Tabela de ajustes
 
