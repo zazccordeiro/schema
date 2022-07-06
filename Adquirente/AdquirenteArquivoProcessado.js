@@ -7,6 +7,10 @@ cube(`AdquirenteArquivoProcessado`, {
   },
   
   joins: {
+    Adquirente: {
+    sql: `${Adquirente}.sk_adquirente = ${AdquirenteArquivoProcessado}.sk_adquirente_id`,
+    relationship: `hasMany`
+  },
     
   },
   
