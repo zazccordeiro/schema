@@ -16,7 +16,8 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Tempo](#tempo)
     * [Tipo de ajuste](#tipo-de-ajuste)
     * [Tipo de pagamento](#tipo-de-pagamento)
-    * [Atributo Fluxo](#atributo-fluxo)
+    * [Adquirente arquivo processado](#)
+    * [Adquirente Fluxo](#fluxo)
   * [Métrica](#métrica)
     * [Adquirente arquivo processado](#adquirente-arquivo-processado)
     * [Adquirente fluxo](#adquirente-fluxo)
@@ -115,8 +116,35 @@ nomePagamento | Nome do tipo de pagamento realizado.
 
 _Para facilitar em sua consulta utilize o guia de [tipo de pagamento](#tabela-tipo-de-pagamento)._
 
-## Atributo Fluxo
+## Adquirentes Arquivo Processado
 
+Abaixo seguem os atributos e suas respectivas descrições para melhor leitura do arquivo processado.
+
+
+Campo     |    Descrição
+--------- | ---------------------------------------------
+adquirenteArquivoProcessadoId | 
+nomeArquivoEdi | 
+estabelecimentoMatriz |  Número do estabelecimento matriz de extrato eletrônico.
+dataProcessamento | 
+periodoInicial | 
+periodoFinal | 
+sequencia | 
+opcaoExtrato | 
+transmissao | 
+caixaPostal | 
+versaoLayout | 
+totalRegistro | 
+numeroTransacoesCanceladas | 
+numeroTransacoesPagas | 
+numeroCancelamentosDescontados | 
+numeroChargebacks | 
+numeroEstornosChargeback | 
+
+
+## Fluxo
+
+Abaixo seguem os atributos e suas respectivas descrições para melhor leitura do fluxo adquirentes.
 
 Campo     |    Descrição
 --------- | ---------------------------------------------
@@ -149,19 +177,28 @@ fluxo | -
 
 # Métrica
 
-<!-- ## Adquirente arquivo processado -->
+## Adquirente arquivo processado
+
+Campo     |    Descrição
+--------- | --------------------------------
+totalRegistro |
+valorLiquidoSomaTotalRos |
+quantidadeTotalCvs |
+valorBrutoSomaTotalRos |
+valorBrutoAntecipadoSomaTotalRos |
+somaValoresNegociados |
 
 ## Adquirente fluxo
 
 Campo     |    Descrição
 --------- | --------------------------------
-valor_bruto | Somatória dos valores de venda.
-taxa_administrativa | Percentual de taxa administrativa aplicado no valor da transação.
-tarifa_administrativa | Tarifa cobrada por transação.
-taxa_receba_rapido | Percentual de taxa receba rápido aplicado no valor da transação.
-valor_taxa_administrativa | Valor da taxa administrativa descontada sobre as vendas.
-valor_liquido | Valor das vendas descontado o valor da taxa administrativa.
-valor_bruto_antecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
+valorBruto | Somatória dos valores de venda.
+taxaAdministrativa | Percentual de taxa administrativa aplicado no valor da transação.
+tarifaAdministrativa | Tarifa cobrada por transação.
+taxaRecebaRapido | Percentual de taxa receba rápido aplicado no valor da transação.
+valoTaxaAdministrativa | Valor da taxa administrativa descontada sobre as vendas.
+valorLiquido | Valor das vendas descontado o valor da taxa administrativa.
+valorBrutoAntecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
 
 <!-- ## Código -->
 
