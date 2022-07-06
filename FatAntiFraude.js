@@ -39,12 +39,7 @@ cube(`FatAntiFraude`, {
       type: `number`,
       primaryKey: true
     },
-    
-    marcacao: {
-      sql: `marcacao`,
-      type: `string`
-    },
-    
+        
     procInstId: {
       sql: `proc_inst_id_`,
       type: `string`,
