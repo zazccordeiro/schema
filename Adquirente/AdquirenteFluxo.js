@@ -42,6 +42,11 @@ cube(`AdquirenteFluxo`, {
       relationship: `hasMany`
     },
 
+    Tempo: {
+      sql: `${Tempo}.sk_date = ${AdquirenteFluxo}.sk_tempo_venda`,
+      relationship: `hasMany`
+    },
+
   },
 
   measures: {
@@ -332,7 +337,13 @@ cube(`AdquirenteFluxo`, {
     horaTransacao: {
       sql: `hora_transacao`,
       type: `time`
-    }
+    },
+
+    dataVenda: {
+      sql: `${Tempo.dayDate}`,
+      type: `time`
+  },
+  
   },
 
   dataSource: `default`

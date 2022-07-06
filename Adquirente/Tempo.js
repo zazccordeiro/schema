@@ -63,6 +63,11 @@ cube(`Tempo`, {
   },
   
   dimensions: {
+    skData: {
+      sql: `sk_date`,
+      type: `number`,
+      primaryKey: true
+    },
     dayName: {
       sql: `day_name`,
       type: `string`

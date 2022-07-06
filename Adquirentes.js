@@ -1,4 +1,4 @@
-cube(`Adquirente`, {
+cube(`Adquirentes`, {
   sql: `SELECT * FROM public.dim_adquirente`,
   
   preAggregations: {
