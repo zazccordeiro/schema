@@ -18,6 +18,12 @@ cube(`Arranjo`, {
   },
   
   dimensions: {
+    skArranjo: {
+      sql: `sk_arranjo`,
+      type: `number`,
+      primaryKey: true
+    },
+    
     descricao: {
       sql: `descricao`,
       type: `string`

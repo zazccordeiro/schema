@@ -18,6 +18,11 @@ cube(`TipoAjuste`, {
   },
   
   dimensions: {
+    skTipoAjuste: {
+      sql: `sk_tipo_ajuste`,
+      type: `number`,
+      primaryKey: true
+    },
     descricao: {
       sql: `descricao`,
       type: `string`

@@ -18,6 +18,11 @@ cube(`MeioCaptura`, {
   },
   
   dimensions: {
+    skMeioCaptura: {
+      sql: `sk_meio_captura`,
+      type: `number`,
+      primaryKey: true
+    },
     descricao: {
       sql: `descricao`,
       type: `string`

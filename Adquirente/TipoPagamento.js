@@ -18,6 +18,11 @@ cube(`TipoPagamento`, {
   },
   
   dimensions: {
+    skTipoPagamento: {
+      sql: `sk_tipo_pagamento`,
+      type: `number`,
+      primaryKey: true
+    },
     descricao: {
       sql: `descricao`,
       type: `string`

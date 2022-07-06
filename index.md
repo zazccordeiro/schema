@@ -91,7 +91,6 @@ nomeCaptura | Nome do método de captura.
 _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-meios-de-captura)._
 
 <!-- ## Tempo
-
 _**PEGAR DO CUBEJS DEPOIS DE FINALIZADO**_ -->
 
 ## Tipo de ajuste

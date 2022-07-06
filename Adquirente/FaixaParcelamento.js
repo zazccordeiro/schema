@@ -18,6 +18,11 @@ cube(`FaixaParcelamento`, {
   },
   
   dimensions: {
+    skFaixaParcelamento: {
+      sql: `sk_faixa_parcelamento`,
+      type: `number`,
+      primaryKey: true
+    },
     descricao: {
       sql: `descricao`,
       type: `string`

@@ -12,6 +12,36 @@ cube(`AdquirenteFluxo`, {
       relationship: `hasMany`
     },
 
+    Arranjo: {
+      sql: `${Arranjo}.sk_arranjo = ${AdquirenteFluxo}.sk_arranjo`,
+      relationship: `hasMany`
+    },
+
+    TipoPagamento: {
+      sql: `${TipoPagamento}.sk_tipo_pagamento = ${AdquirenteFluxo}.sk_tipo_pagamento`,
+      relationship: `hasMany`
+    },
+
+    MeioCaptura: {
+      sql: `${MeioCaptura}.sk_meio_captura = ${AdquirenteFluxo}.sk_meio_captura`,
+      relationship: `hasMany`
+    },
+
+    Ajuste: {
+      sql: `${Ajuste}.sk_ajuste = ${AdquirenteFluxo}.sk_ajuste`,
+      relationship: `hasMany`
+    },
+
+    TipoAjuste: {
+      sql: `${TipoAjuste}.sk_tipo_ajuste = ${AdquirenteFluxo}.sk_tipo_ajuste`,
+      relationship: `hasMany`
+    },
+
+    FaixaParcelamento: {
+      sql: `${FaixaParcelamento}.sk_faixa_parcelamento = ${AdquirenteFluxo}.sk_faixa_parcelamento`,
+      relationship: `hasMany`
+    },
+
   },
 
   measures: {
