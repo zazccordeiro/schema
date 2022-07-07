@@ -24,12 +24,13 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
     * [Adquirente fluxo](#adquirente-fluxo)
   * [Tabela auxiliar](#tabela-auxiliar)
     * [Tabela de adquirentes](#tabela-de-adquirentes)
-    * [Tabela de ajustes](#tabela-de-ajustes)
-    * [Tabela de arranjos](#tabela-de-arranjos)
     * [Tabela de faixa de parcelamento](#tabela-de-faixa-de-parcelamento)
     * [Tabela de meios de captura](#tabela-de-meios-de-captura)
-    * [Tabela de tipo de ajuste](#tabela-de-tipo-de-ajuste)
     * [Tabela tipo de pagamento](#tabela-tipo-de-pagamento)
+    * [Tabela de arranjos](#tabela-de-arranjos)
+    * [Tabela de tipo de ajuste](#tabela-de-tipo-de-ajuste)
+    * [Tabela de ajustes](#tabela-de-ajustes)
+    
 
 
 # Atributo
