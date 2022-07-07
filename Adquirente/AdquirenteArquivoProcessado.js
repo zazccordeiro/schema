@@ -24,7 +24,8 @@ cube(`AdquirenteArquivoProcessado`, {
   dimensions: {
     adquirenteArquivoProcessadoId: {
       sql: `adquirente_arquivo_processado_id`,
-      type: `string`
+      type: `string`,
+      primaryKey: true
     },
     
     versaoLayout: {
