@@ -13,7 +13,7 @@ cube(`Tempo`, {
   measures: {
     count: {
       type: `count`,
-      drillMembers: [dayName, dayOfWeekSortName, monthName, weekOfMonthName, yearQuarterName, weekName, quarterName, dayDate]
+      drillMembers: [dayName, dayOfWeekSortName, nomeMes, weekOfMonthName, yearQuarterName, weekName, quarterName, dayDate]
     },
     
     dayOfWeekNumber: {
@@ -21,9 +21,10 @@ cube(`Tempo`, {
       type: `sum`
     },
     
-    weekOfYearNumber: {
+    numeroSemanaAno: {
       sql: `week_of_year_number`,
-      type: `sum`
+      type: `sum`,
+      show: true
     },
     
     quarterNumber: {
@@ -46,9 +47,10 @@ cube(`Tempo`, {
       type: `sum`
     },
     
-    yearNumber: {
+    numeroAno: {
       sql: `year_number`,
-      type: `sum`
+      type: `sum`,
+      show: true
     },
     
     dayOfMonthNumber: {
@@ -88,9 +90,10 @@ cube(`Tempo`, {
       type: `string`
     },
     
-    monthName: {
+    nomeMes: {
       sql: `month_name`,
-      type: `string`
+      type: `string`,
+      show: true
     },
     
     weekOfMonthName: {
