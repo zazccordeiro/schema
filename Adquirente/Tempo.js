@@ -12,59 +12,16 @@ cube(`Tempo`, {
   
   measures: {
     count: {
-      type: `count`,
-      drillMembers: [dayName, dayOfWeekSortName, nomeMes, weekOfMonthName, yearQuarterName, weekName, quarterName, dayDate]
+      type: `count`
     },
-    
-    dayOfWeekNumber: {
-      sql: `day_of_week_number`,
-      type: `sum`
-    },
-    
-    numeroSemanaAno: {
-      sql: `week_of_year_number`,
-      type: `sum`,
-      show: true
-    },
-    
-    quarterNumber: {
-      sql: `quarter_number`,
-      type: `sum`
-    },
-    
-    dayOfYearNumber: {
-      sql: `day_of_year_number`,
-      type: `sum`
-    },
-    
-    monthNumber: {
-      sql: `month_number`,
-      type: `sum`
-    },
-    
-    daysInMonthQty: {
-      sql: `days_in_month_qty`,
-      type: `sum`
-    },
-    
-    numeroAno: {
-      sql: `year_number`,
-      type: `sum`,
-      show: true
-    },
-    
-    dayOfMonthNumber: {
-      sql: `day_of_month_number`,
-      type: `sum`
-    },
-    
-    weekOfMonthNumber: {
-      sql: `week_of_month_number`,
-      type: `sum`
-    }
+   
   },
   
   dimensions: {
+    dayDate: {
+      sql: `day_date`,
+      type: `time`
+    },
     skData: {
       sql: `sk_date`,
       type: `number`,
@@ -93,7 +50,7 @@ cube(`Tempo`, {
     nomeMes: {
       sql: `month_name`,
       type: `string`,
-      show: true
+      shown: true
     },
     
     weekOfMonthName: {
@@ -119,12 +76,8 @@ cube(`Tempo`, {
     weekendInd: {
       sql: `weekend_ind`,
       type: `string`
-    },
-    
-    dayDate: {
-      sql: `day_date`,
-      type: `time`
     }
+
   },
   
   dataSource: `default`
