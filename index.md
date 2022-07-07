@@ -256,18 +256,6 @@ codigoCaptura   | nomeCaptura
 11	 | 	Não identificado
 
 
-## Tabela de tipo de ajuste
-
-codigoTipoAjuste | nomeFaixaAjuste
------------ | ------------------ 
-1 | Acerto
-2 | Acerto/Chargeback
-3 | Cancelamento
-4 | Bloqueio
-5 | Cobrança
-6 | Acerto/Cobrança
-7 | Acerto/Cancelamento
-
 ## Tabela tipo de pagamento
 
 codigoPagamento | nomePagamento
@@ -427,9 +415,23 @@ codigoAranjo	 | 	nomeArranjo	 | 	tipoPagamento
 145	 | 	Oi Paggo.	 | 	DEBITO
 146	 | 	Depósito em conta - Banco do Brasil	 | 	DEBITO
 
+## Tabela de tipo de ajuste
 
+A tabela abaixo é um agrupamento das categorias de ajustes que serão apresentadas de forma individual na [tabela auxiliar de ajustes](#tipo-de-ajuste.)
+
+codigoTipoAjuste | nomeFaixaAjuste
+----------- | ------------------ 
+1 | Acerto
+2 | Acerto/Chargeback
+3 | Cancelamento
+4 | Bloqueio
+5 | Cobrança
+6 | Acerto/Cobrança
+7 | Acerto/Cancelamento
 
 ## Tabela de ajustes
+
+A tabela abaixo é uma visão individual dos tipos de ajustes.
 
 codigoAjuste | 	nomeAjuste
 ------------ | ----------------------
