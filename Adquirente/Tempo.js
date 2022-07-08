@@ -18,31 +18,32 @@ cube(`Tempo`, {
   },
   
   dimensions: {
-    dayDate: {
-      sql: `day_date`,
-      type: `time`
-    },
     skData: {
       sql: `sk_date`,
       type: `number`,
       primaryKey: true
     },
-    dayName: {
+
+    diaData: {
+      sql: `day_date`,
+      type: `time`
+    },
+    nomeDia: {
       sql: `day_name`,
       type: `string`
     },
     
-    yearSortNumber: {
+    numeroDoAno: {
       sql: `year_sort_number`,
       type: `string`
     },
     
-    dayDesc: {
+    dataCompleta: {
       sql: `day_desc`,
       type: `string`
     },
     
-    dayOfWeekSortName: {
+    numeroDiaDaSemana: {
       sql: `day_of_week_sort_name`,
       type: `string`
     },
@@ -53,27 +54,27 @@ cube(`Tempo`, {
       shown: true
     },
     
-    weekOfMonthName: {
+    nomeDaSemanaDoMes: {
       sql: `week_of_month_name`,
       type: `string`
     },
     
-    yearQuarterName: {
+    nomeTrimestreDoAno: {
       sql: `year_quarter_name`,
       type: `string`
     },
     
-    weekName: {
+    nomeSemana: {
       sql: `week_name`,
       type: `string`
     },
     
-    quarterName: {
+    nomeTrimestre: {
       sql: `quarter_name`,
       type: `string`
     },
     
-    weekendInd: {
+    codigoSemana: {
       sql: `weekend_ind`,
       type: `string`
     }
