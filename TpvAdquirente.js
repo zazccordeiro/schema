@@ -9,8 +9,8 @@ cube(`TpvAdquirente`, {
     }
   },
   joins: {
-    Adquirente: {
-      sql: `${Adquirente}.sk_administradora_id = ${TpvAdquirente}.sk_administradora_id`,
+    Adquirentes: {
+      sql: `${Adquirentes}.sk_administradora_id = ${TpvAdquirente}.sk_administradora_id`,
       relationship: `hasMany`
     },
     ClienteCnpjCpf: {
