@@ -1,5 +1,5 @@
-cube(`Adquirente`, {
-  sql: `SELECT * FROM public.dim_adquirente`,
+cube(`FaixaParcelamento`, {
+  sql: `SELECT * FROM dimensao.faixa_parcelamento`,
   
   preAggregations: {
     // Pre-Aggregations definitions go here
@@ -7,39 +7,40 @@ cube(`Adquirente`, {
   },
   
   joins: {
+    
   },
   
   measures: {
-    quantidadeRegistros: {
+    count: {
       type: `count`,
-      drillMembers: [nome],
-      shown: true,
+      drillMembers: [dateFrom, dateTo]
     }
   },
   
   dimensions: {
-    skAdministradoraId: {
-      sql: `sk_administradora_id`,
+    skFaixaParcelamento: {
+      sql: `sk_faixa_parcelamento`,
       type: `number`,
-      primaryKey: true,
+      primaryKey: true
     },
-
-    nome: {
-      sql: `nome`,
-      type: `string`,
-      shown: true,
+    faixaParcelamento: {
+      sql: `descricao`,
+      type: `string`
+    },
+    
+    codigoParcelamento: {
+      sql: `codigo`,
+      type: `string`
     },
     
     dateFrom: {
       sql: `date_from`,
-      type: `time`,
-      shown: false,
+      type: `time`
     },
     
     dateTo: {
       sql: `date_to`,
-      type: `time`,
-      shown: false,
+      type: `time`
     }
   },
   
