@@ -4,7 +4,7 @@
 
 ## Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
-**Métricas** e **atributos** são a base do Explore. Eles são categorias de informações usadas para medir e organizar seus dados.
+**Métricas** e **atributos** são a base do cubo. Eles são categorias de informações usadas para medir e organizar seus dados.
 
   <summary><strong>Sumário</strong></summary>
 
