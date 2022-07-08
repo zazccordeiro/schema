@@ -5,7 +5,7 @@ cube(`TpvAdquirente`, {
 
     main: {
       measures: [TpvAdquirente.valorBruto],
-      dimensions: [Adquirente.nome, ClienteCnpjCpf.cnpjCpf, Data.numeroAno, Data.numeroMes]
+      dimensions: [Adquirentes.nome, ClienteCnpjCpf.cnpjCpf, Data.numeroAno, Data.numeroMes]
     }
   },
   joins: {
