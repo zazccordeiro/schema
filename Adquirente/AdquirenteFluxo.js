@@ -42,8 +42,13 @@ cube(`AdquirenteFluxo`, {
       relationship: `belongsTo`
     },
 
-    Tempo: {
-      sql: `${Tempo}.sk_date = ${AdquirenteFluxo}.sk_tempo_venda`,
+    TempoPagamento: {
+      sql: `${TempoPagamento}.sk_date = ${AdquirenteFluxo}.sk_tempo_pagamento`,
+      relationship: `belongsTo`
+    },
+
+    TempoVenda: {
+      sql: `${TempoVenda}.sk_date = ${AdquirenteFluxo}.sk_tempo_venda`,
       relationship: `belongsTo`
     },
 
