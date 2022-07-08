@@ -2,7 +2,7 @@
 
 # Guia de atributos e métricas
 
-Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
+## Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
 **Métricas** e **atributos** são a base do Explore. Eles são categorias de informações usadas para medir e organizar seus dados.
 
@@ -35,7 +35,7 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 
 # Atributo
 
-Os atributos nos dizem "como" organizar os resultados. Adicione atributos para informar ao Explore como você deseja organizar e segmentar essas informações por qualidades específicas.
+Os atributos nos dizem "como" organizar os resultados. Adicione atributos para informar ao cubo como você deseja organizar e segmentar essas informações por qualidades específicas.
 
 ## Adquirente
 
@@ -96,7 +96,7 @@ _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-
 
 ## Tempo
 
-Neste atributo a é possível saber as 
+Neste atributo é possível saber as diversas visões de tempo do cubo.
 
   Campo     | Descrição
 ----------- | ------------------
