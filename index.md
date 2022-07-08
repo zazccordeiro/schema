@@ -35,8 +35,6 @@ Esta documentação tem como objetivo ser um facilitador e propor autonomia para
 
 # Atributo
 
-O documento abaixo tem como propósito familiarizar o usuário com cada atributo com os termos, para isso cada atributo é disponíbilizado com sua descrição.
-
 Os atributos nos dizem "como" organizar os resultados. Adicione atributos para informar ao Explore como você deseja organizar e segmentar essas informações por qualidades específicas.
 
 ## Adquirente
@@ -96,8 +94,23 @@ nomeCaptura | Nome do método de captura.
 
 _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-meios-de-captura)._
 
-<!-- ## Tempo
-_**PEGAR DO CUBEJS DEPOIS DE FINALIZADO**_ -->
+## Tempo
+
+Neste atributo a é possível saber as 
+
+  Campo     | Descrição
+----------- | ------------------
+diaData | Data informada no formato AAAA/MM/DD  
+nomeDia | Nome do dia da semana.
+numeroDoAno | Número do ano.
+dataCompleta | Data completa no formato DD/MM/AAAA
+numeroDiaDaSemana | Número do dia da semana. (Exemplo Segunda- feira = Day 1 e Sexta-feira = Day 5)
+nomeMes | Nome do mês.
+nomeDaSemanaDoMes | Nome da semana do mês.
+nomeTrimestreDoAno | Nome do trimestre do ano.
+nomeSemana | Nome da semana.
+nomeTrimestre | Nome do trimestre.
+codigoSemana | Código da semana.
 
 ## Tipo de ajuste
 
