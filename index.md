@@ -98,6 +98,16 @@ _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-
 
 Neste atributo é possível saber as diversas visões de tempo do cubo.
 
+Para definição de tempo é preciso informar qual dimensão de tempo a ser analisada, para isso o cubo oferece duas opções, sendo elas.
+
+  Visão     |
+  --------- |
+  TempoVenda |
+  TempoPagamento |
+
+
+Após discriminar o tipo de tempo, é possível utilizar os atributos abaixo para mais detalhamento.
+
   Campo     | Descrição
 ----------- | ------------------
 diaData | Data informada no formato AAAA/MM/DD  
