@@ -23,12 +23,12 @@ cube(`TipoPagamento`, {
       type: `number`,
       primaryKey: true
     },
-    descricao: {
+    nomePagamento: {
       sql: `descricao`,
       type: `string`
     },
     
-    codigo: {
+    codigoPagamento: {
       sql: `codigo`,
       type: `string`
     },

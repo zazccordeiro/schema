@@ -23,12 +23,12 @@ cube(`FaixaParcelamento`, {
       type: `number`,
       primaryKey: true
     },
-    descricao: {
+    faixaParcelamento: {
       sql: `descricao`,
       type: `string`
     },
     
-    codigo: {
+    codigoParcelamento: {
       sql: `codigo`,
       type: `string`
     },

@@ -23,12 +23,12 @@ cube(`Ajuste`, {
       type: `number`,
       primaryKey: true
     },
-    descricao: {
+    nomeAjuste: {
       sql: `descricao`,
       type: `string`
     },
     
-    codigo: {
+    codigoAjuste: {
       sql: `codigo`,
       type: `string`
     },

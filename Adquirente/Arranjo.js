@@ -24,17 +24,17 @@ cube(`Arranjo`, {
       primaryKey: true
     },
     
-    descricao: {
+    nomeArranjo: {
       sql: `descricao`,
       type: `string`
     },
     
-    tipo: {
+    tipoPagamento: {
       sql: `tipo`,
       type: `string`
     },
     
-    codigo: {
+    codigoAranjo: {
       sql: `codigo`,
       type: `string`
     },

@@ -24,7 +24,7 @@ cube(`Adquirente`, {
       primaryKey: true
     },
 
-    nome: {
+    nomeAdquirente: {
       sql: `nome`,
       type: `string`
     },

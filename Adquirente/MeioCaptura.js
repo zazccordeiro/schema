@@ -23,12 +23,12 @@ cube(`MeioCaptura`, {
       type: `number`,
       primaryKey: true
     },
-    descricao: {
+    nomeCaptura: {
       sql: `descricao`,
       type: `string`
     },
     
-    codigo: {
+    codigoCaptura: {
       sql: `codigo`,
       type: `string`
     },
