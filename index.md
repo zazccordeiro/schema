@@ -2,7 +2,7 @@
 
 # Guia de atributos e métricas
 
-## Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
+### Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
 
 **Métricas** e **atributos** são a base do cubo. Eles são categorias de informações usadas para medir e organizar seus dados.
 
@@ -96,17 +96,16 @@ _Para facilitar em sua consulta utilize o guia de [meios de captura](#tabela-de-
 
 ## Tempo
 
-Neste atributo é possível saber as diversas visões de tempo do cubo.
+Neste atributo é possível enxergar as diversas informações de tempo do cubo.
 
-Para definição de tempo é preciso informar qual dimensão de tempo a ser analisada, para isso o cubo oferece duas opções, sendo elas.
+A dimensão tempo pode ser dividida em duas categorias:
 
-  Visão     |
-  --------- |
-  TempoVenda |
-  TempoPagamento |
+  Dimensão  | Descrição
+  --------- | ----------------------------------------------------
+  TempoVenda | Dimensão voltada para uma análise temporal da venda em si.
+  TempoPagamento | Dimensão voltada para uma análise temporal do pagamento.
 
-
-Após discriminar o tipo de tempo, é possível utilizar os atributos abaixo para mais detalhamento.
+Os atirbutos abaixos são utilizados para compor a analise estabelecida anteriormente (Venda ou pagamento).
 
   Campo     | Descrição
 ----------- | ------------------
@@ -114,7 +113,7 @@ diaData | Data informada no formato AAAA/MM/DD
 nomeDia | Nome do dia da semana.
 numeroDoAno | Número do ano.
 dataCompleta | Data completa no formato DD/MM/AAAA
-numeroDiaDaSemana | Número do dia da semana. (Exemplo Segunda- feira = Day 1 e Sexta-feira = Day 5)
+numeroDiaDaSemana | Número do dia da semana. (Exemplo: Segunda-feira = Day 1 e Sexta-feira = Day 5)
 nomeMes | Nome do mês.
 nomeDaSemanaDoMes | Nome da semana do mês.
 nomeTrimestreDoAno | Nome do trimestre do ano.
