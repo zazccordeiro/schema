@@ -115,6 +115,7 @@ numeroDoAno | Número do ano.
 dataCompleta | Data completa no formato DD/MM/AAAA
 numeroDiaDaSemana | Número do dia da semana. (Exemplo: Segunda-feira = Day 1 e Sexta-feira = Day 5)
 nomeMes | Nome do mês.
+numeroMes | Número do mês.
 nomeDaSemanaDoMes | Nome da semana do mês.
 nomeTrimestreDoAno | Nome do trimestre do ano.
 nomeSemana | Nome da semana.
