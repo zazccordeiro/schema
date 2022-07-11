@@ -48,6 +48,11 @@ cube(`Tempo`, {
       type: `string`
     },
     
+    numeroMes: {
+      sql: `month_number`,
+      type: `number`
+    },
+    
     nomeMes: {
       sql: `month_name`,
       type: `string`,
