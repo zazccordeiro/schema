@@ -47,6 +47,11 @@ cube(`TempoVenda`, {
       sql: `day_of_week_sort_name`,
       type: `string`
     },
+
+    numeroMes: {
+      sql: `month_number`,
+      type: `number`
+    },
     
     nomeMes: {
       sql: `month_name`,
