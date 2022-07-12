@@ -59,6 +59,11 @@ cube(`BrTransComercioVarejistaEnderecoIfood`, {
     latitude_ifood: {
       sql: `latitude`,
       type: `string`
+    },
+    
+    nome_cliente: {
+      sql: `nome_cliente`,
+      type: `string`
     }
   },
   
