@@ -41,4 +41,7 @@ numeroCancelamentosDescontados | Número de cancelamentos descontados.
 numeroChargebacks | Número de contestações.
 numeroEstornosChargeback | Número de estornos de contestações.
 
+
  ### Ir para o [topo](#introdução).
+ 
+ <!-- END graphql-markdown -->
