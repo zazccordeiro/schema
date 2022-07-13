@@ -207,4 +207,7 @@ Fato      |    Atributos e Métricas  | Informação
 Adquirente arquivo processado | - Nome Arquivo EDI | Verificar todas as informações referentes as arquivos processados.
 Fluxo | •	nomeArquivoEdi •	Adquirente •	Ajuste •	Arranjo •	Faixa parcelamento •	Meio captura •	Tempo •	Tipo de ajuste •	Tipo de pagamento •Adquirente arquivo processado •	Adquirente Fluxo •	valorBruto •	taxaAdministrativa •	tarifaAdministrativa •	taxaRecebaRapido •valoTaxaAdministrativa •	valorLiquido •	valorBrutoAntecipado | Obter todas as informações referentes aos recebíveis de cartões de crédito e débito dos estabelecimentos
 
+
+ ### Ir para o [topo](#adquirente).
+
 <!-- END graphql-markdown -->

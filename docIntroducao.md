@@ -7,8 +7,8 @@
     * [O que são métricas?](#o-que-são-métricas)
   * [Tabelas Fato](#conceito---tabela-fato)
   * [Tabelas de dimensão](#conceito---tabela-dimensão)
-  * [Cube.Js](#)
-  * [GraphQl](#)
+  * [Relação tabela fato x dimensão](#relação-tabela-fato-x-dimensão)
+  * [Cube.Js e GraphQl](#cubejs-e-graphql)
 
 # Introdução
 
@@ -66,6 +66,59 @@ Abaixo podemos um exemplo do relacionamento da tabela fato com a tabela dimensã
 
 Você pode notar que na tabela fato é utilizado o código chave e na tabela dimensão temos mais detalhes sobre essa informação.
 
+Abaixo é possível ver as tabelas fato que temos disponíveis no cubo hoje:
+
+| Tabela Fato - **AdquirenteFluxo** |
+------------------------|
+
+### Atributos:
+- Adquirente
+- Ajuste
+- Arranjo
+- Faixa parcelamento
+- Meio captura
+- Tempo
+- Tipo de ajuste
+- Tipo de pagamento
+- Adquirente arquivo processado
+- Adquirente Fluxo
+
+### Métricas:
+- valorBruto
+- taxaAdministrativa
+- tarifaAdministrativa
+- taxaRecebaRapido
+- valoTaxaAdministrativa
+- valorLiquido
+- valorBrutoAntecipado
+
+
+| Tabela Fato - **AdquirenteArquivoProcessado** |
+------------------------|
+
+### Atributos:
+- nomeArquivoEdi
+- estabelecimentoMatriz
+- dataProcessamento
+- periodoInicial
+- periodoFinal
+- sequencia
+- opcaoExtrato
+- transmissao
+- caixaPostal
+- versaoLayout
+
+### Métricas:
+- totalRegistro
+- numeroTransacoesCanceladas
+- numeroTransacoesPagas
+- numeroCancelamentosDescontados
+- numeroChargebacks
+- numeroEstornosChargeback
+
+
+
+
 # Cube.Js e GraphQl
 
 Exemplo estrutura de query para consumir o GraphQl
@@ -79,4 +132,6 @@ query CubeQuery {
     }
   }
 }
-~~~~
+~~~
+
+ ### Ir para o [topo](#introdução).
