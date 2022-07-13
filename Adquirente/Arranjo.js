@@ -34,7 +34,7 @@ cube(`Arranjo`, {
       type: `string`
     },
     
-    codigoAranjo: {
+    codigoArranjo: {
       sql: `codigo`,
       type: `string`
     },
