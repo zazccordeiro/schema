@@ -171,6 +171,7 @@ valoTaxaAdministrativa | Valor da taxa administrativa descontada sobre as vendas
 valorLiquido | Valor das vendas descontado o valor da taxa administrativa.
 valorBrutoAntecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
 
-_Ir para o [topo](#introdução)._
+
+_Ir para o [topo](#introdução) ou [documentação de introdução](index.md)._
 
 <!-- END graphql-markdown -->

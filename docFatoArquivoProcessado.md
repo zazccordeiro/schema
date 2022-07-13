@@ -1,7 +1,6 @@
 ![ZAZ Conecta](img/conecta.jpg)
 
 
-
 ## Adquirentes Arquivo Processado
 
 Abaixo seguem os atributos e suas respectivas descrições para melhor leitura do arquivo processado.
@@ -27,6 +26,6 @@ numeroChargebacks | Número de contestações.
 numeroEstornosChargeback | Número de estornos de contestações.
 
 
-_Ir para o [topo](#introdução)._
+_Ir para a [documentação de introdução](index.md)._
  
  <!-- END graphql-markdown -->

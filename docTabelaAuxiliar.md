@@ -704,7 +704,7 @@ codigoAjuste | 	nomeAjuste
 452	 | 	SAFRAPAY DIGITAL/DEB/REVERSAL
 453	 | 	SAFRAPAY DIGITAL/DEB/CANCELAMENTO
 
- _Voltar para [documentação inicial](docFatoFluxo.md#arranjo)._
+ _Voltar para [documentação da tabela fato](docFatoFluxo.md#arranjo) ou [documentação de introdução](index.md)._
 
 
 _Ir para o [topo](#tabela-auxiliar)._
