@@ -1,5 +1,7 @@
 ![ZAZ Conecta](img/conecta.jpg)
   
+# Tabela auxiliar
+
   <summary><strong>Sumário</strong></summary>
 
   * [Tabela auxiliar](#tabela-auxiliar)
@@ -10,7 +12,7 @@
     * [Tabela de arranjos](#tabela-de-arranjos)
     * [Tabela de tipo de ajuste](#tabela-de-tipo-de-ajuste)
     * [Tabela de ajustes](#tabela-de-ajustes)
-    
+
 # Tabela auxiliar 
 
 ## Tabela de adquirentes

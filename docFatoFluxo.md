@@ -1,32 +1,21 @@
 ![ZAZ Conecta](img/conecta.jpg)
 
+# Adquirente Fluxo
+
   <summary><strong>Sumário</strong></summary>
 
-  * [Introdução](#introdução)
-    * [Atributo e métricas](#atributo-e-métricas)
-    * [Adquirente](#adquirente)
-    * [Ajuste](#ajuste)
-    * [Arranjo](#arranjo)
-    * [Faixa parcelamento](#faixa-parcelamento)
-    * [Meio captura](#meio-captura)
-    * [Tempo](#tempo)
-    * [Tipo de ajuste](#tipo-de-ajuste)
-    * [Tipo de pagamento](#tipo-de-pagamento)
-    * [Adquirente Fluxo](#fluxo)
+  * [Adquirente](#adquirente)
+  * [Ajuste](#ajuste)
+  * [Arranjo](#arranjo)
+  * [Faixa parcelamento](#faixa-parcelamento)
+  * [Meio captura](#meio-captura)
+  * [Tempo](#tempo)
+  * [Tipo de ajuste](#tipo-de-ajuste)
+  * [Tipo de pagamento](#tipo-de-pagamento)
+  * [Adquirente Fluxo](#fluxo)
   * [Métricas](#métricas)
     * [Adquirente fluxo](#adquirente-fluxo)
 
-
-# Introdução.
-
-Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
-Todas as informações do Conecta são fornecidas através de cubo de dados utilizando o cube.js, organizados em métricas consistentes e podendo ser usados em qualquer aplicativo.
-
-**Métricas** e **atributos** são a base do cubo. Eles são categorias de informações usadas para medir e organizar seus dados.
-
-# Atributo e métricas
-
-Os atributos nos dizem "como" organizar os resultados. Adicione atributos para informar ao cubo como você deseja organizar e segmentar essas informações por qualidades específicas.
 
 ## Adquirente
 
@@ -169,10 +158,6 @@ modoEntradaCartao | Identifica o modo de entrada do cartão.
 fluxo | -
 
 # Métricas
-
-Você pode pensar nas métricas como o "quê" que compõe o relatório. Adicione uma métrica para escolher quais informações quantificáveis você deseja medir.
-
-## Fluxo
 
 Abaixo seguem os descritivos das métricas da tabela de adquirente fluxo.
 
