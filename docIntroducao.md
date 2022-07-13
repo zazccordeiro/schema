@@ -71,14 +71,11 @@ Você pode notar que na tabela fato é utilizado o código chave e na tabela dim
 Exemplo estrutura de query para consumir o GraphQl
 
 ~~~javascript
-{
-  cube {
-    orders {
+query CubeQuery {
+  cube(where: { adquirente: { nomeAdquirente: { equals: "Cielo" } } }) {
+    adquirente(orderBy: { count: desc }) {
       count
-      status
-      createdAt {
-        day
-      }
+      nomeAdquirente
     }
   }
 }

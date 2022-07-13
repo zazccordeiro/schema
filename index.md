@@ -25,6 +25,8 @@
     * [Tabela de tipo de ajuste](#tabela-de-tipo-de-ajuste)
     * [Tabela de ajustes](#tabela-de-ajustes)
 
+    [TabelaFAtoArquivo](indexFatoArquivoProcessado.md)
+
 # Introdução.
 
 Esta documentação tem como objetivo ser um facilitador e propor autonomia para o melhor aproveitamento do cubo de dados.
