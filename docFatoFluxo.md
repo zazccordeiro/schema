@@ -1,4 +1,4 @@
-![ZAZ Conecta](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
+![ZAZ Conecta](img/conecta.jpg)
 
   <summary><strong>Sumário</strong></summary>
 
@@ -39,7 +39,7 @@ codigoAdquirente | Codígo identificador da adquirente.
 nomeAdquirente | Nome da adquirente.
 
 
-_Para facilitar em sua consulta utilize o guia de [adquirentes](https://zazccordeiro.github.io/schema/#tabela-de-adquirentes)._
+_Para facilitar em sua consulta utilize o guia de [adquirentes](docTabelaAuxiliar.md#tabela-de-adquirentes)._
 
 ## Ajuste
 
@@ -50,7 +50,7 @@ Neste atributo é possível identificar o tipo de ajuste realizado de uma forma 
  codigoAjuste | Código do ajuste realizado.
   nomeAjuste    | Neste atributo é possível identificar o tipo de ajuste realizado . 
 
-_Para facilitar em sua consulta utilize o guia de [ajustes](#tabela-de-ajustes)._
+_Para facilitar em sua consulta utilize o guia de [ajustes](docTabelaAuxiliar.md#tabela-de-ajustes)._
 
 ## Arranjo
 
@@ -62,7 +62,7 @@ Neste atributo é possível identificar o tipo de ajuste realizado.
   nomeArranjo   | Neste atributo é possível identificar o nome da bandeira.
   tipoPagamento | Informação do tipo de pagamento (Débito ou Crédito)
 
-_Para facilitar em sua consulta utilize o guia de [arranjo](https://zazccordeiro.github.io/schema/#tabela-de-arranjos)._
+_Para facilitar em sua consulta utilize o guia de [arranjo](docTabelaAuxiliar.md#tabela-de-arranjos)._
 
 ## Faixa parcelamento
 
@@ -73,7 +73,7 @@ Neste atributo é possível identificar a faixa de parcelamento realizada (quand
 codigoParcelamento | Código referente a faixa de parcelamento feito para os pagamentos com cartão de crédito.
 faixaParcelamento | Informação da faixa de parcelamento.
 
-_Para facilitar em sua consulta utilize o guia de [faixa de parcelamento](https://zazccordeiro.github.io/schema/tabela-de-faixa-de-parcelamento)._
+_Para facilitar em sua consulta utilize o guia de [faixa de parcelamento](docTabelaAuxiliar.md#tabela-de-faixa-de-parcelamento)._
 
 ## Meio captura
 
@@ -84,7 +84,7 @@ Neste atributo é possível identificar por qual método foi realizado o recebim
 codigoCaptura | Código que se refere ao método de captura.
 nomeCaptura | Nome do método de captura.
 
-_Para facilitar em sua consulta utilize o guia de [meios de captura](https://zazccordeiro.github.io/schema/tabela-de-meios-de-captura)._
+_Para facilitar em sua consulta utilize o guia de [meios de captura](docTabelaAuxiliar.md#tabela-de-meios-de-captura)._
 
 ## Tempo
 
@@ -123,7 +123,7 @@ Neste atributo, é possível ver os ajustes apresentados de uma maneira agrupada
 codigoTipoAjuste | Código identificador do tipo de ajuste.
 nomeFaixaAjuste | Nome do tipo de ajuste realizado.
 
-_Para facilitar em sua consulta utilize o guia de [tipo de ajuste](https://zazccordeiro.github.io/schema/tabela-de-tipo-de-ajuste)._
+_Para facilitar em sua consulta utilize o guia de [tipo de ajuste](docTabelaAuxiliar.md#tabela-de-tipo-de-ajuste)._
 
 ## Tipo de pagamento
 
@@ -134,7 +134,7 @@ Neste atributo é possível definir a forma em que o pagamento foi realizado.
 codigoPagamento | Código referente ao tipo de pagamento realizado
 nomePagamento | Nome do tipo de pagamento realizado.
 
-_Para facilitar em sua consulta utilize o guia de [tipo de pagamento](https://zazccordeiro.github.io/schema/tabela-tipo-de-pagamento)._
+_Para facilitar em sua consulta utilize o guia de [tipo de pagamento](docTabelaAuxiliar.md#tabela-tipo-de-pagamento)._
 
 ## Fluxo
 
@@ -200,7 +200,6 @@ valoTaxaAdministrativa | Valor da taxa administrativa descontada sobre as vendas
 valorLiquido | Valor das vendas descontado o valor da taxa administrativa.
 valorBrutoAntecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
 
-<!-- ## Código -->
 # Fatos disponíveis
 
 Fato      |    Atributos e Métricas  | Informação

@@ -1,4 +1,4 @@
-![ZAZ Conecta](img/photo_2022-07-12_16-32-06.jpg)
+![ZAZ Conecta](img/conecta.jpg)
 
   <summary><strong>Sumário</strong></summary>
 
@@ -62,7 +62,7 @@ codigoAdquirente | nomeAdquirente
 
 Abaixo podemos um exemplo do relacionamento da tabela fato com a tabela dimensão.
 
-![Tabela fato x dimensão](img/fatoEdimensao.drawio%20(1).png)
+![Tabela fato x dimensão](img/fatoedimensaopng.png)
 
 Você pode notar que na tabela fato é utilizado o código chave e na tabela dimensão temos mais detalhes sobre essa informação.
 
