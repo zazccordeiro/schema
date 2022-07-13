@@ -13,8 +13,7 @@
     * [Tipo de ajuste](#tipo-de-ajuste)
     * [Tipo de pagamento](#tipo-de-pagamento)
     * [Adquirente Fluxo](#fluxo)
-  * [Métrica](#métrica)
-    * [Adquirente arquivo processado](#adquirente-arquivo-processado)
+  * [Métricas](#métricas)
     * [Adquirente fluxo](#adquirente-fluxo)
 
 
@@ -173,20 +172,7 @@ fluxo | -
 
 Você pode pensar nas métricas como o "quê" que compõe o relatório. Adicione uma métrica para escolher quais informações quantificáveis você deseja medir.
 
-## Adquirente arquivo processado
-
-Abaixo seguem os descritivos das métricas da tabela de arquivos processados.
-
-Campo     |    Descrição
---------- | --------------------------------
-totalRegistro | Valor total de registros.
-valorLiquidoSomaTotalRos | Valor total liquido dos resumos de operação.
-quantidadeTotalCvs | Quantidade total de comprovantes de venda.
-valorBrutoSomaTotalRos | Valor bruto total dos resumos de operação.
-valorBrutoAntecipadoSomaTotalRos | Valor bruto total antescipados dos resumos de operação.
-somaValoresNegociados | Soma dos valores negociados.
-
-## Adquirente fluxo
+## Fluxo
 
 Abaixo seguem os descritivos das métricas da tabela de adquirente fluxo.
 
@@ -200,14 +186,6 @@ valoTaxaAdministrativa | Valor da taxa administrativa descontada sobre as vendas
 valorLiquido | Valor das vendas descontado o valor da taxa administrativa.
 valorBrutoAntecipado | Valor bruto antecipado, fornecido quando o RO for antecipado. Será preenchido com zeros quando não houver antecipação.
 
-# Fatos disponíveis
-
-Fato      |    Atributos e Métricas  | Informação
---------- | ------------------------ | -------------
-Adquirente arquivo processado | - Nome Arquivo EDI | Verificar todas as informações referentes as arquivos processados.
-Fluxo | •	nomeArquivoEdi •	Adquirente •	Ajuste •	Arranjo •	Faixa parcelamento •	Meio captura •	Tempo •	Tipo de ajuste •	Tipo de pagamento •Adquirente arquivo processado •	Adquirente Fluxo •	valorBruto •	taxaAdministrativa •	tarifaAdministrativa •	taxaRecebaRapido •valoTaxaAdministrativa •	valorLiquido •	valorBrutoAntecipado | Obter todas as informações referentes aos recebíveis de cartões de crédito e débito dos estabelecimentos
-
-
- ### Ir para o [topo](#adquirente).
+_Ir para o [topo](#introdução)._
 
 <!-- END graphql-markdown -->

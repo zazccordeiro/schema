@@ -70,17 +70,12 @@ Abaixo é possível ver as tabelas fato que temos disponíveis no cubo hoje:
 
 ## Tabela Fato - [AquirenteFluxo](docFatoFluxo.md#introdução)
 
+Tabela fato |    Atributos e Métricas
+----------- | ------------------------------------
+AdquirenteFluxo | - Adquirente <br> - Ajuste <br> - Arranjo <br> - Faixa parcelamento <br> - Meio captura <br> - Tempo <br> - Tipo de ajuste <br> - Tipo de pagamento <br> - Adquirente arquivo processado <br> - Adquirente Fluxo
+
 ### Atributos:
-- Adquirente
-- Ajuste
-- Arranjo
-- Faixa parcelamento
-- Meio captura
-- Tempo
-- Tipo de ajuste
-- Tipo de pagamento
-- Adquirente arquivo processado
-- Adquirente Fluxo
+
 
 ### Métricas:
 - valorBruto
