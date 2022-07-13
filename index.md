@@ -69,7 +69,7 @@ Você pode notar que na tabela fato é utilizado o código chave e na tabela dim
 Abaixo é possível ver as tabelas fato que temos disponíveis no cubo hoje:
 
 | Tabela Fato - **AdquirenteFluxo** |
------------------------ | ----------
+----------------------- | 
 
 ### Atributos:
 - Adquirente
@@ -94,7 +94,7 @@ Abaixo é possível ver as tabelas fato que temos disponíveis no cubo hoje:
 
 
 | Tabela Fato - **AdquirenteArquivoProcessado** |
-------------------------|
+------------------------ |
 
 ### Atributos:
 - [nomeArquivoEdi](docFatoArquivoProcessado.md#adquirentes-arquivo-processado)
