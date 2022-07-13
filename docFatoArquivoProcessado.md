@@ -4,6 +4,7 @@
 
   * [Introdução](#introdução)
     * [Atributo e métricas](#atributo-e-métricas)
+  * [Adquirentes Arquivo Processado](#adquirentes-arquivo-processado) 
 
 # Introdução.
 
@@ -39,3 +40,5 @@ numeroTransacoesPagas | Número de transações pagas.
 numeroCancelamentosDescontados | Número de cancelamentos descontados.
 numeroChargebacks | Número de contestações.
 numeroEstornosChargeback | Número de estornos de contestações.
+
+ ### Ir para o [topo](#introdução).
