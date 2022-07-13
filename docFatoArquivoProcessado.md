@@ -42,6 +42,6 @@ numeroChargebacks | Número de contestações.
 numeroEstornosChargeback | Número de estornos de contestações.
 
 
-Ir para o [topo](#introdução).
+_Ir para o [topo](#introdução)._
  
  <!-- END graphql-markdown -->

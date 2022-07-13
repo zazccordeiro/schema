@@ -10,6 +10,7 @@
     * [Tabela de arranjos](#tabela-de-arranjos)
     * [Tabela de tipo de ajuste](#tabela-de-tipo-de-ajuste)
     * [Tabela de ajustes](#tabela-de-ajustes)
+    
 # Tabela auxiliar 
 
 ## Tabela de adquirentes
@@ -704,6 +705,6 @@ codigoAjuste | 	nomeAjuste
  _Voltar para [documentação inicial](docFatoFluxo.md#arranjo)._
 
 
-Ir para o [topo](#tabela-auxiliar)
+_Ir para o [topo](#tabela-auxiliar)._
 
 <!-- END graphql-markdown -->
