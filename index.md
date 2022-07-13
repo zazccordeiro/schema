@@ -62,7 +62,7 @@ codigoAdquirente | nomeAdquirente
 
 Abaixo podemos um exemplo do relacionamento da tabela fato com a tabela dimensão.
 
-![Tabela fato x dimensão](img/fatoedimensaopng.png)
+![Tabela fato x dimensão](img/novoDiagram.png)
 
 Você pode notar que na tabela fato é utilizado o código chave e na tabela dimensão temos mais detalhes sobre essa informação.
 
@@ -73,29 +73,6 @@ Tabela fato |    Atributos e Métricas
 ----------- | ------------------------------------
 [AquirenteFluxo](docFatoFluxo.md#introdução) | **Atributos:** <br> - Adquirente <br> - Ajuste <br> - Arranjo <br> - Faixa parcelamento <br> - Meio captura <br> - Tempo <br> - Tipo de ajuste <br> - Tipo de pagamento <br> - Adquirente arquivo processado <br> - Adquirente Fluxo <br> **Métricas:** <br> -valorBruto <br> -taxaAdministrativa <br> - tarifaAdministrativa <br> -taxaRecebaRapido <br> -valoTaxaAdministrativa <br> -valorLiquido <br> -valorBrutoAntecipado
 [AdquirenteArquivoProcessado](docFatoArquivoProcessado.md#introdução) | **Atributos**: <br> - nomeArquivoEdi <br> - estabelecimentoMatriz <br> - dataProcessamento <br> - periodoInicial <br> - periodoFinal <br> - sequencia <br> - opcaoExtrato <br> - transmissao <br> - caixaPostal <br> - versaoLayout <br> **Métricas:** <br> - totalRegistro <br> - numeroTransacoesCanceladas <br> - numeroTransacoesPagas <br> - numeroCancelamentosDescontados <br> - numeroChargebacks <br> - numeroEstornosChargeback
-
-
-## Tabela Fato - [AdquirenteArquivoProcessado](docFatoArquivoProcessado.md#introdução)
-
-### Atributos:
-- nomeArquivoEdi
-- estabelecimentoMatriz
-- dataProcessamento
-- periodoInicial
-- periodoFinal
-- sequencia
-- opcaoExtrato
-- transmissao
-- caixaPostal
-- versaoLayout
-
-### Métricas:
-- totalRegistro
-- numeroTransacoesCanceladas
-- numeroTransacoesPagas
-- numeroCancelamentosDescontados
-- numeroChargebacks
-- numeroEstornosChargeback
 
 
 # Cube.Js e GraphQl
