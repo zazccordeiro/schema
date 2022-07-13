@@ -68,8 +68,8 @@ Você pode notar que na tabela fato é utilizado o código chave e na tabela dim
 
 Abaixo é possível ver as tabelas fato que temos disponíveis no cubo hoje:
 
-| Tabela Fato - **AdquirenteFluxo** 
-------------------------|
+| Tabela Fato - **AdquirenteFluxo** |
+----------------------- | ----------
 
 ### Atributos:
 - Adquirente
@@ -133,6 +133,6 @@ query CubeQuery {
 ~~~
 
 
- ### Ir para o [topo](#introdução).
+_Ir para o [topo](#introdução)._
 
  <!-- END graphql-markdown -->
