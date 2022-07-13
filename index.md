@@ -114,7 +114,7 @@ AdquirenteFluxo | - Adquirente <br> - Ajuste <br> - Arranjo <br> - Faixa parcela
 
 Exemplo estrutura de query para consumir o GraphQl
 
-> POST http://10.0.44.102:4000/cubejs-api/graphql 
+> **POST** http://10.0.44.102:4000/cubejs-api/graphql 
 
 Request
 ~~~javascript
