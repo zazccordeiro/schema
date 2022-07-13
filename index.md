@@ -1,4 +1,4 @@
-![ZAZ Conecta](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
+![ZAZ Conecta](img/photo_2022-07-12_16-32-06.jpg)
 
   <summary><strong>Sumário</strong></summary>
 

@@ -1,4 +1,4 @@
-![ZAZ Conecta](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
+![ZAZ Conecta](img/photo_2022-07-12_16-32-06.jpg)
 
   <summary><strong>Sumário</strong></summary>
 
@@ -56,3 +56,30 @@ codigoAdquirente | nomeAdquirente
   1 | Cielo
   2 | Rede
   3 | Getnet
+
+
+## Relação tabela fato x dimensão
+
+Abaixo podemos um exemplo do relacionamento da tabela fato com a tabela dimensão.
+
+![Tabela fato x dimensão](img/fatoEdimensao.drawio%20(1).png)
+
+Você pode notar que na tabela fato é utilizado o código chave e na tabela dimensão temos mais detalhes sobre essa informação.
+
+# Cube.Js e GraphQl
+
+Exemplo estrutura de query para consumir o GraphQl
+
+~~~javascript
+{
+  cube {
+    orders {
+      count
+      status
+      createdAt {
+        day
+      }
+    }
+  }
+}
+~~~~
