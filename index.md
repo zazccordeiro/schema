@@ -132,7 +132,25 @@ query CubeQuery {
 }
 ~~~
 
+<<<<<<< Updated upstream
 
  ### Ir para o [topo](#introdução).
 
  <!-- END graphql-markdown -->
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+ ### Ir para o [topo](#introdução).
+=======
+
+_Ir para o [topo](#introdução)._
+
+ <!-- END graphql-markdown -->
+>>>>>>> Stashed changes
+=======
+
+ ### Ir para o [topo](#introdução).
+
+ <!-- END graphql-markdown -->
+>>>>>>> ff5791f5a303383f336a71192f430d42ade12c64
+>>>>>>> Stashed changes
