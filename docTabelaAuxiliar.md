@@ -1,4 +1,4 @@
-![ZAZ Conecta](https://www.acate.com.br/wp-content/uploads/2021/12/zaz-conecta-anuncio-1200x600px-2.png)
+![ZAZ Conecta](img/conecta.jpg)
   
   <summary><strong>Sumário</strong></summary>
 
@@ -31,6 +31,8 @@ codigoAdquirente   | nomeAdquirente
   13 | BIN
   14 | Sicred
 
+  _Voltar para [documentação inicial](docFatoFluxo.md#adquirente)._
+
 ## Tabela de faixa de parcelamento
 
 codigoParcelamento   | faixaParcelamento
@@ -39,6 +41,8 @@ codigoParcelamento   | faixaParcelamento
 2 | 2 a 6
 3 | 7 a 12
 4 | 13 a 18
+
+ _Voltar para [documentação inicial](docFatoFluxo.md#faixa-parcelamento)._
 
 ## Tabela de meios de captura
 
@@ -56,6 +60,7 @@ codigoCaptura   | nomeCaptura
 10	 | 	Moedeiro Eletrônico em Rede
 11	 | 	Não identificado
 
+ _Voltar para [documentação inicial](docFatoFluxo.md#meio-captura)._
 
 ## Tabela tipo de pagamento
 
@@ -64,6 +69,8 @@ codigoPagamento | nomePagamento
 1 | CRÉDITO
 2 | PARCELADO
 3 | DEBITO
+
+ _Voltar para [documentação inicial](docFatoFluxo.md#tipo-de-pagamento)._
 
 ## Tabela de arranjos
 
@@ -216,9 +223,11 @@ codigoArranjo	 | 	nomeArranjo	 | 	tipoPagamento
 145	 | 	Oi Paggo.	 | 	DEBITO
 146	 | 	Depósito em conta - Banco do Brasil	 | 	DEBITO
 
+ _Voltar para [documentação inicial](docFatoFluxo.md#arranjo)._
+
 ## Tabela de tipo de ajuste
 
-A tabela abaixo é um agrupamento das categorias de ajustes que serão apresentadas de forma individual na [tabela auxiliar de ajustes](#tipo-de-ajuste.)
+A tabela abaixo é um agrupamento das categorias de ajustes que serão apresentadas de forma individual na [tabela auxiliar de ajustes](docFatoFluxo.md#tipo-de-ajuste)
 
 codigoTipoAjuste | nomeFaixaAjuste
 ----------- | ------------------ 
@@ -229,6 +238,8 @@ codigoTipoAjuste | nomeFaixaAjuste
 5 | Cobrança
 6 | Acerto/Cobrança
 7 | Acerto/Cancelamento
+
+ _Voltar para [documentação inicial](docFatoFluxo.md#tipo-de-ajuste)._
 
 ## Tabela de ajustes
 
@@ -689,3 +700,7 @@ codigoAjuste | 	nomeAjuste
 451	 | 	SAFRAPAY DIGITAL/DEB/COMPRA
 452	 | 	SAFRAPAY DIGITAL/DEB/REVERSAL
 453	 | 	SAFRAPAY DIGITAL/DEB/CANCELAMENTO
+
+ _Voltar para [documentação inicial](docFatoFluxo.md#arranjo)._
+
+ # Ir para o [topo](#tabela-auxiliar)

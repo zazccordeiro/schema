@@ -1,4 +1,4 @@
-![ZAZ Conecta](img/photo_2022-07-12_16-32-06.jpg)
+![ZAZ Conecta](img/conecta.jpg)
 
   <summary><strong>Sumário</strong></summary>
 
@@ -25,7 +25,7 @@
     * [Tabela de tipo de ajuste](#tabela-de-tipo-de-ajuste)
     * [Tabela de ajustes](#tabela-de-ajustes)
 
-    [TabelaFAtoArquivo](indexFatoArquivoProcessado.md)
+    [TAbela](indexFatoArquivoProcessado.md)
 
 # Introdução.
 
