@@ -1,3 +1,10 @@
+<div class="sidebar">
+  <a class="active" href="https://zazccordeiro.github.io/schema/">Home</a>
+  <a href="https://zazccordeiro.github.io/schema/docFatoFluxo.html">Tabela Fato Fluxo</a>
+  <a href="https://zazccordeiro.github.io/schema/docFatoArquivoProcessado.html">Tabela Fato Adquirente Processado</a>
+  <a href="https://zazccordeiro.github.io/schema/docTabelaAuxiliar.html">Tabelas Auxiliares</a>
+</div>
+
 ![ZAZ Conecta](img/conecta.jpg)
 
   <summary><strong>Sumário</strong></summary>
