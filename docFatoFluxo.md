@@ -9,19 +9,22 @@
 # Adquirente Fluxo
 
   <summary><strong>Sumário</strong></summary>
-
-  * [Adquirente](#adquirente)
-  * [Ajuste](#ajuste)
-  * [Arranjo](#arranjo)
-  * [Faixa parcelamento](#faixa-parcelamento)
-  * [Meio captura](#meio-captura)
-  * [Tempo](#tempo)
-  * [Tipo de ajuste](#tipo-de-ajuste)
-  * [Tipo de pagamento](#tipo-de-pagamento)
-  * [Adquirente Fluxo](#fluxo)
+  
+  * [Atributos](#atributos) 
+    * [Adquirente](#adquirente)
+    * [Ajuste](#ajuste)
+    * [Arranjo](#arranjo)
+    * [Faixa parcelamento](#faixa-parcelamento)
+    * [Meio captura](#meio-captura)
+    * [Tempo](#tempo)
+    * [Tipo de ajuste](#tipo-de-ajuste)
+    * [Tipo de pagamento](#tipo-de-pagamento)
+    * [Adquirente Fluxo](#fluxo)
   * [Métricas](#métricas)
-    * [Adquirente fluxo](#adquirente-fluxo)
+    * [Adquirente fluxo](#adquirente-fluxo-1)
 
+
+# Atributos
 
 ## Adquirente
 
@@ -164,6 +167,8 @@ modoEntradaCartao | Identifica o modo de entrada do cartão.
 fluxo | -
 
 # Métricas
+
+## Adquirente Fluxo
 
 Abaixo seguem os descritivos das métricas da tabela de adquirente fluxo.
 

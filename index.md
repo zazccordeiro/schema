@@ -78,13 +78,17 @@ Abaixo é possível ver as tabelas fato que temos disponíveis no cubo hoje:
 
 Tabela fato |    Atributos e Métricas
 ----------- | ------------------------------------
-[AquirenteFluxo](docFatoFluxo.md#introdução) | **Atributos:** <br> - Adquirente <br> - Ajuste <br> - Arranjo <br> - Faixa parcelamento <br> - Meio captura <br> - Tempo <br> - Tipo de ajuste <br> - Tipo de pagamento <br> - Adquirente arquivo processado <br> - Adquirente Fluxo <br> **Métricas:** <br> -valorBruto <br> -taxaAdministrativa <br> - tarifaAdministrativa <br> -taxaRecebaRapido <br> -valoTaxaAdministrativa <br> -valorLiquido <br> -valorBrutoAntecipado
+[AquirenteFluxo](docFatoFluxo.md#introdução) | **Atributos:** <br> - adquirente <br> - ajuste <br> - arranjo <br> - faixaParcelamento <br> - meioCaptura <br> - tempo <br> - tipoAjuste <br> - tipoPagamento <br> - adquirenteArquivoProcessado <br> - adquirenteFluxo <br> **Métricas:** <br> -valorBruto <br> -taxaAdministrativa <br> - tarifaAdministrativa <br> -taxaRecebaRapido <br> -valoTaxaAdministrativa <br> -valorLiquido <br> -valorBrutoAntecipado
 [AdquirenteArquivoProcessado](docFatoArquivoProcessado.md#introdução) | **Atributos**: <br> - nomeArquivoEdi <br> - estabelecimentoMatriz <br> - dataProcessamento <br> - periodoInicial <br> - periodoFinal <br> - sequencia <br> - opcaoExtrato <br> - transmissao <br> - caixaPostal <br> - versaoLayout <br> **Métricas:** <br> - totalRegistro <br> - numeroTransacoesCanceladas <br> - numeroTransacoesPagas <br> - numeroCancelamentosDescontados <br> - numeroChargebacks <br> - numeroEstornosChargeback
 
 
 # Cube.Js e GraphQl
 
-Exemplo estrutura de query para consumir o GraphQl
+Para realizar as requisições dos dados do cube.js é bem simples, porém precisa se atentar aos parâmetros do corpo da requisição.
+A query fica a critério do usuário, porém os nomes dos campos precisam estar identificos ao da documentação para obter sucesso.
+
+Abaixo temos um exemplo de estrutura de query para consumir o GraphQl, com o método **POST** e apontando a chamada para a url destacada abaixo.
+
 
 > **POST** http://10.0.44.102:4000/cubejs-api/graphql 
 
