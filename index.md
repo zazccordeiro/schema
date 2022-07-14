@@ -85,7 +85,9 @@ Tabela fato |    Atributos e Métricas
 # Cube.Js e GraphQl
 
 Para realizar as requisições dos dados do cube.js é bem simples, porém precisa se atentar aos parâmetros do corpo da requisição.
-A query fica a critério do usuário, porém os nomes dos campos precisam estar identificos ao da documentação para obter sucesso.
+A query fica a critério do usuário, porém os nomes dos campos precisam estar identificos aos da documentação para obter sucesso.
+
+Você também pode consultar a docuemntação do próprio cube.Js caso queira se aprofundar no tema, para isso, [segue o link](https://cube.dev/docs/query-format#query-format).
 
 Abaixo temos um exemplo de estrutura de query para consumir o GraphQl, com o método **POST** e apontando a chamada para a url destacada abaixo.
 
