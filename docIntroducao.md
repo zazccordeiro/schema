@@ -135,7 +135,6 @@ query CubeQuery {
 }
 ~~~
 
-
 Ir para o [topo](#introdução).
 
  <!-- END graphql-markdown -->
