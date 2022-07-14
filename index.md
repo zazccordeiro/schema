@@ -1,8 +1,8 @@
 <div class="sidebar">
-  <a class="active" href="https://zazccordeiro.github.io/schema/">Home</a>
-  <a href="https://zazccordeiro.github.io/schema/docFatoFluxo.html">Tabela Fato Fluxo</a>
-  <a href="https://zazccordeiro.github.io/schema/docFatoArquivoProcessado.html">Tabela Fato Adquirente Processado</a>
-  <a href="https://zazccordeiro.github.io/schema/docTabelaAuxiliar.html">Tabelas Auxiliares</a>
+  <a class="active" href="https://zazccordeiro.github.io/schema/">  -Início</a>
+  <a href="https://zazccordeiro.github.io/schema/docFatoFluxo.html">  -Tabela Fato Fluxo</a>
+  <a href="https://zazccordeiro.github.io/schema/docFatoArquivoProcessado.html">  -Tabela Fato Adquirente Processado</a>
+  <a href="https://zazccordeiro.github.io/schema/docTabelaAuxiliar.html">  -Tabelas Auxiliares</a>
 </div>
 
 ![ZAZ Conecta](img/conecta.jpg)
@@ -78,8 +78,8 @@ Abaixo é possível ver as tabelas fato que temos disponíveis no cubo hoje:
 
 Tabela fato |    Atributos e Métricas
 ----------- | ------------------------------------
-[AquirenteFluxo](docFatoFluxo.md#introdução) | **Atributos:** <br> - adquirente <br> - ajuste <br> - arranjo <br> - faixaParcelamento <br> - meioCaptura <br> - tempo <br> - tipoAjuste <br> - tipoPagamento <br> - adquirenteArquivoProcessado <br> - adquirenteFluxo <br> **Métricas:** <br> -valorBruto <br> -taxaAdministrativa <br> - tarifaAdministrativa <br> -taxaRecebaRapido <br> -valoTaxaAdministrativa <br> -valorLiquido <br> -valorBrutoAntecipado
-[AdquirenteArquivoProcessado](docFatoArquivoProcessado.md#introdução) | **Atributos**: <br> - nomeArquivoEdi <br> - estabelecimentoMatriz <br> - dataProcessamento <br> - periodoInicial <br> - periodoFinal <br> - sequencia <br> - opcaoExtrato <br> - transmissao <br> - caixaPostal <br> - versaoLayout <br> **Métricas:** <br> - totalRegistro <br> - numeroTransacoesCanceladas <br> - numeroTransacoesPagas <br> - numeroCancelamentosDescontados <br> - numeroChargebacks <br> - numeroEstornosChargeback
+[aquirenteFluxo](docFatoFluxo.md#introdução) | **Atributos:** <br> - adquirente <br> - ajuste <br> - arranjo <br> - faixaParcelamento <br> - meioCaptura <br> - tempo <br> - tipoAjuste <br> - tipoPagamento <br> - adquirenteArquivoProcessado <br> - adquirenteFluxo <br> **Métricas:** <br> -valorBruto <br> -taxaAdministrativa <br> - tarifaAdministrativa <br> -taxaRecebaRapido <br> -valoTaxaAdministrativa <br> -valorLiquido <br> -valorBrutoAntecipado
+[adquirenteArquivoProcessado](docFatoArquivoProcessado.md#introdução) | **Atributos**: <br> - nomeArquivoEdi <br> - estabelecimentoMatriz <br> - dataProcessamento <br> - periodoInicial <br> - periodoFinal <br> - sequencia <br> - opcaoExtrato <br> - transmissao <br> - caixaPostal <br> - versaoLayout <br> **Métricas:** <br> - totalRegistro <br> - numeroTransacoesCanceladas <br> - numeroTransacoesPagas <br> - numeroCancelamentosDescontados <br> - numeroChargebacks <br> - numeroEstornosChargeback
 
 
 # Cube.Js e GraphQl
