@@ -18,27 +18,27 @@ cube(`Operacao`, {
   },
   
   dimensions: {
-      skOperacao: {
-          sql: `sk_dim_operacao`,
-          type: `number`,
-          primaryKey: true
+    skOperacao: {
+      sql: `sk_dim_operacao`,
+      type: `number`,
+      primaryKey: true
     },
 
-      nomeOperacao: {
-          sql: `descricao`,
-          type: `string`
+    nomeOperacao: {
+      sql: `descricao`,
+      type: `string`
     },
     
-      dateFrom: {
-          sql: `date_from`,
-          type: `time`,
-          shown: false
+    dateFrom: {
+      sql: `date_from`,
+      type: `time`,
+      shown: false
     },
     
-      dateTo: {
-          sql: `date_to`,
-          type: `time`,
-          shown: false
+    dateTo: {
+      sql: `date_to`,
+      type: `time`,
+      shown: false
     }
   },
   
