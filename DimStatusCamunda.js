@@ -47,6 +47,11 @@ cube(`DimStatusCamunda`, {
       sql: `categoria_status`,
       type: `string`
     },
+
+    codigoStatus: {
+      sql: `ordenacao`,
+      type: `string`
+    },
     
     dateFrom: {
       sql: `date_from`,
