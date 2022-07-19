@@ -1,5 +1,5 @@
-cube(`FatVisita`, {
-  sql: `SELECT * FROM public.fat_visita`,
+cube(`Status`, {
+  sql: `SELECT * FROM public.fat_status`,
   
   preAggregations: {
     // Pre-Aggregations definitions go here
@@ -8,19 +8,19 @@ cube(`FatVisita`, {
   
   joins: {
     Operacao: {
-      sql: `${Operacao}.sk_dim_operacao = ${FatVisita}.sk_dim_operacao`,
+      sql: `${Operacao}.sk_dim_operacao = ${Status}.sk_dim_operacao`,
       relationship: `belongsTo`
     },
       Promotor: {
-        sql: `${Promotor}.sk_dim_promotor = ${FatVisita}.sk_dim_promotor`,
+        sql: `${Promotor}.sk_dim_promotor = ${Status}.sk_dim_promotor`,
         relationship: `belongsTo`
     },
       Data: {
-        sql: `${Data}.sk_dim_data_id = ${FatVisita}.sk_dim_data_id`,
+        sql: `${Data}.sk_dim_data_id = ${Status}.sk_dim_data_id`,
         relationship: `hasMany`        
     },
       DimStatusCamunda: {
-        sql: `${DimStatusCamunda}.sk_dim_status_camunda = ${FatVisita}.sk_dim_status_camunda`,
+        sql: `${DimStatusCamunda}.sk_dim_status_camunda = ${Status}.sk_dim_status_camunda`,
         relationship: `hasMany`,
       }    
   },

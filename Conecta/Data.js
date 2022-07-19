@@ -1,4 +1,4 @@
-cube(`DimDataPedido`, {
+cube(`Data`, {
   sql: `SELECT * FROM delivery.dim_data`,
   
   preAggregations: {
