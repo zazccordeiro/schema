@@ -1,5 +1,5 @@
 cube(`Regiao`, {
-    sql: `SELECT * FROM hierarquia.cadastro_geral`,
+    sql: `SELECT * FROM public.dim_regional`,
     
     preAggregations: {
       // Pre-Aggregations definitions go here
@@ -18,14 +18,14 @@ cube(`Regiao`, {
     },
     
     dimensions: {
-        skRegiao: {
-            sql: `cadastroid`,
+        skRegional: {
+            sql: `sk_dim_regional`,
             type: `number`,
             primaryKey: true
       },
   
-        nomeOperacao: {
-            sql: `descricao`,
+        nomeRegional: {
+            sql: `nome`,
             type: `string`
       },
       
