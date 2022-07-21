@@ -22,7 +22,11 @@ cube(`Status`, {
       DimStatusCamunda: {
         sql: `${DimStatusCamunda}.sk_dim_status_camunda = ${Status}.sk_dim_status_camunda`,
         relationship: `hasMany`,
-      }    
+      },
+      Regiao: {
+      sql: `${Regiao}.sk_dim_regional = ${Status}.sk_dim_regional`,
+      relationship: `hasMany`
+    },    
   },
   
   measures: {
